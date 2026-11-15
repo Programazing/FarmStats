@@ -1,46 +1,42 @@
 global using FastEndpoints;
 global using FluentValidation;
 
+using FarmStats.API.Data;
+using FastEndpoints.Swagger;
+using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-builder.Services.AddFastEndpoints();
+builder.Services
+    .AddFastEndpoints()
+    .SwaggerDocument();
+
+var connectionString =
+    builder.Configuration.GetConnectionString("FarmStats")
+    ?? throw new InvalidOperationException(
+        "Connection string 'FarmStats' is not configured.");
+
+builder.Services.AddDbContext<FarmStatsDbContext>(options =>
+    options.UseNpgsql(connectionString));
 
 var app = builder.Build();
-app.UseFastEndpoints();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
+app.UseFastEndpoints(config =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    config.Errors.UseProblemDetails();
+});
 
-app.MapGet("/weatherforecast", () =>
+if (app.Environment.IsDevelopment())
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+    app.UseOpenApi(options =>
+    {
+        options.Path = "/openapi/{documentName}.json";
+    });
+
+    app.MapScalarApiReference();
+}
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

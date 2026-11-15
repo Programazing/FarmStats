@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  farmstats.api:
+    build:
+      context: "/mnt/6A9C8CCB9C8C936D/Shared_Content/Projects/active/personal/FarmStats/FarmStats"
+      dockerfile: "src/FarmStats.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net11.0/FarmStats.API.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net11.0/FarmStats.API.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "farmstats.api:dev"
+    ports: []
+    volumes:
+    - "/mnt/6A9C8CCB9C8C936D/Shared_Content/Projects/active/personal/FarmStats/FarmStats/src/FarmStats.API:/app:rw"
+    - "/mnt/6A9C8CCB9C8C936D/Shared_Content/Projects/active/personal/FarmStats/FarmStats:/src:rw"
+    - "/home/programazing/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
