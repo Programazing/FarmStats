@@ -1,5 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="compose.yaml" />
+  </Folder>
   <Folder Name="/src/">
-    <Project Path="FarmStats.API/FarmStats.API.csproj" />
+    <Project Path="src/FarmStats.API/FarmStats.API.csproj" />
   </Folder>
 </Solution>

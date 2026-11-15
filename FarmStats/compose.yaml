@@ -1,0 +1,7 @@
+﻿services:
+  farmstats.api:
+    image: farmstats.api
+    build:
+      context: .
+      dockerfile: FarmStats.API/Dockerfile
+

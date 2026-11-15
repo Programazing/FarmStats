@@ -4,6 +4,7 @@
         <TargetFramework>net11.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,6 +12,16 @@
         <PackageReference Include="FastEndpoints.AspVersioning" Version="9.0.0" />
         <PackageReference Include="FastEndpoints.Swagger" Version="9.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="11.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\" />
     </ItemGroup>
 
 </Project>
