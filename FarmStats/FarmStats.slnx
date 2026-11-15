@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="FarmStats.API/FarmStats.API.csproj" />
+  </Folder>
+</Solution>

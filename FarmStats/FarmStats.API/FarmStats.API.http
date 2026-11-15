@@ -1,0 +1,11 @@
+@FarmStats.API_HostAddress = http://localhost:5090
+
+GET {{FarmStats.API_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{FarmStats.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
