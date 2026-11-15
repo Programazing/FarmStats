@@ -1,4 +1,5 @@
-using FastEndpoints;
+global using FastEndpoints;
+global using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
