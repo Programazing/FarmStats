@@ -1,0 +1,4782 @@
+[
+  {
+    "id": "334cdbbd-5b7b-5bbe-8d99-7a398f4b59ec",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Akhal-Teke",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "e63a3c5e-b8f5-5588-acc8-42f9d2d55657",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "American Paint Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "28f9cf85-4f4f-5e7a-9bea-012c9dfeecaa",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "American Quarter Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "d7e980a9-691c-570f-ab6b-dc3066fb4c40",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "American Saddlebred",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "983b8a9c-698f-51c1-baf5-54a7dea859d2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "American Shetland Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6e42e447-89a4-541a-bb4b-8f71436c5c01",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "American Walking Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "e3457cb8-0121-5955-998a-a7203c587470",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Anadolu Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ecad7ef7-c797-57c4-b4f7-d481aac8cc44",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Andalusian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "db71ca5e-12f7-5141-97e8-f7c268332f04",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Appaloosa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "dc04dcd8-6e4b-5996-83a0-63dbfc25688d",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Arabian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "68b1d763-4484-542e-a173-d3df2966ece7",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Assateague",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6dd2ab06-70bd-59fb-a535-153a253e3175",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Australian Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "435c65d3-fa1e-5d50-9e4f-0d023c9d260b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Australian Riding Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "39c482f8-5b4c-5537-8e96-fa3cfdabbe80",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Bali Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "d845c976-e5e9-5ed6-abe2-e009cf1788f2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Barb",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "b6ab0d80-cdb5-5df6-a85a-5c256f0b07b2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Basuto Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "4afb0186-493a-5ef1-b0b9-748b6c2060e7",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Batak Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "34c7b81c-4cb4-577e-ac64-30ed9611d3d4",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Bhirum Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "b4f8d1e5-35f8-577e-a228-ffaadcda1d23",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Bosnian Mountain Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c20b7d3f-78eb-5dad-acd2-7b274f1e2b3f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "British Spotted Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "bc63c2e4-8452-5b2a-8794-fa2f2184aa2d",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Burmese Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "47d19428-e7e4-5fd9-b6cc-39a08790da14",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Canadian Rustic Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "aa994598-6c10-597e-8a09-c42a962ddde9",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Chincoteague Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "49946183-09bf-5122-b817-e5fc99dc1243",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Chinese Guoxia",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "97e4437f-0296-5cba-ab02-1ded6fd92c67",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Cleveland Bay",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9b6adbb9-3cc3-5400-bbf6-2b0b75651ea8",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Clydesdale",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "4461a77e-2d32-5888-8e2c-13290a5b9d8b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Coffin Bay Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "2d44b438-79a3-5b6a-a114-49cbd8986f5e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Connemara Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "90d2dc23-5b4f-5d22-979f-f5f1b8117d2b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Croatian Warmblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "622165c3-bc8c-5e32-ac79-5c1216cd5870",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Czechoslovakian Small Riding Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f345f248-5c23-5632-8875-cdb02cc2f5b3",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Dales Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "2e5b7ffa-b8b7-5ef7-85a2-fed8b24b3769",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Danish Sport Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "444294b0-be08-59f9-bd1d-d0e73c1737e5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Dartmoor Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6b511d68-ae74-55ac-ab2a-180fa55a8c04",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Deli Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "e39f21f0-c6d9-571b-b893-83bf8e359a35",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Dutch Harness Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c96a834b-79e1-521d-abc7-4b0447c73f61",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Dutch Warmblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c83b54f9-7c0d-5870-bce3-03ac09cba3df",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Dülmen Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0b981228-8752-578d-8ae7-521025f419fd",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Eriskay Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "eabdca66-677c-5400-8ee2-e5e86b7e7db4",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Esperia Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "be8617cf-5eee-519e-bb0f-04e674ff8b07",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Exmoor Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9ab1724f-a7ab-5652-a2e5-5be3d3e5bf43",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Faroe Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6365221c-5374-5c21-bd09-57d53061639b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Fell Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c4646439-7365-5018-97ac-74deb8f2acce",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "French Saddle Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ad6d9903-dd01-5d87-9236-94586e25fad3",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Friesian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "829ccecc-acdb-5d13-a6e8-93cf2c7d2984",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Galician Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c4bb92e5-acf7-572f-95e5-62bde28ae5df",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Garrano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "878fc79f-e106-5b8a-83f1-c4a7c2d47d9c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Gayoe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0f515edb-5764-5540-b665-7773dd99aa2b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "German Classic Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "cb71869b-ce38-5ad8-a891-f8a1775fe876",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "German Riding Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "15b89206-2071-583d-9d57-bab45e894467",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Gotland Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c5c1ef30-c712-57cd-af32-db72d6028ee8",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Guizhou Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "cd3da054-8b18-5f1c-ade1-6ce9678357ee",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Gypsy Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "7b3140ec-9fff-54c2-99b2-fc6a956a5bf5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Hackney Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "b0396b94-6f6c-5039-8e36-c079366dffde",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Haflinger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f85bddef-5bed-5995-aa98-989cf61f752e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Hanoverian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "aa3bee0b-192c-5d09-af89-9bcda2930157",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Highland Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "47861a67-ad7d-5113-b6ea-6e91d8e518d5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Hokkaido Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8e23431e-cc74-53bc-bd14-a2e6beea2b3a",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Hucul Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "dd6c1830-7e69-5ec4-bab9-2f54f4b39711",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Java Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "788621fc-cc4c-5425-ab6d-a0cf1f6fdab9",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Karelian Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "a789e15e-5e8d-535b-a688-21f1a9fb4b9f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Kerry Bog Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "a54fbcd8-b86f-5f15-b808-1ee8719bd6e4",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lac La Croix Indian Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3e8656df-a01c-54a3-b5cf-df37de0add56",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Landais Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "692901d9-d4f6-5ade-855d-3c0e65348a62",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lewitzer Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ef9664cb-d8c1-584c-8b2d-ac6b399f96b1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lijiang Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6599e7af-83f3-5dfa-908c-8b2e0475fb8a",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lipizzan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6df2916e-49a9-5113-b7e4-bf2d81fce108",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lithuanian Heavy Draught",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "4bf62326-af5e-5818-82fc-e3fd0cf63feb",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Ljutomer Trotter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0ce61aa2-b7ec-547d-92ab-066f19f0a8b8",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lokai",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "93aa61ca-3189-5c9a-b204-021d3508c650",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Losino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "1237e7ff-800b-5537-84c7-30b6649bdd88",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lundy Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "1d69d88e-2635-597b-87d2-461ba5017001",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Lusitano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "1e9fd665-7cfc-581f-9804-253e3ae002c3",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Luxembourg Warmblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c7a8099c-23c9-5d69-869d-d6ad737c962f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mallorquín",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3631ea8e-8df5-59d3-8be5-b0efaca5f724",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Malopolski",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8e1c0ba8-aeee-5efd-baf8-f7790adae8de",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mangalarga",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "e979cffa-22ea-5a2a-a8c7-f90d6380b680",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mangalarga Marchador",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "96a519fe-636f-5903-baa8-ea45426e2a6a",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Manipuri Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "04105d67-07c8-5d3c-b232-4343a0a3a128",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Maremmano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "4b2e3492-78d8-5bdf-b264-ca53763fd443",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Marismeño",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6c29978d-3eb2-5bf4-91b8-879c6bbb1ff6",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Marwari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "5a57e346-f3af-5d68-81d3-516fc2181f5a",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mecklenburger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3ff2eb05-21a1-5731-aea2-54b1990ed814",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Menorquín",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "cee716f5-d2ca-5e60-b404-dab54cab3c1d",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Messara",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6db10c75-fb78-52d6-9704-0d9324ab6e85",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Međimurje",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "99780bc5-6f85-5ef7-953e-5a21ee854c10",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Miniature Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "aca0c9b3-2f2d-554d-8c31-63871c5c69c5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Miquelon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "70845357-3779-509f-bdc7-2d04e39bf413",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Misaki",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6b6d87db-bebc-5b57-8138-b2b8fece5c85",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Missouri Fox Trotter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "82100891-7341-5bec-8666-bdbdcd4c144e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Miyako Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "850d7ae3-604f-5344-ae26-ab4b3818115c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Monchino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "a6bb2929-cccf-5d35-8370-fe2c8211e85f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mongolian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f9596fc7-2581-5cc9-a4a7-2b36c8deb1de",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Monterufolino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f78e37e2-4831-5ba7-89e4-80fdd76ebfa0",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Morab",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "cffb71f0-f081-5c4c-9120-5a8531efe744",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Morgan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0437f61e-906a-5f42-9410-6c93df1b2864",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mountain Pleasure Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "28b25ebb-f918-5959-9bdc-a7b4d4e4e2cc",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Moyle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "40c18e99-6c3f-567d-a04e-b2aa25250e43",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Murgese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "687c67c0-c5e5-55d4-a479-e3ed88f21328",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mustang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "2fa2084f-2ed9-511f-8624-55db6663f68f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Mérens",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0d1c173e-ccec-5f9a-8733-0043dbe2649b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Namib Desert Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "47094567-3d2d-5fc0-82fa-c8d3a4e71cd6",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Nangchen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "fc90904c-218b-55d5-8ee7-1bce49289a7e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Narym Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8d328768-19a7-5344-b472-60f6eca174e7",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "National Show Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "bbcbd47b-a1da-5de7-8b6b-91bb08aa1460",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "New Altai",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "23e579c6-2ceb-5a2b-9639-aa02a8ed8739",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "New Forest Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "d611a6d0-45ca-545e-b0a0-17b17e8da658",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Newfoundland Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "54e4e0c0-8877-500a-969e-45c9f71c6571",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Nez Perce Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "aa09fd55-594e-5cf2-ae77-d356e845e88b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Nivernais",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "45a65f3a-b590-5739-8844-10be257ee916",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Nokota",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "67010136-5ad9-546c-a205-4edec600f123",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Noma",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "96083974-97ab-52be-9a25-8133b8f73dd1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Nonius",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "494e7d76-9691-5db8-abc8-28e7b0851db9",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Nooitgedachter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3f9696d4-725a-5d76-bcc5-881d9fb672fc",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Nordlandshest/Lyngshest",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "27d2cd64-e171-5a8f-ad2b-284ee9988359",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Noriker",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "5d9643ac-ba9f-5ff1-89d4-ef38cd089448",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Norman Cob",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "815722ed-1d17-59a2-a5b8-0bf56049ff54",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "North American Single-footing Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ece15732-e757-570f-bff6-95c4abcac318",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "North Swedish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "245b789d-318f-5571-9a07-dda4dae3e8a1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Novokirghiz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c8f0f4fe-8dba-5df7-a2c7-63e1899adc3f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Novoolexandrian Draught",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "63b33147-0ac2-53f7-8fae-de2620b6ee0d",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Oberlander",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "458960f7-3735-5c27-80e7-19724b4ff7b7",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Ogaden",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c0bf7c0b-0620-5f2a-bd33-03d2f4dda194",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Oldenburger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f0dfbfe8-ea59-518f-ba8b-b3245e4931cc",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Orlov Trotter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "b0fcfa4d-e9ba-5683-9ed9-58a8c795b515",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Ostfriesen and Alt-Oldenburger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c91fd7c3-6296-51a8-9f8e-5a02327f193f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pampa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "7961aa6d-3134-59f7-b567-9584ecb26dac",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Paso Fino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6ba47b3c-a3be-55da-af00-d5ca839a71a1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Peneia Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ffc35f52-44b7-5220-b246-e1205f98eaa2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pentro",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "1b45030d-c0b5-53da-abb1-e02c6f7b2be1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Percheron",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "62ce7117-f672-5c89-8fbb-3d59df0d51f3",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Persano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "5e5e3b34-480b-5305-836d-6d6a05c573f9",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Peruvian Paso",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f8649b02-ee5b-5ca6-bf2c-adc0ec59e5bf",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Petiso Argentino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "b839987d-b5e4-5de8-999f-e02b03617cc2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pfalz-Ardenner",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c4492a26-73df-5acf-9365-6919b5a6aafd",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pindos Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c39504c8-d0b7-5b72-b5c5-3fcb2ed58ef6",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pintabian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "a5234a1b-74e6-5038-94fb-cfbf28ed5998",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pleven",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "59bc6c3e-6831-56c7-8463-0ac9a5a7e13c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Poitevin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "09373db4-da9c-5105-880f-08cf035728be",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Poney du Logone",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "714ec7eb-ed38-5dad-a652-f0da7ddf2379",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pony of the Americas",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "56abfbdf-06e9-50ed-a426-ed7289aeb545",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Posavac",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "02c7fa0d-b3e9-5c9f-8214-295c07ed0b33",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pottok",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8c9c30e4-7b87-508d-b41e-e77fcc2b07ed",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Priob",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "1265e7c0-8950-5123-b873-d0c93458b7a6",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Pryor Mountain Mustang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "03c80b3f-9738-56cf-916a-8efd31d22cf5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Purosangue Orientale",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9303af2a-556c-5dec-9bbe-92a7557965e5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Qatgani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9c7ac7e7-c38d-5e30-bc1b-b6e7456e740b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Quarab",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "d78d8bfe-839d-52ea-b1f3-a129415f1087",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Quarter Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "941be1ac-7971-598d-82a5-3c3559d0afea",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Racking Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "4202b587-ccbf-5ae9-8e9f-7e02c80883a6",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Retuerta",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "eaf36b1d-f968-5d7a-a8d4-8bf7bea90716",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Rhenish German Coldblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ee5caff4-f373-5f71-818b-9ed096090b8a",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Rhinelander",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "dcf16ad3-2863-5ca7-abfb-7d8a70148d43",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Riwoche",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "aa84e3c1-e480-5ee0-be03-a0f788950a83",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Rocky Mountain Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "315dad2d-367b-52e4-9822-438d0e4577b6",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Romanian Sporthorse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "74779d8b-4a39-5d0e-9a52-1b1fc50dd30f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Russian Don",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "60e5a813-6f2f-57ac-9a84-bf397e3a6ff3",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Russian Heavy Draft",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "092decc3-5fb1-5dd4-9d61-5034dbc8c1ac",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Russian Trotter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "84f5619c-dab4-5ae1-b0e2-7584f46e39f8",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sable Island Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "4550a836-a23a-54a5-90bb-fa2467ac6eaa",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Salernitano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "170bbbbf-2ac0-5af3-8954-d8b81167c39f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Samolaco",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ec8280ad-cdf7-5ec3-b269-1490977727e1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sandalwood Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c8c9f6de-d010-5f2e-b53a-a7eb29c6067c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sanfratellano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c5faea36-30e2-5a8c-942b-327a280b424f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Santa Cruz Island Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3edce5b6-3de4-52bb-a00a-1f0cb4d79903",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sarcidano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "17955c03-b962-5abb-b15d-d77b1f8c842b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sardinian Anglo-Arab",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "be212a77-8be5-59aa-b582-d2baeaf0545c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Schleswig Coldblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "49021256-302e-531a-b071-e1063dd3819b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Selale",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "23192dfc-c119-5a5d-b044-d13fef4637b2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sella Italiano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "196f56a4-0d36-521a-bfba-3774d907a92e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Selle Français",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8d5f575a-55e0-5bbe-81a8-009b4c304e13",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Senner",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ffe3e3c9-c96a-5c93-88cd-33e094bd64a0",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Shagya Arabian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "d89fbd21-6e81-53f7-b00a-885ebfb7c318",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Shan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "18c2e098-be3e-547e-ac12-8d879030846c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Shetland Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0db98ea5-963e-5fd4-92bf-9ba02839b449",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Shire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "25e31b9b-8801-5e97-84d3-dfdd02401ea2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Siciliano Indigeno",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f11da0b6-cc2c-52ab-b4ee-f8da8cd6cb94",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Silesian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "10528cd4-40cc-51f5-afad-a163f124db56",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sindhi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "165be031-94ba-5cd4-b364-ebdba8702d04",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Skyros Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9c866659-e450-5815-875f-00214e1ba6ba",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Slovenian Cold-blood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "390ce48c-3fa1-5bc0-a9ae-23c4c55bd651",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sokolski",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0e8afc18-ca20-5093-9e64-bc2ca199caaf",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sorraia",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "a5839876-38f7-53e7-b60e-6fd42ca896be",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "South German Coldblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "11b2d4d2-22fb-5fe6-8369-812959ee6c04",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Soviet Heavy Draft",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "18d6ffa3-98af-5d71-b274-66d653c25e00",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Spanish Barb",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "feb3bdd9-c1d0-559a-a309-d3a644fa1475",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Spanish Jennet Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "5380257f-40c8-566f-9fa8-f908cd955c3e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Spanish Mustang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "b40c7887-3407-5f8f-8ac3-f2afa1c8b43f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Spanish Trotter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "73c5944e-5011-5b4e-9867-754520b8ec5f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Spiti",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ae98f0a5-47f8-56c0-8b90-39e976bb265b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Spotted Saddle Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6ff17b8f-a881-51fc-a59b-0abc96293fac",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Standardbred",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3e5e9105-db34-524e-9590-f272a6fd6126",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sudanese Country-Bred",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6ea30606-5581-524a-9e89-916c53db553d",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Suffolk Punch",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "68ea9fb1-6a07-5cfd-b208-a583499fe216",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Sumba and Sumbawa Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6e3a593e-a00a-5b5e-81a9-c74769ac0675",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Swedish Ardennes",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "2fe6c8a5-1993-57d3-9a2e-c3ddeba0f44f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Swedish Warmblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "4347c72a-54a3-5ae1-bc8c-0b4df5c375a5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Swiss Warmblood",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "cc25d43d-1469-5c6c-8227-ada6a83f1c07",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Taishū",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "49cd41fc-9488-51c7-bf09-aa30d1faf5b2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tawleed",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "72d75680-4259-5016-a747-42af14349f9d",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tennessee Walking Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "f39a1d54-e6cb-5a43-8881-7e74b10ad45a",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tersk",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8103bd05-3f2d-5868-8dfd-641b9097c79c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Thoroughbred",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9f5e6729-d251-5d2b-8b4a-4455037d2b2b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tibetan Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "1b7b2654-bd2e-59e6-9c0e-fcf0cb3ae07e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tiger Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "c78a8324-5e87-5b6e-b6e6-886f7575721b",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Timor Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "bc41d5a7-196a-56b9-acf2-48dc6ee8c8fb",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tokara",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "02161873-72b4-5bd0-9877-dc7188b368b4",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tolfetano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8f69d5d4-0cb1-5ce5-8093-9536da99136e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tori",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "b6a671ae-ce6c-521c-9941-09fc7d2360c8",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Trait du Nord",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0fdaf169-57a8-5954-9795-6b8251250038",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Trakehner",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "402ac2b8-0bfc-5a67-9ba2-0861ca74fe5c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tushetian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3e8dc8f1-8d0b-5551-82c7-9a64e7d4f93d",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Tuva",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "eef85c23-2b1e-58ef-a436-681070f14052",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Ukrainian Riding Horse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "e2c054f0-9c87-59d0-ae89-0b48828aa681",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Unmol",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "26e4749d-d51f-5d80-a8f9-788f29f0f96f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Uzunyayla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "6d865cf5-af9c-5d51-8f98-dcb97c745c4c",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Ventasso",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9d31ce97-380b-5100-9815-f86884e89355",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Virginia Highlander",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "17d02065-5af7-5796-ac5a-0ad63ea8e6c5",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Vlaamperd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "14ff5d94-f229-527a-af13-1953a1002818",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Vladimir Heavy Draft",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "edcf3b72-e22b-5be4-b21a-1469f86b7a6a",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Vyatka",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "a3f9342d-7aee-5c31-bb6d-159f54d0b0d2",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Waler",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3d8c83c8-ddba-570e-9688-69a9c16121f0",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Walkaloosa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ec85dc4c-0cf4-547c-a255-47a9cb48db2f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Warlander",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "bfb80735-12d2-5801-abfd-1e776bcc1e07",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Welara",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "1c353afe-0795-58a3-afcd-bdd61322058f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Welsh Cob",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "3ae3e03c-cf66-5a7b-81c8-58832c9fa2a1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Welsh Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "82b62852-64ca-54c6-a4eb-f3eaf7f19860",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Western Sudan Pony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "8e8ec9aa-9d78-5032-9c7d-a684809048e7",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Westphalian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "746c8545-9f65-5145-a6c9-2e51fa0981ff",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Wielkopolski",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "5c40aa1a-2b37-5c44-8e06-8b45a4eb005f",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Württemberger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "335fb278-fb18-5cbf-99e1-07349b5a0926",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Xilingol",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "ca244594-955a-5f53-a6e3-d371c068b6b1",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Yakutian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "0492d5d8-2705-54b1-8b29-4369cd828236",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Yili",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "2ab3162e-6c8a-579b-8a17-3583e76369fa",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Yonaguni",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "90afa0d8-fb99-575d-ad26-91a5c736ad67",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Zakynthos",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "9934d3d2-4ea8-5438-b443-f99ddaa52372",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Zangersheide",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "08b21171-bc48-5db9-9e53-133f5e5abc1e",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Zaniskari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "421bd25d-d34f-5c20-bd84-7d5a2ba839f6",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Zweibrücker",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "id": "641b31e4-4171-5f1e-9b28-ad1b16fb8ddf",
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Žemaitukas",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  }
+]

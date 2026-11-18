@@ -1,0 +1,422 @@
+[
+  {
+    "id": "97af9dff-d198-5ef7-978f-e2197be65204",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "American Singer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "96240bd5-8ea8-5cd4-ab85-8ac0127a29dd",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Australian Plainhead",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "681df6f6-7f35-55ae-8f97-dd0c2d1a2249",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Belgian Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "74f43f38-a1c7-5b0b-9e0c-5802069b339e",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Belgian Waterslager",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "979ed29a-ba73-5a51-a262-a02c8bc19b35",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Bernese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "a4558f99-32dc-54dc-a25d-68bf88ef44d5",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Border Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "a2ab15f7-838a-5e17-9745-497e07ddf920",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Cinnamon Canary",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "2b247bbb-abca-5824-b332-8e031d08de3d",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Columbus Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "78af5a9c-60b8-5847-87f0-5c7c3541d4a5",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Crested",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "fd5e79b1-830b-5ddb-b03e-510e702b8a22",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Fife Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "a917758e-1174-5a11-8ad6-346903eb9ed9",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Fiorino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "15ea6d23-7394-5dcc-b4fc-dfe6121980e9",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "German Crested",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "0c3d8fa7-0d81-50b7-8579-2d6d8fcc7243",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Gloster Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "72487a97-31ea-5dc8-a195-3e9c58f54183",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Harz Roller",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "532c7f03-3a39-5bef-973a-1a65d1521646",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Irish Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "c9394acd-f476-5291-9941-a7b3c87642ce",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Italian Giant Frill",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "91c62af7-5ca6-5614-a34b-d6cda76eeb4f",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Japan Hoso",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "f0d8dce3-51b8-5021-92d5-277cc627e6c6",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Lancashire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "edfa8bbb-1430-53cd-8b23-0d15bb72eaba",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Lizard",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "ea88daa7-69bf-55c6-8f1b-3499c567af92",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Llarguet Español",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "a7ccd57e-c76f-5760-b7f1-adff57a498ce",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "London Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "023f96ba-11f8-58a0-b342-1bc0613d090d",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Mehringer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "f53f9260-2aa6-5df0-9851-00eff6be965f",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Moroccan Flawta",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "4ca1dd15-c28e-5149-b626-774684f291cf",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Munich",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "037f966a-39b5-58a6-81b3-0ebea1df6541",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "North Dutch Frill",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "8505002c-f284-599a-b151-2451b0db4868",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Norwich",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "02309c2f-f29f-5b09-997e-5437bccf90c6",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Padovano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "6d63748e-25dc-59bd-9bb4-7b18e02d24cb",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Parisian Frill",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "4250ef5b-7c0b-5f92-ab8a-ba658f419737",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Persian Rasmi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "7d55887e-0cad-59cf-a610-9662d27fe745",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Portuguese Harlequin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "dd2f21eb-4b9e-5f72-bb5c-5f8fa26a8b03",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Raza Española",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "941f84b1-1a0c-511e-a018-9466136c611c",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Rheinländer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "e3314926-e5ba-5927-925c-caf81c46f519",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Rogetto",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "f515ace8-bb05-509f-9040-f9c36df1d640",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Russian Canary",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "6f719983-4b09-537e-9cf1-e75fb1b4c19a",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Salentino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "68f2434b-cbf7-5c7a-83ca-565c149c0a02",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Scots Fancy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "ac04cdbc-6cf8-5f4d-a1d6-a4b5f731274f",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Slavujar",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "3c854ade-61f1-5143-bcae-bddf0389e689",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "South Dutch Frill",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "b0ac22b4-98b3-53a0-8e29-f05072a28fc8",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Spanish Singer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "35666972-e857-51fa-b5fc-d57b7e393ca4",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Spanish Timbrado",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "52cebba1-f804-5ce1-b946-8bdc2100d5fb",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Stafford",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "id": "01f4560c-73bd-5b97-add9-1ec24d31dd82",
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Yorkshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  }
+]

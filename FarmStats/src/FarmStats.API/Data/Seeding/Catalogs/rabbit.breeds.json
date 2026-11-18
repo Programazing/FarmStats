@@ -1,0 +1,537 @@
+[
+  {
+    "id": "074034b8-aef3-543e-9e3e-7bdbc463198e",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "American",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "57d3ea6f-72ec-5ca1-987b-d9242939d3db",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "American Chinchilla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "b7d99a18-b9b1-575c-acb7-708302b0f92d",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "American Fuzzy Lop",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "e4d2bc5f-4578-5ec2-a88d-d4270182bed7",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "American Sable",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "684af901-2a8b-5a4b-91f8-8fa861d2e118",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Argente Brun",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "27eb7ad1-6826-5414-af0d-a608988cd5e0",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Belgian Hare",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "9aa20dca-025e-508e-be78-d4fc7b4287a1",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Beveren",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "0b92458a-ac58-5e7c-8ae3-85db4f6b663a",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Blanc de Hotot",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "5699d4ed-b852-509e-a449-4013853b831a",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Blue Holicer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "8994636b-83d9-5085-935f-ece75a46c59c",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Britannia Petite",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "7360f057-721a-55e1-bde2-0d6680f2321a",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Californian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "983493e5-7680-5fad-807a-54da4467ebca",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Champagne d'Argent",
+    "kind": "breed",
+    "aliases": [
+      "Champagne d’Argent"
+    ],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "a56811d1-2719-5f86-9c55-463cd997f047",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Checkered Giant",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "ddd883f2-774b-51ac-8e4d-4b014481257d",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Cinnamon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "5142fbc9-4ef9-595a-8a8a-3ea8bcc43f4c",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Creme d'Argent",
+    "kind": "breed",
+    "aliases": [
+      "Crème d’Argent",
+      "Creme d’Argent"
+    ],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "dd7f7e19-3e95-52d8-adfb-600d43ee491c",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Czech Frosty",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "0d7ab7a8-6f7d-5aa7-8e0f-d1285ce23cbf",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Dutch",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "90355a56-0438-5c4c-bfa0-fda02a3bab32",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Dwarf Hotot",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "06955fcd-1991-535b-98be-b3fcf60632a1",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Dwarf Papillon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "0fb42b49-57c3-5c56-94ee-816a4fd02e7e",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "English Angora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "9d7575af-26b2-5773-a4e9-faa694b2a383",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "English Lop",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "ea688de9-266a-5c27-99ea-e22a038d2f79",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "English Spot",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "2b69104f-06f7-5400-8a7d-bb9ee7c9e2f6",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Flemish Giant",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "cbf030b8-1272-533e-8714-4104adefed17",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Florida White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "134274e3-9977-5c22-ad0c-8bd978735772",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "French Angora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "f2a5f5a7-f9aa-52c0-b928-f30fcc89ca4f",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "French Lop",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "3f99bb39-62f6-5323-81d9-0b3073b93056",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Giant Angora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "dbe93b3a-ada0-59af-b14c-d189b201ebad",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Giant Chinchilla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "0f6a617b-2193-5924-b604-0bde6b995a76",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Harlequin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "9a0814ba-6f3a-5b10-97a4-0952311510c0",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Havana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "e4837f33-d89b-53aa-b96c-6717df9c8dba",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Himalayan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "55445815-5450-51e3-86dd-f30829958b8d",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Holland Lop",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "1c086801-46cc-5e42-9ae6-e97a77f71663",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Jersey Wooly",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "3b252ada-b681-5e88-b874-0878ee8885e0",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Lilac",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "e69b7f0e-9388-5c6d-ab57-520d43655244",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Lionhead",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "32687867-bd69-5c00-bae8-014284795690",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Mini Californian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "74cdfc22-3780-56b4-941d-24b0d54157e4",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Mini Lop",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "0a9b9c7a-24e7-5e50-a458-886735ba053e",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Mini Rex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "53f9cce7-1fda-597f-a489-c8748d53e66c",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Mini Satin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "85d9321b-b8fa-5960-89fe-10256651bfaa",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Netherland Dwarf",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "c24d451b-df2a-51e6-a439-f1fd63675c9e",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "New Zealand",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "a38a114a-8260-5076-89e3-6e75f6f4a2b0",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Palomino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "8fbf7af9-9932-5ad0-bb08-104b86df655a",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Polish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "70f734bc-0cb8-5c81-9739-39d40b4282bb",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Rex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "00b90a71-55e2-5d25-9573-3a8b587ef6f5",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Rhinelander",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "265faa85-603d-5e07-af1b-006a8c03281f",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Satin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "df8aca92-a254-5e9a-95f9-53a0e805a6a9",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Satin Angora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "33883475-3d11-5188-b918-e3b1e82674a7",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Silver",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "e2bf5890-0deb-5e13-9fdb-7653ba5e468f",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Silver Fox",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "703d4612-c18b-5f6b-98a7-df470e9fd6a0",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Silver Marten",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "6d319917-e2fa-548a-bc6e-1e23fc6c2c99",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Standard Chinchilla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "9c067872-5e5c-5297-8478-f38130b1b5ae",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Tan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "id": "9df7b947-e5de-5657-94a4-2068a923b0ca",
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Thrianta",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "arba"
+    ]
+  }
+]

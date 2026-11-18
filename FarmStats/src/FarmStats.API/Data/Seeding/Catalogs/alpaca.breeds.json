@@ -1,0 +1,22 @@
+[
+  {
+    "id": "d41b1432-e76b-56b3-a7e8-2fc713187af3",
+    "speciesId": "5932be38-4c0a-5393-a3a7-a4a3b6f9f359",
+    "name": "Huacaya",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "rutgers"
+    ]
+  },
+  {
+    "id": "cff87295-138d-5d63-ae98-2a96920c6929",
+    "speciesId": "5932be38-4c0a-5393-a3a7-a4a3b6f9f359",
+    "name": "Suri",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "rutgers"
+    ]
+  }
+]

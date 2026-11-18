@@ -26,5 +26,11 @@
             <Link>.dockerignore</Link>
         </Content>
     </ItemGroup>
+    
+    <ItemGroup>
+    	<EmbeddedResource Include="Data/Seeding/Catalogs/*.json">
+            <LogicalName>FarmStats.Seeding.%(Filename)%(Extension)</LogicalName>
+    	</EmbeddedResource>
+    </ItemGroup>
 
 </Project>

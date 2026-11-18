@@ -2,6 +2,7 @@ global using FastEndpoints;
 global using FluentValidation;
 
 using FarmStats.API.Data;
+using FarmStats.API.Data.Seeding;
 using FastEndpoints.Swagger;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
@@ -17,8 +18,28 @@ var connectionString =
     ?? throw new InvalidOperationException(
         "Connection string 'FarmStats' is not configured.");
 
+var includeDevelopmentAreas =
+    builder.Environment.IsDevelopment();
+
 builder.Services.AddDbContext<FarmStatsDbContext>(options =>
-    options.UseNpgsql(connectionString));
+{
+    options.UseNpgsql(connectionString);
+
+    options.UseSeeding((context, _) =>
+    {
+        ReferenceDataSeeder.Seed(
+            (FarmStatsDbContext)context,
+            includeDevelopmentAreas);
+    });
+
+    options.UseAsyncSeeding(async (context, _, ct) =>
+    {
+        await ReferenceDataSeeder.SeedAsync(
+            (FarmStatsDbContext)context,
+            includeDevelopmentAreas,
+            ct);
+    });
+});
 
 var app = builder.Build();
 

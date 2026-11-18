@@ -1,0 +1,1176 @@
+[
+  {
+    "id": "ac4bbd75-f5e7-5e46-99a9-7176c30d35dd",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Aksai Black Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "f1516bc9-6cdd-5de3-b3cf-9f1fe42238aa",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "American Yorkshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "bbba38f4-2e03-5190-996f-a56ae03b9979",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Angeln Saddleback",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "ca4a4fcc-1aff-5195-a644-bb9c13758754",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Ankamali",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "45b5de72-c022-545a-a399-0556964bf0d1",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Appalachian English",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "f21e72b2-24f6-577b-bc96-6be3104c021b",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Arapawa Island",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "74840bfd-1276-560b-a049-c1565a75c30e",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Auckland Island",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "e13e3b0f-ac83-5bf6-9e42-38cc2cade50c",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Australian Yorkshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "33e557d4-7836-54d2-8811-0e27b8242af8",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Ba Xuyen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "b4230f80-cab5-50d4-b907-05c9d2434a36",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Bantu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "b450e714-988f-5b40-a32c-29b037df8836",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Basque",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "53657f5a-7b30-5374-a5ed-bffe192de7a3",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Bazna",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "425012b4-90e1-5798-9db3-243fd7784f52",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Beijing Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "0e244af2-9d34-55d9-8757-2b9b7c7a77b6",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Belarus Black Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "9a05d64a-a72b-51c3-9eaf-4c1f939f62b7",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Belgian Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "8b29a461-0861-5125-9f0c-58fee8040f88",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Bentheim Black Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "462939cd-2b28-5fd5-a39c-98ade5cda77c",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Berkshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "d845f44f-c2bc-5d41-b1cf-5dba774a63ab",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Bisaro",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "7b4612ec-b176-5aec-9b56-64ec181d5c98",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Black Canarian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "b28a803c-c37c-5720-81be-45618bfc5c48",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Black Slavonian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "106ff8a5-8971-584c-b5ba-54e72cc914cc",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Breitovo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "180a91e6-0001-5794-9ce1-2fe372297471",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "British Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "7f17ac2c-ebd8-5e25-b72e-7bb9ed0105ef",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "British Lop",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "e73a045b-bfb5-5ae4-a2c9-bae281133b33",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "British Saddleback",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "d0e8c079-7f02-5d06-8011-f39a7c5f81a5",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Bulgarian White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "854e3fca-4590-56a8-aa8e-6d7ab829b12e",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Cantonese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "3e7c274d-8a51-59f6-b40f-112988712363",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Celtic",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "773d9f40-068a-5f37-a011-88b62f2dc91e",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Chato Murciano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "e79bac2e-6f69-5846-8dc4-59e004215c8d",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Chester White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "cb1c82f6-e561-52ce-9731-d14ec128075e",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Choctaw",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "41404a73-8ad5-5097-8a11-10ec1f307a7b",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Cinta Senese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "99b41b1e-9ff7-5bb8-b495-a4647bbedd94",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Creole",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "1c2789d7-b7f6-51ec-8589-62ae3aff4b30",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Czech Improved White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "86da89bc-61e7-5ba9-ab1a-68fcbd32aa93",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Danish Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "68051748-43ff-56b2-a05f-3b901b275744",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Dermantsi Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "7480b184-75d6-565f-a9f4-d1f9e9aafb4e",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Duroc",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "126c889c-0a48-5859-847b-1258cbb1a933",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Dutch Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "597fcdfa-a056-5258-bb12-9b01b7bb6102",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "East Balkan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "4e415765-491f-5827-8cdd-248925c9ac10",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Essex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "59bcbfb3-25d2-5c3b-b3d1-00c4c9fa6fcc",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Estonian Bacon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "49fd6b26-abd8-5844-b3d4-a5ca455de657",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Fengling",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "a1b0e0db-b8c3-5d08-97a6-fceb47a7aec2",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Finnish Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "02019b68-b02a-5036-baae-8511a6460b05",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Forest Mountain",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "6e6c0608-35c2-5dc5-93b3-92fd02fd60b9",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "French Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "f886311b-b564-5ed3-906a-97f4f2a77012",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Gascon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "523a98ba-ab92-5f77-8ee0-5c84d99c1dd9",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "German Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "3c424de8-c727-5ffc-89e3-a81386ab517b",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Gloucestershire Old Spots",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "84ecbf17-321c-53f5-9493-41a2516e8f4f",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Guinea Hog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "ffd6da9b-46d1-582c-82f4-38899de085eb",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Göttingen Minipig",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "26e17fc4-ca42-5b28-b996-0ce02ba7cc98",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Hampshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "f7ec0663-0216-5b0b-9f43-2c71d4400d93",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Hereford",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "844437c5-f549-56c2-a059-e2298a331494",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Hezuo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "a340f993-5227-520a-acee-55133b09bc75",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Husumer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "12dcc7bc-b879-5323-96a7-6e518416b057",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Iberian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "a5646b37-efbf-5d6e-b70f-16197e118478",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Italian Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "87d3c7d3-2f65-5127-b239-ef5aa05c2a6c",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Japanese Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "13463acc-5795-55ce-9bfd-e2d81e53f77d",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Jeju Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "fb0c9b60-77d3-5347-989c-88dab99657b5",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Jinhua",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "0dbb7cf0-9776-5585-8690-a6e50fd5e5ca",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Juliana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "7138dd74-6d23-56cc-827a-27de15005beb",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Kakhetian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "aa1c9bad-c336-5739-aff9-5ce991075918",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Kele",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "94ef7af8-4ca2-54ec-a798-6f5426bd40f5",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Kemerovo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "e0706931-6d06-5695-83ec-edffbdb27d7f",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Korean Native",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "d477097c-bba5-5475-8d75-a31cabb1ca93",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Krškopolje",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "2c18bcac-a76f-548f-ae9f-d3cbf07006b8",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Kunekune",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "763ce250-3d21-5d9d-8007-33b0d93afa64",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Lacombe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "eed68ec9-a638-5e53-b709-70744fd98cb6",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Large Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "fe57a301-cae4-59ab-b347-fedc5f652479",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Large White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "6645113c-37f5-5768-8b66-abd670a18f86",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Latvian White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "4dc95302-2735-5437-93f6-69c7c3881d37",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Leicoma",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "7d60ac68-4e28-5317-a50f-0fc0d08e24f2",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Linderödssvin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "b2abdf80-3214-5bd4-8c37-45113bad681a",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Lithuanian Native",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "b1cd4b1a-f60b-5b21-8c42-496b1ce3507b",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Lithuanian White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "1c27559a-69cf-5dd7-b7ed-a85c75070824",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Malhado de Alcobaça",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "f2d663d5-5439-5a05-a597-e31643a8a877",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Mangalica",
+    "kind": "breed",
+    "aliases": [
+      "Mangalitsa"
+    ],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "54d158f8-09b9-55ee-b53e-2962168826b9",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Meishan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "21f87f52-8636-5dbe-8a06-f6ee97f7762c",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Middle White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "f56f735d-5644-524e-b358-435a0c6e92ac",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Minzhu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "aee430d2-8e53-5d86-a9e4-96de6540741d",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Mong Cai",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "0094765d-6796-560d-811b-d31891e9f2f1",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Mora Romagnola",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "cb221a5b-ac58-5da4-9ece-f216a29c536c",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Moura",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "b6193d94-2742-5504-9832-c65ccb13fec4",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Mukota",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "ba8edc9b-1388-5dc9-b249-a3064a7fd1b7",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Mulefoot",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "545911b5-9b02-53e7-8de7-b66a1dd7dc67",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Murom",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "ff4c2556-1011-52ad-8334-71613fb958de",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Myrhorod",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "b2dde691-7509-55cb-a204-a11010dcacf3",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Neijiang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "3f4fcfc9-9acc-5725-99ff-3a73f0011dfb",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Nero Siciliano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "aca7d38a-c89f-531f-9e31-c208d442b2a8",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Ningxiang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "daa5464f-8bda-5577-ab5b-afd1fa62eb75",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "North Caucasian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "db71666b-aed2-5207-b73b-4c9efbd3a6b7",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "North Siberian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "caf49d0e-1948-565b-ba46-7bfc908d81cb",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Norwegian Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "a91e0c9f-21bf-5061-bd05-ca54d134fd73",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Norwegian Yorkshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "5c715dda-51fe-59c9-9cfd-68be1c314dfd",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Ossabaw Island",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "99568909-3009-53e2-9cf4-2cc36350ebe2",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Oxford Sandy and Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "97be978b-bd70-5df8-b7fc-41db973419bb",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Philippine Native",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "3cdfd2f1-0652-5399-86ea-dbc3dec8a15e",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Piétrain",
+    "kind": "breed",
+    "aliases": [
+      "Pietrain"
+    ],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "cf75c57c-e18d-53fd-a070-e18d4f8d956b",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Poland China",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "041230c3-a5c1-5129-830c-e8172e7a0283",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Red Wattle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "c55f28a7-8d05-55b2-87a4-55d40492eb94",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Semirechensk",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "6be499e9-550c-5792-b4c7-c7dcc4b021f8",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Siberian Black Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "00651e17-b254-514b-af30-c6c9e7db9c38",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Spots",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "7d601ae5-df2d-51eb-ba47-5bc536f1d166",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Swabian-Hall",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "c66d763a-5df7-5f75-87c3-1a0326951ed0",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Swedish Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "9ba31adc-8911-51e3-a393-2d0285f9efd4",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Taihu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "1abc141c-a06f-521d-b1d6-745a150c1861",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Tamworth",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "0973b307-d3d5-595c-916e-5e20d26e0fb6",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Tsivilsk",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "49468c79-0170-5c73-ab56-45ea55aa4464",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Turopolje",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "fa84a51c-7fb7-57a2-b586-26efdda1f71c",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Ukrainian Spotted Steppe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "3f911ddd-0274-5942-8a9c-49b769214da2",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Ukrainian White Steppe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "e5ba5afd-8fdb-5c3e-a8ed-f7444732bdea",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Urzhum",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "2c5d45cd-1b03-5388-a8fe-a80eae802735",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Vietnamese Pot-Bellied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "8e96f608-2775-5665-b20f-f08681ec2d4b",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Welsh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "785e9880-9a65-54b3-828a-22a50cdc112a",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Wessex Saddleback",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "f568e6b6-cc91-5d80-9f77-26e63b280e27",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "West French White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "99419177-93cf-5986-8f55-9f81fa76b658",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Windsnyer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "5860db1f-eb46-50ec-b7f5-0a48890d1d0f",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Wuzishan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "id": "e19430d2-9c47-50f0-b0c8-f05c626ac921",
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Yanan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  }
+]

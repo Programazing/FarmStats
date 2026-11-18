@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "0e149887-9717-5d22-aea1-486721bcc594",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Abyssinian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "0fb1c0e5-5dc9-5565-94c5-278cd6680083",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Afghan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "19a78eff-4a08-5e34-8d3e-625b153384ea",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Algerian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "5be34dc3-b7a7-5e9f-877b-72115177ec61",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "American Mammoth Jackstock",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "66a88088-501f-5ac6-ab2d-a40f2bfef65b",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Amiatina",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "3d3628c6-e192-58d7-b6c2-c40981e26d48",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Anatolian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "e60e2d3e-62e6-5a31-b097-fe490f30ebad",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Andalusian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "4a29a99e-2411-53a2-9a78-140eec35a32a",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Argentato di Sologno",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "c19957ca-ed4e-5821-8a3f-d225c0aebcba",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Asinara",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "f507d38e-accc-508b-9a5e-39d0cd0dc8ef",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Australian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "10428f4d-deeb-5363-9d2a-02a3062b4aea",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Austrian-Hungarian White",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "0fe3e56c-96fa-58b6-9105-ddd9a03f6973",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Baio Lucano",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "f461cdd3-95bd-5160-a950-b66bd8ca5d14",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Balear",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "038b0dac-d6b1-576f-8ba3-4f616757bc68",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Balkan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "2fab29a8-b785-5b5b-bd6a-a5b90eb55e2b",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Biyang",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "99b7718e-d97c-5219-93aa-281602052ca8",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Bourbonnais",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "b16762af-e75b-5427-b9b0-2bce77bd3772",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Bulgarian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "70f16842-400c-510f-aa29-382d76a9f751",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Burro",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "560b809d-5b1e-58ee-b59b-fb7e7d784f8d",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Burro Criollo",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "bebe41c8-046f-5a9d-a127-0ef449f9b74a",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Caninde",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "9f185a57-b772-5d33-b49a-44ed2d46f2b9",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Cardao",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "66be3ae1-b487-52a5-a2bc-c9dc90513ad9",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Catalan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "55423e61-b499-539b-a566-43a3d4ea3fe7",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Corsican",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "7036f016-55ff-5a2e-9b48-26136ada3f65",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Cotentin",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "c9d5ef9d-5d76-5e6e-898c-519569996a3a",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Cyprus",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "097185d9-2c53-56fe-a488-342d833a7539",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Damascus",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "cae26862-8f9c-560b-9a95-0931e638f4c7",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Dezhou",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "3bdd942b-6da8-5c2f-a9fc-3b3f632abe5a",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Dongolawi",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "3d93a3b4-3d3e-537a-90f7-f634bb6ee5a4",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Egypt Baladi",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "4a554d64-98d1-5bd5-b3c9-c2b3c2ab4668",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Egyptian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "33f63e17-5aeb-5fbc-82aa-c695fbd1c038",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "English",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "87777500-55ec-5298-884c-da545a872259",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Etbai",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "3fc627b2-2242-591f-8690-c1063baf188a",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Georgian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "6aeb98c3-93d3-5203-984d-69492590d410",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Graciosa",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "e7e24232-ee35-5b43-ac2c-9e38b955c338",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Grand Noir du Berry",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "e37db9b5-afbd-5de6-b0bb-1b1ddc507e67",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Grigio Siciliano",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "02fd3851-bd0c-5bfc-bf09-b50f8ead4512",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Grigio Viterbese",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "602af4c3-2445-5ad6-af49-5294ee27a780",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Guangling",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "8b6ea286-3e5d-53d9-be13-9c8ad6afce2c",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Guanzhong",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "e5432592-8432-54b8-9899-d50d323b6f30",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Hamadan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "6e6d0991-f977-5f70-b32f-dd817889a607",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Hassawi",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "51644b52-6c2c-5e32-94c2-de89c9a5feaf",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Huaibei",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "d8d3b773-3e06-53c2-b432-090a5b786f04",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Indian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "ab9e1694-3870-54e9-b2b4-592290c639b7",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Iranian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "e72aa747-38f7-5462-b51d-3878c47b2cd4",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Irish",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "629057d3-17b0-58c3-8ab3-e0ac24c41541",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Istrian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "bc9eb71d-b2c5-52f3-9b47-d132d6bee37c",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Jiami",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "15b50357-23c2-5bbf-8f55-b1a409a48f04",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Jinnan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "a695c0a5-2594-5095-ac7f-8d333e79e230",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Jordanian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "93582f96-4791-507e-a689-a7ca121811b0",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Karakaçan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "7c17c54c-fcf1-561b-9a21-249cce7a0f81",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Kashan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "d8a25840-cd24-5d8a-9272-716644415abf",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Kulun",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "ed5ce7b7-6510-52aa-81f8-497439a720b4",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Liangzhou",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "cf4e1f95-03cc-52f6-845f-5ec491e8973d",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Libyan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "3ee57661-76c3-512f-9c30-6bcb95447fb8",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Linxian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "ba1fe980-c47f-598e-8e6e-2d04402f1fe2",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Majorera",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "28a067a7-23c5-5303-a9fc-883b375b57a6",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Maltese",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "a89c6c64-181f-57fc-95fa-12234ebbda63",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Mannar",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "740b8ccb-8bc8-51a0-95f4-0a39483bcce6",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Masai",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "227845bc-e1b6-59f5-af29-90d23870e1b0",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Masri",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "3bed2775-d470-51f1-b362-3cb9aec586cb",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Merzifon",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "ebd4f400-096e-502d-9694-b802ba81d539",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Miniature Donkey",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "c6fc10ea-18df-5954-87d9-f5d7de859684",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Miranda",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "0ff7df28-3eba-568b-9682-60d210441242",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Moldavian Local",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "ac17827a-4e80-5aef-af5a-2e3568278292",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Moroccan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "4277fc67-a0eb-5c1f-80aa-436b297df706",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Muscat",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "02079289-e1b5-57ea-878c-1cdef4ce1d5f",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Nordestina",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "021e2163-bbf5-527b-95a8-8c6384cc971a",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Norman",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "44cd2f1b-3a91-54bc-9748-6c4153114c91",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Ogaden",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "3c9dbab2-2c8b-5bbd-98d0-0e9b307f9229",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Pantesco",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "5ce33fbc-49a1-545a-ac29-594612ba03c3",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Paulista",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "fa7b7d7e-e5d0-5e4f-9578-e1e62ac1d094",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Pega",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "b6974b2b-3ff8-549d-b17e-5933266699f5",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Poitou",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "84fe7dba-e1c9-5af1-af43-7a0387e87cb5",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Ponui",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "dfe38163-5d3f-5c0f-af25-8fefc5b81515",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Provence",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "6a2e1fc7-6786-53e0-9975-82d34d762c3e",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Pugliese",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "32ab1354-9288-5a29-bc2d-ed3ed6581aeb",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Puttalam Buruwa",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "06b97474-b5e5-5162-8aa5-a80c27eb92c2",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Pyrenean",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "5dfa7c3c-7ca0-58cd-bcab-9e0859c1d417",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Qinghai",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "42ab0f03-327d-5a2b-9f83-6a2b48e2504c",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Qinqyang",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "bc21dde3-62f1-5cef-bf7e-988ebd5e0ce5",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Ragusano",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "529fdea4-8456-57aa-b2db-4fb229a7741d",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Riffawi",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "e0fc1221-540d-5ae8-b028-644742e06a9f",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Romagnolo",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "c7155bd1-7cf8-5919-813e-04c24b001dc5",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Romanian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "4a06d8d1-f80f-5d06-a2b4-4008ff5d748a",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Saidi",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "ff0fc6ee-bad1-56a3-bfe4-ba1a8d35f42c",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Sardinian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "57b5b6ec-4a4a-5021-a782-4f300d6e3934",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Sennar",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "ff85b83c-f75c-534e-867e-825a39236616",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Shanbei",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "85e6f3cd-5312-54a9-bd7b-b460f5863f98",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Somali",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "f51f2097-e9a5-5542-9565-39131dd2e9b9",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Spotted",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "6e565f8a-0565-5785-91df-f5aa0d37589f",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Standard",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "8be7208d-3431-5ce4-a4f1-0556d3c03426",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Subei",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "8fe39a8e-080f-526d-87b8-acb312bdc737",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Sudanese Pack",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "036f31a8-29af-528b-930f-884b7364a736",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Syrian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "a87c38af-8f10-56b7-981a-358f00b3b302",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Taihang",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "7d94f984-fb0a-5468-8b71-1a6d6b16a025",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Thüringer Waldesel",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "bdbe7a2a-57fd-5d4e-bd64-c5c52cf311d7",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Tibetan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "6d7492cd-f302-5992-ae13-df4dd6667980",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Toposa",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "386e74a0-29dd-5d0f-b998-6df398c6adcf",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Tswana",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "6b547022-92f7-5844-96e5-de3112bb3eca",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Tunisian",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "22efa969-7c9a-5d26-b1d5-0f8aae185c39",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Ugandan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "73f4acd2-5846-5739-8f92-cbc002eda02c",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Xinjiang",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "8b1f8573-6092-5ed3-832f-2e9de6253eaa",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Yangyuan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "8baf0444-45ae-54dc-a3a4-a07d325e03ab",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Yunnan",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "id": "616b4486-010d-5b4d-83a3-e7e21ec9bced",
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Zamorano-Leonés",
+    "kind": "breed-or-population",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  }
+]

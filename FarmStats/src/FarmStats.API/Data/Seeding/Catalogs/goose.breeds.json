@@ -1,0 +1,992 @@
+[
+  {
+    "id": "e553aeb5-4fb9-526a-a12e-4e832b0c60a1",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Adler",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "cf991ba4-5893-5dab-bacb-2abdfd331fe8",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "African",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "e751762c-6753-5cfd-8cdf-e76ef81d81b1",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Alsatian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "7b86ee40-f6d2-5ae5-94c8-498fb07e0f30",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "American Buff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "6e08ad88-e0de-5037-8510-63ef222c999f",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Amorstream",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "827c55b5-2d41-535e-b9d2-139d262c7b48",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Anhui",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "aa5536b5-af48-5fc9-afab-cde42062d53d",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Arzamas",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c01715f1-05b9-503b-bcba-662bbe8a0da4",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Austrian Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "1f0eb576-8ae3-5db3-b369-8289cd4a010f",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Bavarian Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "64119d74-941f-5124-99e7-6429f4bf6faf",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Benkov",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "7c903736-08de-5f8b-85d2-046e1e6514b4",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Bilgorey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "106fb378-ef51-5ac5-85d5-9faa460c4565",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Bourbon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "11ea39f9-75e4-5318-9061-06afc0216a05",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Brecon Buff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "4331187f-61d5-59c1-a6de-d3f93b318e04",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Buff Back",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "45dbfebd-3a25-593b-85d4-a14b4aab3363",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Celle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "f9b3a93d-4429-5275-90a8-3e03d0e1dc81",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Changle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "579b0c39-01d9-52be-a860-937eaf5bfdcf",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Chinese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "eef68ce2-5e1d-5d1b-9216-8d385769d476",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Cotton Patch",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "28792ef4-42e5-5cfe-835d-a12fbab23bf5",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Czech",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "1a787a7e-ff16-5f02-9181-5033218dbe74",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Czech Crested",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "749f1507-57a5-5481-9f39-2462b07f61d4",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Danish Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "b291f9f7-7cd7-5212-bb6b-1bdec8b04985",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Daoxian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "e0ea5533-4853-545b-a588-9438da17f57d",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Diepholz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "d715697d-e8d9-54a6-b6a0-7adfc0e2fe05",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Drava",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "59146f51-2262-59bb-9ea5-089cca7cb1fc",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Emden",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "209575f1-6959-5953-a359-1b8f0fcc8e7a",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Emporda",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "9e5e34b9-4ec8-517a-997a-6de9ba6e7a26",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Euskal Antzara",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "616b6d34-61ff-5ece-8921-553949c57879",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Faroese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "02868b78-d9f7-5598-bead-aae384e9aca7",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Flemish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "718381f6-41cd-554b-93d5-5058bc8b575f",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Franconian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "344cb83e-72d5-5528-a6ed-0626e2f6015d",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "German Laying",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "6d4af829-fa9c-5d67-9da4-85ce8b841bd0",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Gorki",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "795f79d1-3f0a-51e7-8e9f-8366ac4b21a8",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Hungarian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "cb0d4b90-d3ad-5fda-aaea-0c658e538d70",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Huoyan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "422cdb29-4139-5d2d-8305-c20ec2301514",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Javakhetian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "6a9df632-4961-5560-a077-961369af42c0",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kaluga",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c7ff7d86-206e-5c31-b959-ff2ab10f54bf",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kangan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "740f30e9-48e6-5115-b077-2f6c9c46958a",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kars",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c9e26ed9-4d76-5590-9b46-a72980ed3c1b",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kartuzy Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "b0f3119e-0e6e-59b4-9637-8f13dbcb2a3b",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kashmir Anz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "02b8cf76-c1da-5588-a037-557a59641e9e",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kholmogory",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c0fa2379-bc77-5ea8-a706-af7723631512",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kielce Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "ccc0e83e-1790-503c-aa72-03d160063b8a",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Krasnozerskoye",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "9752898c-1548-5a95-824f-6de0e346119c",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Kuban",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "4ef535b8-be46-58be-bb5e-10d44350c1f6",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Landes",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "23a43160-2e1f-5717-afab-703b1ee35a6c",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Large Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "a33309bf-0255-5c68-8936-2dd073e27d41",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Leine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "4f4e124a-98a6-5fb0-88e0-d39660569463",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Lippe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "9b10e241-8b4f-5327-b3b0-82e05f9262fe",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Lubelska",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "63e3db63-94ee-55c9-be9e-d4fefa57fd8e",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Normandy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "67fa2df4-8b86-58fc-9e93-1f70839fc0af",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Norwegian White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "a827aadf-d118-5a9a-9447-5c12e3d77fc8",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Obroshino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "5a073fc2-a738-5b0f-9b32-b155bb178021",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Padans",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "abadc1da-616d-550c-bb72-3f45cbbe4ec5",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Pereyaslav",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "b4ede3bc-b735-5590-a9c9-d059b1498f5d",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Philippine Domestic",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "3a51058a-31dd-5058-a1fa-53dce5bc1475",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Pilgrim",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "33fad45c-8e1c-52ad-866a-c63f596d0711",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Poitou",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "fe555d7a-b68d-5de6-86fb-ae42c6e46d0e",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Pomeranian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c01e086c-e7e8-5191-8be0-32e4b3d3db65",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Pskov Bald",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "13d42c1a-7889-5b31-af34-e55da0d26473",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Qingyang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "e62a6d07-ab2f-50b2-88c1-541d4b819440",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Rhenish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "6ba4c797-102b-59f0-bb21-4be74723aa03",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Roman",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "d33b0b29-1526-592d-80ee-8c67b225dd73",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Romny",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "33d25d1a-75ae-543d-af08-52bf688059f2",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Rypinska",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "78ea055c-2823-54da-bc47-f74e1bc9b8eb",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Scania",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "1a3dd08c-ce1f-515a-94ee-5b2265dbb962",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Sebastopol",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "bb1bf0a6-d8c3-56af-a363-3e4ab1a51e5c",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Shetland",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "9b5455b6-e0d3-5222-995e-0417220978af",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Shitou",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "b1f22f82-ce41-5117-b053-5939e0913d76",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Sichuan White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "3a69a52e-8d78-59ca-9a65-ac0ecad3374e",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Slovak White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c41863f4-3ec4-5f36-8583-d41413418472",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Smålen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "9e92df81-6d5e-5760-813a-0649238efe74",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Solnechnogorsk",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "4285ce2f-fee7-59ef-b1a5-e370254694a8",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Steinbacher",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "7739278d-cafc-5135-99bb-c9202329f2c9",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Subcarpathian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "f8177e93-2cf6-55d3-9171-af73fdd730ef",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Suchovy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "e298dac4-fa6e-5f0f-a579-48c8e5936866",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Suwalska",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "46586367-b7cf-5eee-9759-3758baee5507",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Taihu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "9ed8d947-54bb-5455-843c-86d599648d73",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Toulouse",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "4397b74c-c0d0-5750-956e-e2349368d282",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Touraine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "3c9f4d92-2b32-5fb1-b507-edeb413403aa",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Tula",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c34b51ab-2329-5d90-8a6f-f94678afae2b",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Turkish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "03c6d952-9696-5704-b8b2-5db4fbd1f2c6",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Twente",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "65cf4114-1542-52c0-b9f1-eeb6cb780e1a",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Ural",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "2889b246-2d6e-51c3-9ebd-f890236e938e",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Venetian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "fb574e79-5e69-54e4-b3fd-223cf55c9021",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Vištinės",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "b806d83b-29cf-577f-8c71-42e68ee17b2a",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Vladimir Clay",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "8a91e4a2-0995-5aa9-8159-8e8e361ac8b2",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Wanxi White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "35d1806f-84d4-5104-ab81-0aac13fdec30",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "West of England",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "fb0922ae-a082-572c-8d39-ec54a21971bc",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "White Hungarian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "418ee9aa-76aa-5e75-9c77-8f20e6a39127",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Wugang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "13f5b94e-b0dc-56a1-9869-651127b3ce4e",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Wulong",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "28d8a071-4c55-5300-9797-4cefa8428e11",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Wuzhong",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "9817128d-6f50-59d3-8a19-47378972abf7",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Xingguo Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "7deb86e2-8c5d-5eed-8db1-8fade77ecea1",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Xupu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "c369aa5a-45b6-5cfb-b5f9-ee19d166cceb",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Yili",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "44f68a24-7490-55be-a0ff-4c3de3c33263",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Zatory Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "3038be1e-f57f-51b9-aa07-f416dae32c06",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Zhedong",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "b1b2df1e-77ce-5fbd-9b87-b35aab22718c",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Zhejiang White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "id": "7cc5ba51-6529-5796-8586-5867c214e4ce",
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Öland",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  }
+]
