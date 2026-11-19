@@ -104,7 +104,10 @@ public sealed class AddAnimal(FarmStatsDbContext db)
             Sex = animal.Sex,
             Color = animal.Color,
             Birthdate = animal.Birthdate,
-            AreaId = animal.AreaId
+            AreaId = animal.AreaId,
+                Status = animal.Status,
+                StatusEffectiveDate = animal.StatusEffectiveDate,
+                StatusNotes = animal.StatusNotes
         }, 201, ct);
     }
 }
@@ -151,6 +154,12 @@ public sealed class AddAnimalResponse
     public DateOnly? Birthdate { get; set; }
 
     public Guid? AreaId { get; set; }
+
+    public AnimalStatus Status { get; init; }
+
+    public DateOnly? StatusEffectiveDate { get; init; }
+
+    public string? StatusNotes { get; init; }
 }
 
 public sealed class AddAnimalValidator : Validator<AddAnimalRequest>

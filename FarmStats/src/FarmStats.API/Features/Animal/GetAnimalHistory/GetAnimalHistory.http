@@ -1,0 +1,16 @@
+@host = http://127.0.0.1:5000
+@cattleId = 11111111-1111-4111-8111-111111111111
+
+# Run AnimalLifecycle.http first to create the disposable fixture.
+
+### Read history — expected 200, including for deleted fixture
+GET {{host}}/animal/{{lifecycleAnimalId}}/history
+Accept: application/json
+
+### Invalid page — expected 400
+GET {{host}}/animal/{{lifecycleAnimalId}}/history?page=0
+Accept: application/json
+
+### Oversized page — expected 400
+GET {{host}}/animal/{{lifecycleAnimalId}}/history?pageSize=101
+Accept: application/json

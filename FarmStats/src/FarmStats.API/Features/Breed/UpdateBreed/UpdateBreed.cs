@@ -60,7 +60,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         // Reassigning an in-use breed would invalidate existing animals.
         if (entity.SpeciesId != req.SpeciesId)
         {
-            var isInUse = await db.Animals
+            var isInUse = await db.Animals.IgnoreQueryFilters()
                 .AnyAsync(animal => animal.BreedId == entity.Id, ct);
 
             if (isInUse)

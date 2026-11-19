@@ -1,3 +1,4 @@
+using FarmStats.API.Data.Entities;
 using FarmStats.API.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -37,6 +38,17 @@ public sealed class Endpoint(FarmStatsDbContext db)
     {
         var query = db.Animals.AsQueryable();
 
+        if (req.Status.HasValue)
+        {
+            query = query.Where(animal =>
+                animal.Status == req.Status.Value);
+        }
+        else if (!req.IncludeInactive)
+        {
+            query = query.Where(animal =>
+                animal.Status == AnimalStatus.Active);
+        }
+
         // Apply the current user's farm restriction here
         // when authentication and farm ownership are implemented.
 
@@ -60,7 +72,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 Sex = (int)a.Sex,
                 Color = a.Color,
                 Birthdate = a.Birthdate,
-                AreaId = a.AreaId
+                AreaId = a.AreaId,
+                Status = a.Status,
+                StatusEffectiveDate = a.StatusEffectiveDate,
+                StatusNotes = a.StatusNotes
             })
             .ToListAsync(ct);
 
@@ -78,6 +93,11 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class GetAnimalsRequest
 {
+    public AnimalStatus? Status { get; set; }
+
+    // Applies only when Status is omitted. Does not include deleted records.
+    public bool IncludeInactive { get; set; }
+
     public int Page { get; set; } = 1;
 
     public int PageSize { get; set; } = 25;
@@ -122,12 +142,23 @@ public sealed class AnimalListItem
     public DateOnly? Birthdate { get; init; }
 
     public Guid? AreaId { get; init; }
+
+    public AnimalStatus Status { get; init; }
+
+    public DateOnly? StatusEffectiveDate { get; init; }
+
+    public string? StatusNotes { get; init; }
 }
 
 public sealed class Validator : Validator<GetAnimalsRequest>
 {
     public Validator()
     {
+        RuleFor(req => req.Status)
+            .Must(status => !status.HasValue
+                || Enum.IsDefined(typeof(AnimalStatus), status.Value))
+            .WithMessage("Status must be a valid animal lifecycle status.");
+
         RuleFor(x => x.Page)
             .Cascade(CascadeMode.Stop)
             .GreaterThanOrEqualTo(1)

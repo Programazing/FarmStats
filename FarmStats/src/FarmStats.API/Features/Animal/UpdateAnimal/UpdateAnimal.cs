@@ -20,6 +20,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
         {
             summary.Summary = "Update an animal";
 
+            summary.Response(
+                StatusCodes.Status409Conflict,
+                "Concurrent modification; reload and retry.");
+
             summary.Description =
                 "Replaces the editable animal fields. Omitted or null "
                 + "optional fields are cleared. Does not create missing animals.";
@@ -113,7 +117,17 @@ public sealed class Endpoint(FarmStatsDbContext db)
         animal.Birthdate = req.Birthdate;
         animal.AreaId = req.AreaId;
 
-        await db.SaveChangesAsync(ct);
+        try
+        {
+            await db.SaveChangesAsync(ct);
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            await FarmStats.API.Features.Animal.Lifecycle
+                .AnimalLifecycleSupport
+                .WriteConcurrencyProblem(HttpContext);
+            return;
+        }
 
         await Send.ResponseAsync(new UpdateAnimalResponse
         {
@@ -126,7 +140,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
             Sex = animal.Sex,
             Color = animal.Color,
             Birthdate = animal.Birthdate,
-            AreaId = animal.AreaId
+            AreaId = animal.AreaId,
+                Status = animal.Status,
+                StatusEffectiveDate = animal.StatusEffectiveDate,
+                StatusNotes = animal.StatusNotes
         }, StatusCodes.Status200OK, ct);
     }
 
@@ -185,6 +202,12 @@ public sealed class UpdateAnimalResponse
     public DateOnly? Birthdate { get; init; }
 
     public Guid? AreaId { get; init; }
+
+    public AnimalStatus Status { get; init; }
+
+    public DateOnly? StatusEffectiveDate { get; init; }
+
+    public string? StatusNotes { get; init; }
 }
 
 public sealed class Validator : Validator<UpdateAnimalRequest>

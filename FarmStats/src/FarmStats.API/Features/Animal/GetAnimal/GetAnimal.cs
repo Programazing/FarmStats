@@ -1,3 +1,4 @@
+using FarmStats.API.Data.Entities;
 using FarmStats.API.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -50,7 +51,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 Sex = (int)a.Sex,
                 Color = a.Color,
                 Birthdate = a.Birthdate,
-                AreaId = a.AreaId
+                AreaId = a.AreaId,
+                Status = a.Status,
+                StatusEffectiveDate = a.StatusEffectiveDate,
+                StatusNotes = a.StatusNotes
             })
             .SingleOrDefaultAsync(ct);
 
@@ -90,6 +94,12 @@ public sealed class GetAnimalResponse
     public DateOnly? Birthdate { get; init; }
 
     public Guid? AreaId { get; init; }
+
+    public AnimalStatus Status { get; init; }
+
+    public DateOnly? StatusEffectiveDate { get; init; }
+
+    public string? StatusNotes { get; init; }
 }
 
 public sealed class Validator : Validator<GetAnimalRequest>

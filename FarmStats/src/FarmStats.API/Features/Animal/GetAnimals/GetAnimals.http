@@ -48,3 +48,15 @@ Accept: application/json
 # Expected: 400 Bad Request.
 GET {{host}}/animals?page=abc&pageSize=25
 Accept: application/json
+
+### Include inactive but not deleted animals
+GET {{host}}/animals?includeInactive=true
+Accept: application/json
+
+### Only sold animals
+GET {{host}}/animals?status=1
+Accept: application/json
+
+### Invalid lifecycle status — expected 400
+GET {{host}}/animals?status=99
+Accept: application/json

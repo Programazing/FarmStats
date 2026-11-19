@@ -40,6 +40,16 @@ namespace FarmStats.API.Data.Migrations
                     b.Property<string>("Color")
                         .HasColumnType("text");
 
+                    b.Property<DateTimeOffset?>("DeletedAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("DeletionNotes")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<int?>("DeletionReason")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -51,11 +61,27 @@ namespace FarmStats.API.Data.Migrations
                     b.Property<string>("ReferenceId")
                         .HasColumnType("text");
 
+                    b.Property<Guid>("Revision")
+                        .IsConcurrencyToken()
+                        .HasColumnType("uuid");
+
                     b.Property<int>("Sex")
                         .HasColumnType("integer");
 
                     b.Property<Guid>("SpeciesId")
                         .HasColumnType("uuid");
+
+                    b.Property<int>("Status")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<DateOnly?>("StatusEffectiveDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("StatusNotes")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
 
                     b.HasKey("Id");
 
@@ -65,7 +91,51 @@ namespace FarmStats.API.Data.Migrations
 
                     b.HasIndex("SpeciesId");
 
+                    b.HasIndex("DeletedAtUtc", "Status");
+
                     b.ToTable("Animals");
+                });
+
+            modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalHistoryEntry", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ActorUserId")
+                        .HasMaxLength(450)
+                        .HasColumnType("character varying(450)");
+
+                    b.Property<Guid>("AnimalId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int?>("DeletionReason")
+                        .HasColumnType("integer");
+
+                    b.Property<DateOnly?>("EffectiveDate")
+                        .HasColumnType("date");
+
+                    b.Property<int>("EventType")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("NewStatus")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Notes")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.Property<int?>("PreviousStatus")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTimeOffset>("RecordedAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AnimalId", "RecordedAtUtc");
+
+                    b.ToTable("AnimalHistory");
                 });
 
             modelBuilder.Entity("FarmStats.API.Data.Entities.Breed", b =>
@@ -133,6 +203,15 @@ namespace FarmStats.API.Data.Migrations
                     b.HasOne("FarmStats.API.Data.Entities.Species", null)
                         .WithMany()
                         .HasForeignKey("SpeciesId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalHistoryEntry", b =>
+                {
+                    b.HasOne("FarmStats.API.Data.Entities.Animal", null)
+                        .WithMany()
+                        .HasForeignKey("AnimalId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });

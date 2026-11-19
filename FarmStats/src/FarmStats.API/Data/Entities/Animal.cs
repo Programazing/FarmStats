@@ -21,4 +21,19 @@ public sealed class Animal
     public DateOnly? Birthdate { get; set; }
 
     public Guid? AreaId { get; set; }
+
+    public AnimalStatus Status { get; set; } = AnimalStatus.Active;
+
+    public DateOnly? StatusEffectiveDate { get; set; }
+
+    public string? StatusNotes { get; set; }
+
+    public DateTimeOffset? DeletedAtUtc { get; set; }
+
+    public AnimalDeletionReason? DeletionReason { get; set; }
+
+    public string? DeletionNotes { get; set; }
+
+    // Optimistic concurrency token; renewed on each tracked modification.
+    public Guid Revision { get; set; } = Guid.NewGuid();
 }

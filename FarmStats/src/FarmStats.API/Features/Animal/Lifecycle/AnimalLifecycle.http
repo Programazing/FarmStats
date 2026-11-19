@@ -1,0 +1,197 @@
+@host = http://127.0.0.1:5000
+@cattleId = 11111111-1111-4111-8111-111111111111
+
+# Run this workflow top to bottom. It never targets Bessie.
+# Each run creates a new animal and ends with that test record soft-deleted.
+# Dates below use a past effective date; the fixture has no birthdate.
+
+### 1. Create disposable test animal — expected 201
+POST {{host}}/animal
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Disposable lifecycle test animal",
+  "speciesId": "{{cattleId}}",
+  "breedId": null,
+  "quantity": 1,
+  "referenceId": null,
+  "sex": 0,
+  "color": null,
+  "birthdate": null,
+  "areaId": null
+}
+
+> {%
+client.test("Created disposable animal", function () {
+    client.assert(response.status === 201, "Expected animal creation to succeed.");
+});
+if (response.status === 201) {
+    client.global.set("lifecycleAnimalId", response.body.id);
+} else {
+    client.global.clear("lifecycleAnimalId");
+}
+%}
+
+### 2. Record sale — expected 200, status 1
+POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
+Content-Type: application/json
+Accept: application/json
+
+{
+  "status": 1,
+  "effectiveDate": "2026-11-18",
+  "notes": "Lifecycle workflow: recorded sale."
+}
+
+### 3. Sold animal remains retrievable — expected 200
+GET {{host}}/animal/{{lifecycleAnimalId}}
+Accept: application/json
+
+### 4. Active list must not contain the sold animal
+GET {{host}}/animals?page=1&pageSize=100
+Accept: application/json
+
+### 5. Sold-animal list — expected 200
+GET {{host}}/animals?status=1&page=1&pageSize=100
+Accept: application/json
+
+### 6. Include inactive records — still excludes deleted records
+GET {{host}}/animals?includeInactive=true&page=1&pageSize=100
+Accept: application/json
+
+### 7. Reject repeated identical status — expected 400
+POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
+Content-Type: application/json
+Accept: application/json
+
+{
+  "status": 1,
+  "effectiveDate": "2026-11-18",
+  "notes": "Must not create another status event."
+}
+
+### 8. Reject invalid status — expected 400
+POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
+Content-Type: application/json
+Accept: application/json
+
+{
+  "status": 99,
+  "effectiveDate": "2026-11-18"
+}
+
+### 9. Reject future date — expected 400
+POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
+Content-Type: application/json
+Accept: application/json
+
+{
+  "status": 0,
+  "effectiveDate": "9999-12-31"
+}
+
+### 10. Other deletion reason requires notes — expected 400
+POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4,
+  "notes": "   "
+}
+
+### 11. Reject missing deletion reason — expected 400
+POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Reason was omitted."
+}
+
+### 12. Soft-delete the SOLD record — expected 200; status stays 1
+POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 3,
+  "notes": "Disposable test record."
+}
+
+### 13. Normal GET cannot see deleted record — expected 404
+GET {{host}}/animal/{{lifecycleAnimalId}}
+Accept: application/json
+
+### 14. Repeated deletion — expected 404
+POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 3,
+  "notes": "Repeated request."
+}
+
+### 15. History remains accessible while deleted — expected 200
+GET {{host}}/animal/{{lifecycleAnimalId}}/history
+Accept: application/json
+
+### 16. Cannot change status while deleted — expected 404
+POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
+Content-Type: application/json
+Accept: application/json
+
+{
+  "status": 0,
+  "effectiveDate": "2026-11-18"
+}
+
+### 17. Restore — expected 200; status MUST remain Sold (1)
+POST {{host}}/animal/{{lifecycleAnimalId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Verify restoration preserves lifecycle status."
+}
+
+> {%
+client.test("Restore preserves Sold status", function () {
+    client.assert(response.status === 200, "Expected 200.");
+    client.assert(response.body.status === 1, "Expected Sold status.");
+    client.assert(response.body.deletedAtUtc === null, "Deletion must be cleared.");
+});
+%}
+
+### 18. Already restored — expected 409
+POST {{host}}/animal/{{lifecycleAnimalId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Repeated restore must not create another event."
+}
+
+### 19. Normal GET works again — expected 200 with Sold status
+GET {{host}}/animal/{{lifecycleAnimalId}}
+Accept: application/json
+
+### 20. Status history — one successful status transition
+GET {{host}}/animal/{{lifecycleAnimalId}}/status-changes
+Accept: application/json
+
+### 21. Full history — Created, StatusChanged, Deleted, Restored
+GET {{host}}/animal/{{lifecycleAnimalId}}/history
+Accept: application/json
+
+### 22. Cleanup by soft-deleting the disposable record
+POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 3,
+  "notes": "Lifecycle test completed."
+}
