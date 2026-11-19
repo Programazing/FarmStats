@@ -15,11 +15,11 @@ public static class ReferenceDataSeeder
         FarmStatsDbContext db,
         bool includeDevelopmentAreas = false)
     {
-        var species = db.Species.ToList();
-        var breeds = db.Breeds.ToList();
+        var species = db.Species.IgnoreQueryFilters().ToList();
+        var breeds = db.Breeds.IgnoreQueryFilters().ToList();
 
         var areas = includeDevelopmentAreas
-            ? db.Areas.ToList()
+            ? db.Areas.IgnoreQueryFilters().ToList()
             : new List<FarmArea>();
 
         ApplyCatalogs(
@@ -37,11 +37,11 @@ public static class ReferenceDataSeeder
         bool includeDevelopmentAreas = false,
         CancellationToken ct = default)
     {
-        var species = await db.Species.ToListAsync(ct);
-        var breeds = await db.Breeds.ToListAsync(ct);
+        var species = await db.Species.IgnoreQueryFilters().ToListAsync(ct);
+        var breeds = await db.Breeds.IgnoreQueryFilters().ToListAsync(ct);
 
         var areas = includeDevelopmentAreas
-            ? await db.Areas.ToListAsync(ct)
+            ? await db.Areas.IgnoreQueryFilters().ToListAsync(ct)
             : new List<FarmArea>();
 
         ApplyCatalogs(
@@ -122,6 +122,15 @@ public static class ReferenceDataSeeder
                     throw new InvalidOperationException(
                         $"Breed '{seed.Name}' references an unknown "
                         + $"catalog species ID '{seed.SpeciesId}'.");
+                }
+
+                // Do not add catalog children underneath a deleted parent.
+                // Existing deleted records remain deleted; seeding is not restoration.
+                if (existingSpecies.Any(species =>
+                        species.Id == actualSpeciesId
+                        && species.DeletedAtUtc != null))
+                {
+                    continue;
                 }
 
                 var sameId = existingBreeds

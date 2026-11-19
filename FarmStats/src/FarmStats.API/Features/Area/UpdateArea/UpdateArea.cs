@@ -19,6 +19,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         Summary(summary =>
         {
             summary.Summary = "Update a area";
+            summary.Response(409, "Concurrent modification; reload and retry.");
             summary.Response<UpdateAreaResponse>(200, "The saved area.");
             summary.Response(400, "Invalid input or lookup relationships.");
             summary.Response(404, "The record does not exist.");
@@ -42,21 +43,30 @@ public sealed class Endpoint(FarmStatsDbContext db)
         var name = req.Name.Trim();
         var normalizedName = name.ToUpperInvariant();
 
-        var duplicateExists = await db.Areas
+        var duplicateExists = await db.Areas.IgnoreQueryFilters()
             .AnyAsync(item => item.Id != req.Id
                     && item.Name.Trim().ToUpper() == normalizedName, ct);
 
         if (duplicateExists)
         {
             AddError(request => request.Name,
-                "A area with this name already exists.");
+                "A area with this name already exists (including deleted records).");
         }
 
         ThrowIfAnyErrors();
 
         entity.Name = name;
 
-        await db.SaveChangesAsync(ct);
+        try
+        {
+            await db.SaveChangesAsync(ct);
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            await FarmStats.API.Features.LookupLifecycle.LookupLifecycleSupport.Conflict(
+                HttpContext, "The lookup changed during this request. Reload and retry.");
+            return;
+        }
 
         await Send.ResponseAsync(new UpdateAreaResponse
         {

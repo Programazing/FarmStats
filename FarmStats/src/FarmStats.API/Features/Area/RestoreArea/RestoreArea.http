@@ -1,0 +1,32 @@
+@host = http://127.0.0.1:5000
+
+# Run Features/LookupLifecycle/LookupLifecycle.http first to capture fixture IDs.
+# Its final state leaves fixtures deleted. Restore before testing another successful delete.
+
+### RestoreArea
+POST {{host}}/area/{{lookupAreaId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{}
+
+### Malformed GUID - expected 400
+POST {{host}}/area/not-a-guid/restore
+Content-Type: application/json
+Accept: application/json
+
+{}
+
+### Empty GUID - expected 400
+POST {{host}}/area/00000000-0000-0000-0000-000000000000/restore
+Content-Type: application/json
+Accept: application/json
+
+{}
+
+### Missing target - expected 404 if this ID is absent
+POST {{host}}/area/ffffffff-ffff-4fff-8fff-ffffffffffff/restore
+Content-Type: application/json
+Accept: application/json
+
+{}

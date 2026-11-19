@@ -17,6 +17,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         Summary(summary =>
         {
             summary.Summary = "Update a breed";
+            summary.Response(409, "Concurrent modification; reload and retry.");
             summary.Response<UpdateBreedResponse>(200, "The saved breed.");
             summary.Response(400, "Invalid input or lookup relationships.");
             summary.Response(404, "The record does not exist.");
@@ -46,7 +47,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 "The selected species does not exist.");
         }
 
-        var duplicateExists = await db.Breeds
+        var duplicateExists = await db.Breeds.IgnoreQueryFilters()
             .AnyAsync(item => item.Id != req.Id
                     && item.Name.Trim().ToUpper() == normalizedName
                     && item.SpeciesId == req.SpeciesId, ct);
@@ -54,7 +55,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         if (duplicateExists)
         {
             AddError(request => request.Name,
-                "A breed with this name already exists for the selected species.");
+                "A breed with this name already exists (including deleted records) for the selected species.");
         }
 
         // Reassigning an in-use breed would invalidate existing animals.
@@ -75,7 +76,16 @@ public sealed class Endpoint(FarmStatsDbContext db)
         entity.Name = name;
         entity.SpeciesId = req.SpeciesId;
 
-        await db.SaveChangesAsync(ct);
+        try
+        {
+            await db.SaveChangesAsync(ct);
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            await FarmStats.API.Features.LookupLifecycle.LookupLifecycleSupport.Conflict(
+                HttpContext, "The lookup changed during this request. Reload and retry.");
+            return;
+        }
 
         await Send.ResponseAsync(new UpdateBreedResponse
         {

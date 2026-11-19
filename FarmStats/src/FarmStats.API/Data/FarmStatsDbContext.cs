@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FarmStats.API.Data;
 
-public sealed class FarmStatsDbContext(
+public sealed partial class FarmStatsDbContext(
     DbContextOptions<FarmStatsDbContext> options)
     : DbContext(options)
 {
@@ -38,6 +38,7 @@ public sealed class FarmStatsDbContext(
     private void PrepareLifecycleChanges()
     {
         ChangeTracker.DetectChanges();
+        PrepareLookupLifecycleChanges();
 
         var animals = ChangeTracker.Entries<Animal>().ToList();
 
@@ -92,6 +93,7 @@ public sealed class FarmStatsDbContext(
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+        ConfigureLookupLifecycle(modelBuilder);
 
         modelBuilder.Entity<Animal>(entity =>
         {

@@ -1,0 +1,40 @@
+@host = http://127.0.0.1:5000
+
+# Run Features/LookupLifecycle/LookupLifecycle.http first to capture fixture IDs.
+# Its final state leaves fixtures deleted. Restore before testing another successful delete.
+
+### DeleteSpecies
+POST {{host}}/species/{{lookupSpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4
+}
+
+### Malformed GUID - expected 400
+POST {{host}}/species/not-a-guid/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4
+}
+
+### Empty GUID - expected 400
+POST {{host}}/species/00000000-0000-0000-0000-000000000000/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4
+}
+
+### Missing target - expected 404 if this ID is absent
+POST {{host}}/species/ffffffff-ffff-4fff-8fff-ffffffffffff/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4
+}

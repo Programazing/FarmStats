@@ -30,13 +30,13 @@ public sealed class Endpoint(FarmStatsDbContext db)
         var name = req.Name.Trim();
         var normalizedName = name.ToUpperInvariant();
 
-        var duplicateExists = await db.Areas
+        var duplicateExists = await db.Areas.IgnoreQueryFilters()
             .AnyAsync(item => item.Name.Trim().ToUpper() == normalizedName, ct);
 
         if (duplicateExists)
         {
             AddError(request => request.Name,
-                "A area with this name already exists.");
+                "A area with this name already exists (including deleted records).");
         }
 
         ThrowIfAnyErrors();

@@ -29,13 +29,13 @@ public sealed class Endpoint(FarmStatsDbContext db)
         var name = req.Name.Trim();
         var normalizedName = name.ToUpperInvariant();
 
-        var duplicateExists = await db.Species
+        var duplicateExists = await db.Species.IgnoreQueryFilters()
             .AnyAsync(item => item.Name.Trim().ToUpper() == normalizedName, ct);
 
         if (duplicateExists)
         {
             AddError(request => request.Name,
-                "A species with this name already exists.");
+                "A species with this name already exists (including deleted records).");
         }
 
         ThrowIfAnyErrors();

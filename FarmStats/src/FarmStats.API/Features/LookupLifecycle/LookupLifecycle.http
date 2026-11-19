@@ -1,0 +1,349 @@
+@host = http://127.0.0.1:5000
+@cattleId = 11111111-1111-4111-8111-111111111111
+
+# Run requests individually in order. Never targets Bessie or seeded lookups for deletion.
+# Random names prevent duplicate-name collisions when rerunning.
+# These tests create persistent audit/history records and finish with fixtures soft-deleted.
+
+### Create disposable species - expected 201
+< {%
+request.variables.set("lookupTestName", "Species deletion test " + Date.now() + "-" + Math.random().toString(16).slice(2));
+%}
+POST {{host}}/species
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{lookupTestName}}"
+}
+
+> {%
+client.test("Created fixture", function () { client.assert(response.status === 201, "Expected 201"); });
+if (response.status === 201) client.global.set("lookupSpeciesId", response.body.id);
+else client.global.clear("lookupSpeciesId");
+%}
+
+### Other reason requires notes - expected 400
+POST {{host}}/species/{{lookupSpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 5,
+  "notes": "   "
+}
+
+### Missing reason - expected 400
+POST {{host}}/species/{{lookupSpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Reason deliberately missing."
+}
+
+### Delete unused fixture - expected 200
+POST {{host}}/species/{{lookupSpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4,
+  "notes": "Disposable lookup test."
+}
+
+### Repeated deletion - expected 404
+POST {{host}}/species/{{lookupSpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4
+}
+
+### Normal collection must omit fixture - expected 200
+GET {{host}}/species
+Accept: application/json
+
+> {%
+client.test("Deleted lookup hidden", function () {
+    client.assert(response.status === 200, "Expected 200");
+    const id = client.global.get("lookupSpeciesId");
+    client.assert(!response.body.some(item => item.id === id), "Deleted fixture must be absent");
+});
+%}
+
+### History remains accessible - expected 200
+GET {{host}}/species/{{lookupSpeciesId}}/history
+Accept: application/json
+
+### Restore fixture - expected 200
+POST {{host}}/species/{{lookupSpeciesId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Verify restoration."
+}
+
+### Repeated restore - expected 409
+POST {{host}}/species/{{lookupSpeciesId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{}
+
+### Normal collection contains restored fixture - expected 200
+GET {{host}}/species
+Accept: application/json
+
+> {%
+client.test("Restored lookup visible", function () {
+    client.assert(response.status === 200, "Expected 200");
+    const id = client.global.get("lookupSpeciesId");
+    client.assert(response.body.some(item => item.id === id), "Restored fixture must be visible");
+});
+%}
+
+### History has delete/restore entries - expected 200
+GET {{host}}/species/{{lookupSpeciesId}}/history
+Accept: application/json
+
+### Cleanup: soft-delete fixture again - expected 200
+POST {{host}}/species/{{lookupSpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4,
+  "notes": "Test complete."
+}
+
+### Create disposable breed - expected 201
+< {%
+request.variables.set("lookupTestName", "Breed deletion test " + Date.now() + "-" + Math.random().toString(16).slice(2));
+%}
+POST {{host}}/breed
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{lookupTestName}}",
+  "speciesId": "{{cattleId}}"
+}
+
+> {%
+client.test("Created fixture", function () { client.assert(response.status === 201, "Expected 201"); });
+if (response.status === 201) client.global.set("lookupBreedId", response.body.id);
+else client.global.clear("lookupBreedId");
+%}
+
+### Other reason requires notes - expected 400
+POST {{host}}/breed/{{lookupBreedId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 5,
+  "notes": "   "
+}
+
+### Missing reason - expected 400
+POST {{host}}/breed/{{lookupBreedId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Reason deliberately missing."
+}
+
+### Delete unused fixture - expected 200
+POST {{host}}/breed/{{lookupBreedId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4,
+  "notes": "Disposable lookup test."
+}
+
+### Repeated deletion - expected 404
+POST {{host}}/breed/{{lookupBreedId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4
+}
+
+### Normal collection must omit fixture - expected 200
+GET {{host}}/species/{{cattleId}}/breeds
+Accept: application/json
+
+> {%
+client.test("Deleted lookup hidden", function () {
+    client.assert(response.status === 200, "Expected 200");
+    const id = client.global.get("lookupBreedId");
+    client.assert(!response.body.some(item => item.id === id), "Deleted fixture must be absent");
+});
+%}
+
+### History remains accessible - expected 200
+GET {{host}}/breed/{{lookupBreedId}}/history
+Accept: application/json
+
+### Restore fixture - expected 200
+POST {{host}}/breed/{{lookupBreedId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Verify restoration."
+}
+
+### Repeated restore - expected 409
+POST {{host}}/breed/{{lookupBreedId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{}
+
+### Normal collection contains restored fixture - expected 200
+GET {{host}}/species/{{cattleId}}/breeds
+Accept: application/json
+
+> {%
+client.test("Restored lookup visible", function () {
+    client.assert(response.status === 200, "Expected 200");
+    const id = client.global.get("lookupBreedId");
+    client.assert(response.body.some(item => item.id === id), "Restored fixture must be visible");
+});
+%}
+
+### History has delete/restore entries - expected 200
+GET {{host}}/breed/{{lookupBreedId}}/history
+Accept: application/json
+
+### Cleanup: soft-delete fixture again - expected 200
+POST {{host}}/breed/{{lookupBreedId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4,
+  "notes": "Test complete."
+}
+
+### Create disposable area - expected 201
+< {%
+request.variables.set("lookupTestName", "Area deletion test " + Date.now() + "-" + Math.random().toString(16).slice(2));
+%}
+POST {{host}}/area
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{lookupTestName}}"
+}
+
+> {%
+client.test("Created fixture", function () { client.assert(response.status === 201, "Expected 201"); });
+if (response.status === 201) client.global.set("lookupAreaId", response.body.id);
+else client.global.clear("lookupAreaId");
+%}
+
+### Other reason requires notes - expected 400
+POST {{host}}/area/{{lookupAreaId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 5,
+  "notes": "   "
+}
+
+### Missing reason - expected 400
+POST {{host}}/area/{{lookupAreaId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Reason deliberately missing."
+}
+
+### Delete unused fixture - expected 200
+POST {{host}}/area/{{lookupAreaId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4,
+  "notes": "Disposable lookup test."
+}
+
+### Repeated deletion - expected 404
+POST {{host}}/area/{{lookupAreaId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4
+}
+
+### Normal collection must omit fixture - expected 200
+GET {{host}}/areas
+Accept: application/json
+
+> {%
+client.test("Deleted lookup hidden", function () {
+    client.assert(response.status === 200, "Expected 200");
+    const id = client.global.get("lookupAreaId");
+    client.assert(!response.body.some(item => item.id === id), "Deleted fixture must be absent");
+});
+%}
+
+### History remains accessible - expected 200
+GET {{host}}/area/{{lookupAreaId}}/history
+Accept: application/json
+
+### Restore fixture - expected 200
+POST {{host}}/area/{{lookupAreaId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{
+  "notes": "Verify restoration."
+}
+
+### Repeated restore - expected 409
+POST {{host}}/area/{{lookupAreaId}}/restore
+Content-Type: application/json
+Accept: application/json
+
+{}
+
+### Normal collection contains restored fixture - expected 200
+GET {{host}}/areas
+Accept: application/json
+
+> {%
+client.test("Restored lookup visible", function () {
+    client.assert(response.status === 200, "Expected 200");
+    const id = client.global.get("lookupAreaId");
+    client.assert(response.body.some(item => item.id === id), "Restored fixture must be visible");
+});
+%}
+
+### History has delete/restore entries - expected 200
+GET {{host}}/area/{{lookupAreaId}}/history
+Accept: application/json
+
+### Cleanup: soft-delete fixture again - expected 200
+POST {{host}}/area/{{lookupAreaId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "reason": 4,
+  "notes": "Test complete."
+}

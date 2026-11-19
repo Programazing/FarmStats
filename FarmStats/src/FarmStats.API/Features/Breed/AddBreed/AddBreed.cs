@@ -36,14 +36,14 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 "The selected species does not exist.");
         }
 
-        var duplicateExists = await db.Breeds
+        var duplicateExists = await db.Breeds.IgnoreQueryFilters()
             .AnyAsync(item => item.Name.Trim().ToUpper() == normalizedName
                     && item.SpeciesId == req.SpeciesId, ct);
 
         if (duplicateExists)
         {
             AddError(request => request.Name,
-                "A breed with this name already exists for the selected species.");
+                "A breed with this name already exists (including deleted records) for the selected species.");
         }
 
         ThrowIfAnyErrors();
