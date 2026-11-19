@@ -1,0 +1,8 @@
+@host = http://127.0.0.1:5000
+
+### List areas - expected 200 and a JSON array ordered by name, then ID
+# North Pasture should appear if the record referenced by Bessie still exists.
+# South Pasture appears only if its seed record was inserted.
+# An empty area catalog returns [], not 404.
+GET {{host}}/area
+Accept: application/json
