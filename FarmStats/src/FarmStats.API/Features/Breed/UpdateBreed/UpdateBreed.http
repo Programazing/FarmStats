@@ -1,0 +1,153 @@
+# Run requests individually from top to bottom.
+# Successful requests persist lookup records. There is no automatic cleanup.
+# Give testName a new unique value before repeating the file.
+@host = http://127.0.0.1:5000
+@missingId = ffffffff-ffff-4fff-8fff-ffffffffffff
+@cattleId = 11111111-1111-4111-8111-111111111111
+@testName = UpdateBreed test lookup
+
+### Create prerequisite record - expected 201
+# Breed tests require the existing Cattle record.
+POST {{host}}/breed
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}}",
+  "speciesId": "{{cattleId}}"
+}
+
+> {%
+client.test("Creation returns 201", function () {
+    client.assert(response.status === 201, "Expected 201; choose a new testName if duplicate.");
+});
+if (response.status === 201) {
+    client.global.set("updateBreedId", response.body.id);
+} else {
+    client.global.clear("updateBreedId");
+}
+%}
+
+### Rename created lookup - expected 200
+# Run the creation request first; its response handler supplies the ID.
+PUT {{host}}/breed/{{updateBreedId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed",
+  "speciesId": "{{cattleId}}"
+}
+
+### Verify lookup in collection - expected 200
+GET {{host}}/species/{{cattleId}}/breed
+Accept: application/json
+
+### Reject blank name - expected 400
+PUT {{host}}/breed/{{updateBreedId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "   ",
+  "speciesId": "{{cattleId}}"
+}
+
+### Reject overlong name - expected 400
+PUT {{host}}/breed/{{updateBreedId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "speciesId": "{{cattleId}}"
+}
+
+### Reject nonexistent target - expected 404
+PUT {{host}}/breed/{{missingId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed",
+  "speciesId": "{{cattleId}}"
+}
+
+### Reject empty target GUID - expected 400
+PUT {{host}}/breed/00000000-0000-0000-0000-000000000000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed",
+  "speciesId": "{{cattleId}}"
+}
+
+### Reject malformed target GUID - expected 400
+PUT {{host}}/breed/not-a-guid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed",
+  "speciesId": "{{cattleId}}"
+}
+
+### Create a different record for the duplicate-name test - expected 201
+POST {{host}}/breed
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} conflicting record",
+  "speciesId": "{{cattleId}}"
+}
+
+### Reject duplicate name - expected 400
+PUT {{host}}/breed/{{updateBreedId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} conflicting record",
+  "speciesId": "{{cattleId}}"
+}
+
+### Reject nonexistent species - expected 400
+PUT {{host}}/breed/{{updateBreedId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed",
+  "speciesId": "{{missingId}}"
+}
+
+### Reject empty species GUID - expected 400
+PUT {{host}}/breed/{{updateBreedId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed",
+  "speciesId": "00000000-0000-0000-0000-000000000000"
+}
+
+### Reject moving Bessie's Holstein to Sheep - expected 400
+# Requires Bessie to still reference Holstein. Sheep must exist to isolate the in-use check. No change is saved if validation fails.
+PUT {{host}}/breed/33333333-3333-4333-8333-333333333333
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Holstein",
+  "speciesId": "22222222-2222-4222-8222-222222222222"
+}
+
+### Verify Bessie remains unchanged - expected 200
+GET {{host}}/animal/1748e896-2a19-42e9-b6a7-a37d42bdaeb7
+Accept: application/json
+
+### Verify final lookup collection - expected 200
+GET {{host}}/species/{{cattleId}}/breed
+Accept: application/json

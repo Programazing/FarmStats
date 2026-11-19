@@ -128,7 +128,7 @@
   {
     "id": "royal-kennel",
     "title": "Royal Kennel Club A–Z",
-    "url": "https://www.thekennelclub.org.uk/search/breeds-a-to-z/",
+    "url": "https://www.thekennelclub.org.uk/search/breed-a-to-z/",
     "retrievedOn": "2026-11-15",
     "citation": "[web:271]"
   },
@@ -142,7 +142,7 @@
   {
     "id": "cfa",
     "title": "CFA recognized breeds directory (partial extraction)",
-    "url": "https://cfa.org/breeds/",
+    "url": "https://cfa.org/breed/",
     "retrievedOn": "2026-11-15",
     "citation": "[web:203]"
   },
@@ -219,70 +219,70 @@
   {
     "id": "osu-quarter",
     "title": "OSU: Quarter Horse",
-    "url": "https://breeds.okstate.edu/horses/quarter-horses",
+    "url": "https://breed.okstate.edu/horses/quarter-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:290]"
   },
   {
     "id": "osu-andalusian",
     "title": "OSU: Andalusian",
-    "url": "https://breeds.okstate.edu/horses/andalusian-horses",
+    "url": "https://breed.okstate.edu/horses/andalusian-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:289]"
   },
   {
     "id": "osu-friesian",
     "title": "OSU: Friesian",
-    "url": "https://breeds.okstate.edu/horses/friesian-horses",
+    "url": "https://breed.okstate.edu/horses/friesian-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:291]"
   },
   {
     "id": "osu-haflinger",
     "title": "OSU: Haflinger",
-    "url": "https://breeds.okstate.edu/horses/haflinger-horses",
+    "url": "https://breed.okstate.edu/horses/haflinger-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:288]"
   },
   {
     "id": "osu-clydesdale",
     "title": "OSU: Clydesdale",
-    "url": "https://breeds.okstate.edu/horses/clydesdale-horses",
+    "url": "https://breed.okstate.edu/horses/clydesdale-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:292]"
   },
   {
     "id": "osu-arabian",
     "title": "OSU: Arabian",
-    "url": "https://breeds.okstate.edu/horses/arabian-horses",
+    "url": "https://breed.okstate.edu/horses/arabian-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:293]"
   },
   {
     "id": "osu-appaloosa",
     "title": "OSU: Appaloosa",
-    "url": "https://breeds.okstate.edu/horses/appaloosa-horses",
+    "url": "https://breed.okstate.edu/horses/appaloosa-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:301]"
   },
   {
     "id": "osu-hanoverian",
     "title": "OSU: Hanoverian",
-    "url": "https://breeds.okstate.edu/horses/hanoverian-horses",
+    "url": "https://breed.okstate.edu/horses/hanoverian-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:302]"
   },
   {
     "id": "osu-morgan",
     "title": "OSU: Morgan and related breeds",
-    "url": "https://breeds.okstate.edu/horses/morgan-horses",
+    "url": "https://breed.okstate.edu/horses/morgan-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:299]"
   },
   {
     "id": "osu-pinto",
     "title": "OSU: Paint versus Pinto",
-    "url": "https://breeds.okstate.edu/horses/pinto-horses",
+    "url": "https://breed.okstate.edu/horses/pinto-horses",
     "retrievedOn": "2026-11-15",
     "citation": "[web:295]"
   }

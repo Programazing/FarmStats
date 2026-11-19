@@ -1,0 +1,109 @@
+# Run requests individually from top to bottom.
+# Successful requests persist lookup records. There is no automatic cleanup.
+# Give testName a new unique value before repeating the file.
+@host = http://127.0.0.1:5000
+@missingId = ffffffff-ffff-4fff-8fff-ffffffffffff
+@cattleId = 11111111-1111-4111-8111-111111111111
+@testName = UpdateArea test lookup
+
+### Create prerequisite record - expected 201
+POST {{host}}/areas
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}}"
+}
+
+> {%
+client.test("Creation returns 201", function () {
+    client.assert(response.status === 201, "Expected 201; choose a new testName if duplicate.");
+});
+if (response.status === 201) {
+    client.global.set("updateAreaId", response.body.id);
+} else {
+    client.global.clear("updateAreaId");
+}
+%}
+
+### Rename created lookup - expected 200
+# Run the creation request first; its response handler supplies the ID.
+PUT {{host}}/areas/{{updateAreaId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed"
+}
+
+### Verify lookup in collection - expected 200
+GET {{host}}/areas
+Accept: application/json
+
+### Reject blank name - expected 400
+PUT {{host}}/areas/{{updateAreaId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "   "
+}
+
+### Reject overlong name - expected 400
+PUT {{host}}/areas/{{updateAreaId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+}
+
+### Reject nonexistent target - expected 404
+PUT {{host}}/areas/{{missingId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed"
+}
+
+### Reject empty target GUID - expected 400
+PUT {{host}}/areas/00000000-0000-0000-0000-000000000000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed"
+}
+
+### Reject malformed target GUID - expected 400
+PUT {{host}}/areas/not-a-guid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} renamed"
+}
+
+### Create a different record for the duplicate-name test - expected 201
+POST {{host}}/areas
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} conflicting record"
+}
+
+### Reject duplicate name - expected 400
+PUT {{host}}/areas/{{updateAreaId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{testName}} conflicting record"
+}
+
+### Verify final lookup collection - expected 200
+GET {{host}}/areas
+Accept: application/json
+

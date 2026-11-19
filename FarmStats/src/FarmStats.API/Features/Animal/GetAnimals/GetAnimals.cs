@@ -9,7 +9,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
     public override void Configure()
     {
         Get("/animals");
-
+        Description(builder => builder.WithTags("Animal"));
+        
         // Local development only.
         AllowAnonymous();
 

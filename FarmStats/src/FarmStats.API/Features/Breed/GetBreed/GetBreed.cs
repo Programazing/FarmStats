@@ -9,6 +9,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
     public override void Configure()
     {
         Get("/species/{SpeciesId}/breed");
+        Description(builder => builder.WithTags("Breed"));
+
         // Local development only. Revisit access when authentication is added.
         AllowAnonymous();
 

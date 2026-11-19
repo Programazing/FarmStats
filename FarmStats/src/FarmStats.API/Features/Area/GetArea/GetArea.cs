@@ -9,6 +9,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
     public override void Configure()
     {
         Get("/area");
+        Description(builder => builder.WithTags("Area"));
+        
         // Local development only. Require authentication and farm ownership
         // filtering before exposing real farm areas.
         AllowAnonymous();

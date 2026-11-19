@@ -9,6 +9,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
     public override void Configure()
     {
         Get("/animal/{Id}");
+        Description(builder => builder.WithTags("Animal"));
 
         // Local development only.
         // Replace with your authorization policy when authentication is added.

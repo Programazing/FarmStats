@@ -11,7 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
     .AddFastEndpoints()
-    .SwaggerDocument();
+    .SwaggerDocument(options =>
+    {
+        options.AutoTagPathSegmentIndex = 0;
+    });
 
 var connectionString =
     builder.Configuration.GetConnectionString("FarmStats")

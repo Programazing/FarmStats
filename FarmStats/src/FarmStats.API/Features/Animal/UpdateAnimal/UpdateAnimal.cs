@@ -10,6 +10,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
     public override void Configure()
     {
         Put("/animal/{Id}");
+        Description(builder => builder.WithTags("Animal"));
 
         // Local development only. Add authentication and farm-scoped
         // queries before exposing this endpoint to real users.

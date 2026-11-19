@@ -11,7 +11,24 @@ public sealed class AddAnimal(FarmStatsDbContext db)
     public override void Configure()
     {
         Post("/animal");
+        Description(builder => builder.WithTags("Animal"));
         AllowAnonymous();
+        
+        Summary(summary =>
+        {
+            summary.Summary = "Add an animal";
+
+            summary.Description =
+                "Creates an animal using the selected species, breed, and farm area.";
+
+            summary.Response<AddAnimalResponse>(
+                StatusCodes.Status201Created,
+                "The animal was created.");
+
+            summary.Response(
+                StatusCodes.Status400BadRequest,
+                "Invalid input or lookup relationships.");
+        });
     }
 
     public override async Task HandleAsync(
