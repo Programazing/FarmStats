@@ -1,0 +1,145 @@
+name: CI
+
+# Triggers mirror .github/workflows/ci.yml (see that file for the full
+# rationale, including the known add-animal push+PR duplicate-run trade-off).
+#
+# GITEA ASSUMPTIONS (unverified - see docs/ci.md "Gitea runner setup"):
+#   - A Gitea act_runner is registered with the label `ubuntu-latest` and an
+#     image that provides: a .NET-capable Linux userspace, Docker CLI +
+#     daemon access for Testcontainers and this job's own `docker build`,
+#     and outbound network access to download the pinned gitleaks binary.
+#   - `workflow_dispatch` manual runs are supported by the Gitea Actions
+#     version in use (supported since Gitea 1.21; confirm on the actual
+#     server).
+#   - `actions/checkout`, `actions/setup-dotnet`, and `actions/upload-artifact`
+#     resolve on Gitea either via Gitea's GitHub-Actions compatibility proxy
+#     (github.com mirror) or a configured `*.gitea.actions.local` mirror.
+#     This must be confirmed on the target instance; if unavailable, these
+#     steps need to be replaced with manual `dotnet`/tar install steps.
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main, add-animal]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DOTNET_NOLOGO: "true"
+  DOTNET_CLI_TELEMETRY_OPTOUT: "true"
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: "true"
+
+jobs:
+  build-and-test:
+    name: Build and test
+    # Provisional label - confirm an act_runner with this label is actually
+    # registered on the target Gitea instance before relying on this job.
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v5
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v5
+        with:
+          global-json-file: FarmStats/global.json
+
+      - name: Restore tools and solution
+        run: scripts/ci/restore.sh
+
+      - name: Check formatting (no rewrite)
+        run: scripts/ci/format-check.sh
+
+      - name: Build (Release)
+        run: scripts/ci/build.sh
+
+      # Fails fast with an actionable message if the runner has no usable
+      # Docker daemon, instead of letting Testcontainers time out obscurely.
+      - name: Verify Docker access for Testcontainers
+        run: |
+          if ! docker info > /dev/null 2>&1; then
+            echo "::error::Docker is not reachable from this Gitea runner." \
+              "The integration suite needs a Docker daemon reachable from" \
+              "inside the job (e.g. a docker-in-docker sidecar or a runner" \
+              "with the host Docker socket mounted per act_runner's" \
+              "docker/dind config), and the runner's container network must" \
+              "let the job reach the ephemeral ports Testcontainers publishes" \
+              "on the Postgres container it starts. See docs/ci.md." >&2
+            exit 1
+          fi
+
+      - name: Run PostgreSQL integration tests (Release)
+        run: scripts/ci/test.sh "${{ github.workspace }}/test-results"
+
+      - name: Check for model changes missing a migration
+        run: scripts/ci/check-migrations.sh
+
+      - name: Upload test results and diagnostics
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: test-results
+          path: |
+            test-results/**
+            FarmStats/tests/**/bin/Release/**/*.log
+          if-no-files-found: ignore
+          retention-days: 14
+
+  security:
+    name: Security (secrets + dependency audit)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout (full history for secret scan)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v5
+        with:
+          fetch-depth: 0
+
+      - name: Secret scan (gitleaks)
+        run: scripts/ci/gitleaks-scan.sh "${{ github.workspace }}/gitleaks-report.json"
+
+      - name: Upload secret scan report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: gitleaks-report
+          path: gitleaks-report.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v5
+        with:
+          global-json-file: FarmStats/global.json
+
+      - name: Dependency vulnerability audit (NuGet, high/critical)
+        run: scripts/ci/security-audit.sh
+
+  container-build:
+    name: Container build (no publish)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: build-and-test
+    # Needs the same Docker access as build-and-test's Testcontainers step;
+    # see the runner assumptions at the top of this file and docs/ci.md.
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v5
+
+      # See the matching comment in .github/workflows/ci.yml: the Dockerfile
+      # only builds with context FarmStats/src, not the compose.yaml-declared
+      # "." (FarmStats/) context.
+      - name: Build container image (build-only, no push)
+        working-directory: FarmStats/src
+        run: |
+          docker build \
+            --file FarmStats.API/Dockerfile \
+            --tag farmstats-api:ci \
+            .
