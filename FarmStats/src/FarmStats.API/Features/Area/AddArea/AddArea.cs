@@ -28,10 +28,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
         // to the authenticated farm. Do not accept farm ownership from the client.
 
         var name = req.Name.Trim();
-        var normalizedName = name.ToUpperInvariant();
+        var normalizedName = await LookupUniqueness.NormalizeAsync(db, name, ct);
 
         var duplicateExists = await db.Areas.IgnoreQueryFilters()
-            .AnyAsync(item => item.Name.Trim().ToUpper() == normalizedName, ct);
+            .AnyAsync(item => EF.Property<string>(item, "NormalizedName") == normalizedName, ct);
 
         if (duplicateExists)
         {
@@ -52,6 +52,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         await Send.ResponseAsync(new AddAreaResponse
         {
+            Revision = entity.Revision,
             Id = entity.Id,
             Name = entity.Name
         }, 201, ct);
@@ -65,6 +66,8 @@ public sealed class AddAreaRequest
 
 public sealed class AddAreaResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
 }

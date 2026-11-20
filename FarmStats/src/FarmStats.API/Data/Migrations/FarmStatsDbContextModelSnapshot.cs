@@ -158,6 +158,11 @@ namespace FarmStats.API.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("NormalizedName")
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("text")
+                        .HasComputedColumnSql("upper(btrim(\"Name\"))", true);
+
                     b.Property<Guid>("Revision")
                         .IsConcurrencyToken()
                         .HasColumnType("uuid");
@@ -169,7 +174,9 @@ namespace FarmStats.API.Data.Migrations
 
                     b.HasIndex("DeletedAtUtc");
 
-                    b.HasIndex("SpeciesId");
+                    b.HasIndex("SpeciesId", "NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("UX_Breeds_SpeciesId_NormalizedName");
 
                     b.ToTable("Breeds");
                 });
@@ -194,6 +201,11 @@ namespace FarmStats.API.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("NormalizedName")
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("text")
+                        .HasComputedColumnSql("upper(btrim(\"Name\"))", true);
+
                     b.Property<Guid>("Revision")
                         .IsConcurrencyToken()
                         .HasColumnType("uuid");
@@ -201,6 +213,10 @@ namespace FarmStats.API.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("DeletedAtUtc");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("UX_Areas_NormalizedName");
 
                     b.ToTable("Areas");
                 });
@@ -265,6 +281,11 @@ namespace FarmStats.API.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("NormalizedName")
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("text")
+                        .HasComputedColumnSql("upper(btrim(\"Name\"))", true);
+
                     b.Property<Guid>("Revision")
                         .IsConcurrencyToken()
                         .HasColumnType("uuid");
@@ -272,6 +293,10 @@ namespace FarmStats.API.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("DeletedAtUtc");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("UX_Species_NormalizedName");
 
                     b.ToTable("Species");
                 });

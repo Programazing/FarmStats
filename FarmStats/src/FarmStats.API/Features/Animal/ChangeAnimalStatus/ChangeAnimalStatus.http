@@ -11,10 +11,16 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 1,
   "effectiveDate": "2026-11-18",
   "notes": "Entire record sold."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### Invalid route GUID — expected 400
 POST {{host}}/animal/not-a-guid/status-changes
@@ -22,10 +28,16 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 1,
   "effectiveDate": "2026-11-18",
   "notes": "Entire record sold."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### Empty route GUID — expected 400
 POST {{host}}/animal/00000000-0000-0000-0000-000000000000/status-changes
@@ -33,10 +45,16 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 1,
   "effectiveDate": "2026-11-18",
   "notes": "Entire record sold."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### Absent record — expected 404 if this ID is unused
 POST {{host}}/animal/ffffffff-ffff-4fff-8fff-ffffffffffff/status-changes
@@ -44,7 +62,12 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 1,
   "effectiveDate": "2026-11-18",
   "notes": "Entire record sold."
 }
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}

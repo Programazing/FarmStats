@@ -95,6 +95,7 @@ public sealed class AddAnimal(FarmStatsDbContext db)
 
         await Send.ResponseAsync(new AddAnimalResponse
         {
+            Revision = animal.Revision,
             Id = animal.Id,
             Name = animal.Name,
             SpeciesId = animal.SpeciesId,
@@ -135,6 +136,8 @@ public sealed class AddAnimalRequest
 
 public sealed class AddAnimalResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; set; }
 
     public required string Name { get; set; }

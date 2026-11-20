@@ -7,7 +7,7 @@
 @testName = UpdateArea test lookup
 
 ### Create prerequisite record - expected 201
-POST {{host}}/areas
+POST {{host}}/area
 Content-Type: application/json
 Accept: application/json
 
@@ -21,6 +21,7 @@ client.test("Creation returns 201", function () {
 });
 if (response.status === 201) {
     client.global.set("updateAreaId", response.body.id);
+    client.global.set("updateAreaRevision", response.body.revision);
 } else {
     client.global.clear("updateAreaId");
 }
@@ -33,11 +34,17 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAreaRevision}}",
   "name": "{{testName}} renamed"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAreaRevision", response.body.revision);
+%}
+
 ### Verify lookup in collection - expected 200
-GET {{host}}/areas
+GET {{host}}/area
 Accept: application/json
 
 ### Reject blank name - expected 400
@@ -46,8 +53,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAreaRevision}}",
   "name": "   "
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateAreaRevision", response.body.revision);
+%}
 
 ### Reject overlong name - expected 400
 PUT {{host}}/areas/{{updateAreaId}}
@@ -55,8 +68,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAreaRevision}}",
   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateAreaRevision", response.body.revision);
+%}
 
 ### Reject nonexistent target - expected 404
 PUT {{host}}/areas/{{missingId}}
@@ -64,8 +83,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAreaRevision}}",
   "name": "{{testName}} renamed"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateAreaRevision", response.body.revision);
+%}
 
 ### Reject empty target GUID - expected 400
 PUT {{host}}/areas/00000000-0000-0000-0000-000000000000
@@ -73,8 +98,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAreaRevision}}",
   "name": "{{testName}} renamed"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateAreaRevision", response.body.revision);
+%}
 
 ### Reject malformed target GUID - expected 400
 PUT {{host}}/areas/not-a-guid
@@ -82,11 +113,17 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAreaRevision}}",
   "name": "{{testName}} renamed"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAreaRevision", response.body.revision);
+%}
+
 ### Create a different record for the duplicate-name test - expected 201
-POST {{host}}/areas
+POST {{host}}/area
 Content-Type: application/json
 Accept: application/json
 
@@ -100,10 +137,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAreaRevision}}",
   "name": "{{testName}} conflicting record"
 }
 
-### Verify final lookup collection - expected 200
-GET {{host}}/areas
-Accept: application/json
 
+> {%
+if (response.status === 200) client.global.set("updateAreaRevision", response.body.revision);
+%}
+
+### Verify final lookup collection - expected 200
+GET {{host}}/area
+Accept: application/json

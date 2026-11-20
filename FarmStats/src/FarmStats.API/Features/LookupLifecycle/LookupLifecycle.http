@@ -18,6 +18,7 @@ Accept: application/json
 }
 
 > {%
+if (response.status === 201) client.global.set("lookupSpeciesRevision", response.body.revision);
 client.test("Created fixture", function () { client.assert(response.status === 201, "Expected 201"); });
 if (response.status === 201) client.global.set("lookupSpeciesId", response.body.id);
 else client.global.clear("lookupSpeciesId");
@@ -29,9 +30,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupSpeciesRevision}}",
   "reason": 5,
   "notes": "   "
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupSpeciesRevision", response.body.revision);
+%}
 
 ### Missing reason - expected 400
 POST {{host}}/species/{{lookupSpeciesId}}/deletion
@@ -39,8 +46,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupSpeciesRevision}}",
   "notes": "Reason deliberately missing."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupSpeciesRevision", response.body.revision);
+%}
 
 ### Delete unused fixture - expected 200
 POST {{host}}/species/{{lookupSpeciesId}}/deletion
@@ -48,9 +61,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupSpeciesRevision}}",
   "reason": 4,
   "notes": "Disposable lookup test."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupSpeciesRevision", response.body.revision);
+%}
 
 ### Repeated deletion - expected 404
 POST {{host}}/species/{{lookupSpeciesId}}/deletion
@@ -58,8 +77,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupSpeciesRevision}}",
   "reason": 4
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupSpeciesRevision", response.body.revision);
+%}
 
 ### Normal collection must omit fixture - expected 200
 GET {{host}}/species
@@ -83,15 +108,28 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupSpeciesRevision}}",
   "notes": "Verify restoration."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupSpeciesRevision", response.body.revision);
+%}
 
 ### Repeated restore - expected 409
 POST {{host}}/species/{{lookupSpeciesId}}/restore
 Content-Type: application/json
 Accept: application/json
 
-{}
+{
+  "revision": "{{lookupSpeciesRevision}}"
+}
+
+
+> {%
+if (response.status === 200) client.global.set("lookupSpeciesRevision", response.body.revision);
+%}
 
 ### Normal collection contains restored fixture - expected 200
 GET {{host}}/species
@@ -115,9 +153,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupSpeciesRevision}}",
   "reason": 4,
   "notes": "Test complete."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupSpeciesRevision", response.body.revision);
+%}
 
 ### Create disposable breed - expected 201
 < {%
@@ -133,6 +177,7 @@ Accept: application/json
 }
 
 > {%
+if (response.status === 201) client.global.set("lookupBreedRevision", response.body.revision);
 client.test("Created fixture", function () { client.assert(response.status === 201, "Expected 201"); });
 if (response.status === 201) client.global.set("lookupBreedId", response.body.id);
 else client.global.clear("lookupBreedId");
@@ -144,9 +189,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupBreedRevision}}",
   "reason": 5,
   "notes": "   "
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupBreedRevision", response.body.revision);
+%}
 
 ### Missing reason - expected 400
 POST {{host}}/breed/{{lookupBreedId}}/deletion
@@ -154,8 +205,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupBreedRevision}}",
   "notes": "Reason deliberately missing."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupBreedRevision", response.body.revision);
+%}
 
 ### Delete unused fixture - expected 200
 POST {{host}}/breed/{{lookupBreedId}}/deletion
@@ -163,9 +220,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupBreedRevision}}",
   "reason": 4,
   "notes": "Disposable lookup test."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupBreedRevision", response.body.revision);
+%}
 
 ### Repeated deletion - expected 404
 POST {{host}}/breed/{{lookupBreedId}}/deletion
@@ -173,11 +236,17 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupBreedRevision}}",
   "reason": 4
 }
 
+
+> {%
+if (response.status === 200) client.global.set("lookupBreedRevision", response.body.revision);
+%}
+
 ### Normal collection must omit fixture - expected 200
-GET {{host}}/species/{{cattleId}}/breeds
+GET {{host}}/species/{{cattleId}}/breed
 Accept: application/json
 
 > {%
@@ -198,18 +267,31 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupBreedRevision}}",
   "notes": "Verify restoration."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupBreedRevision", response.body.revision);
+%}
 
 ### Repeated restore - expected 409
 POST {{host}}/breed/{{lookupBreedId}}/restore
 Content-Type: application/json
 Accept: application/json
 
-{}
+{
+  "revision": "{{lookupBreedRevision}}"
+}
+
+
+> {%
+if (response.status === 200) client.global.set("lookupBreedRevision", response.body.revision);
+%}
 
 ### Normal collection contains restored fixture - expected 200
-GET {{host}}/species/{{cattleId}}/breeds
+GET {{host}}/species/{{cattleId}}/breed
 Accept: application/json
 
 > {%
@@ -230,9 +312,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupBreedRevision}}",
   "reason": 4,
   "notes": "Test complete."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupBreedRevision", response.body.revision);
+%}
 
 ### Create disposable area - expected 201
 < {%
@@ -247,6 +335,7 @@ Accept: application/json
 }
 
 > {%
+if (response.status === 201) client.global.set("lookupAreaRevision", response.body.revision);
 client.test("Created fixture", function () { client.assert(response.status === 201, "Expected 201"); });
 if (response.status === 201) client.global.set("lookupAreaId", response.body.id);
 else client.global.clear("lookupAreaId");
@@ -258,9 +347,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupAreaRevision}}",
   "reason": 5,
   "notes": "   "
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Missing reason - expected 400
 POST {{host}}/area/{{lookupAreaId}}/deletion
@@ -268,8 +363,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupAreaRevision}}",
   "notes": "Reason deliberately missing."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Delete unused fixture - expected 200
 POST {{host}}/area/{{lookupAreaId}}/deletion
@@ -277,9 +378,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupAreaRevision}}",
   "reason": 4,
   "notes": "Disposable lookup test."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Repeated deletion - expected 404
 POST {{host}}/area/{{lookupAreaId}}/deletion
@@ -287,11 +394,17 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupAreaRevision}}",
   "reason": 4
 }
 
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
+
 ### Normal collection must omit fixture - expected 200
-GET {{host}}/areas
+GET {{host}}/area
 Accept: application/json
 
 > {%
@@ -312,18 +425,31 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupAreaRevision}}",
   "notes": "Verify restoration."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Repeated restore - expected 409
 POST {{host}}/area/{{lookupAreaId}}/restore
 Content-Type: application/json
 Accept: application/json
 
-{}
+{
+  "revision": "{{lookupAreaRevision}}"
+}
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Normal collection contains restored fixture - expected 200
-GET {{host}}/areas
+GET {{host}}/area
 Accept: application/json
 
 > {%
@@ -344,6 +470,11 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lookupAreaRevision}}",
   "reason": 4,
   "notes": "Test complete."
 }
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}

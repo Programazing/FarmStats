@@ -48,6 +48,20 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
+app.Use(async (context, next) =>
+{
+    try
+    {
+        await next(context);
+    }
+    catch (DbUpdateException exception) when (LookupUniqueness.IsConflict(exception))
+    {
+        await Results.Problem(statusCode: 409, title: "Lookup operation conflict",
+            detail: "A lookup with this name already exists, including deleted records.")
+            .ExecuteAsync(context);
+    }
+});
+
 app.UseFastEndpoints(config =>
 {
     config.Errors.UseProblemDetails();

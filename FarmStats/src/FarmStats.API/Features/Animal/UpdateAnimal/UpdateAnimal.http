@@ -13,12 +13,18 @@
 GET {{host}}/animal/{{animalId}}
 Accept: application/json
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 2. Update Bessie - expected 200
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -30,9 +36,19 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 3. Verify saved changes - expected 200 with UPDATED reference ID
 GET {{host}}/animal/{{animalId}}
 Accept: application/json
+
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
 
 ### 4. Nonexistent animal - expected 404
 PUT {{host}}/animal/{{missingId}}
@@ -40,6 +56,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -50,6 +67,11 @@ Accept: application/json
   "birthdate": "2023-04-15",
   "areaId": "{{northPastureId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
 
 ### 5. Empty animal GUID - expected 400
 PUT {{host}}/animal/00000000-0000-0000-0000-000000000000
@@ -57,6 +79,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -67,6 +90,11 @@ Accept: application/json
   "birthdate": "2023-04-15",
   "areaId": "{{northPastureId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
 
 ### 6. Invalid route GUID - expected 400
 PUT {{host}}/animal/not-a-guid
@@ -74,6 +102,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -85,12 +114,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 7. Blank name - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "   ",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -102,12 +137,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 8. Zero quantity - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -119,12 +160,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 9. Missing quantity - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -135,12 +182,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 10. Invalid sex - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -152,12 +205,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 11. Missing sex - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -168,12 +227,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 12. Future birthdate - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -185,12 +250,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 13. Nonexistent species - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{missingId}}",
   "breedId": null,
@@ -202,12 +273,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 14. Nonexistent breed - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{missingId}}",
@@ -219,6 +296,11 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 15. Holstein assigned to Sheep - expected 400
 # For an isolated association test, Sheep must exist; otherwise species validation also fails.
 PUT {{host}}/animal/{{animalId}}
@@ -226,6 +308,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{sheepId}}",
   "breedId": "{{holsteinId}}",
@@ -237,12 +320,18 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 16. Nonexistent area - expected 400
 PUT {{host}}/animal/{{animalId}}
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -254,10 +343,20 @@ Accept: application/json
   "areaId": "{{missingId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 17. Verify failed updates did not change Bessie
 # If run in order, referenceId should still be C5481-UPDATED.
 GET {{host}}/animal/{{animalId}}
 Accept: application/json
+
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
 
 ### 18. Clear all optional fields - expected 200
 # This intentionally clears BreedId, ReferenceId, Color, Birthdate, and AreaId.
@@ -266,6 +365,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": null,
@@ -277,9 +377,19 @@ Accept: application/json
   "areaId": null
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 19. Verify optional fields were cleared - expected 200
 GET {{host}}/animal/{{animalId}}
 Accept: application/json
+
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
 
 ### 20. Restore Bessie to the original values - expected 200
 PUT {{host}}/animal/{{animalId}}
@@ -287,6 +397,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateAnimalRevision}}",
   "name": "Bessie",
   "speciesId": "{{cattleId}}",
   "breedId": "{{holsteinId}}",
@@ -298,6 +409,14 @@ Accept: application/json
   "areaId": "{{northPastureId}}"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}
+
 ### 21. Verify restoration - expected 200 with referenceId C5481
 GET {{host}}/animal/{{animalId}}
 Accept: application/json
+> {%
+if (response.status === 200) client.global.set("updateAnimalRevision", response.body.revision);
+%}

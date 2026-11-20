@@ -23,6 +23,7 @@ Accept: application/json
 }
 
 > {%
+if (response.status === 201) client.global.set("lifecycleAnimalRevision", response.body.revision);
 client.test("Created disposable animal", function () {
     client.assert(response.status === 201, "Expected animal creation to succeed.");
 });
@@ -39,10 +40,16 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 1,
   "effectiveDate": "2026-11-18",
   "notes": "Lifecycle workflow: recorded sale."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 3. Sold animal remains retrievable — expected 200
 GET {{host}}/animal/{{lifecycleAnimalId}}
@@ -66,10 +73,16 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 1,
   "effectiveDate": "2026-11-18",
   "notes": "Must not create another status event."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 8. Reject invalid status — expected 400
 POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
@@ -77,9 +90,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 99,
   "effectiveDate": "2026-11-18"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 9. Reject future date — expected 400
 POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
@@ -87,9 +106,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 0,
   "effectiveDate": "9999-12-31"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 10. Other deletion reason requires notes — expected 400
 POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
@@ -97,9 +122,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "reason": 4,
   "notes": "   "
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 11. Reject missing deletion reason — expected 400
 POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
@@ -107,18 +138,33 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "notes": "Reason was omitted."
 }
 
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
+
 ### 12. Soft-delete the SOLD record — expected 200; status stays 1
+< {%
+client.global.set("beforeDeleteAnimalRevision", client.global.get("lifecycleAnimalRevision"));
+%}
 POST {{host}}/animal/{{lifecycleAnimalId}}/deletion
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "reason": 3,
   "notes": "Disposable test record."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 13. Normal GET cannot see deleted record — expected 404
 GET {{host}}/animal/{{lifecycleAnimalId}}
@@ -130,13 +176,39 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "reason": 3,
   "notes": "Repeated request."
 }
 
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
+
 ### 15. History remains accessible while deleted — expected 200
 GET {{host}}/animal/{{lifecycleAnimalId}}/history
 Accept: application/json
+
+> {%
+client.test("Recover deleted animal revision", function () {
+    client.assert(response.status === 200 && response.body.revision, "Expected current revision.");
+    client.assert(response.body.revision !== client.global.get("beforeDeleteAnimalRevision"), "Expected deletion to change revision.");
+});
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
+
+### Stale restore is rejected — expected 409
+POST {{host}}/animal/{{lifecycleAnimalId}}/restore
+Content-Type: application/json
+
+{ "revision": "{{beforeDeleteAnimalRevision}}" }
+
+> {%
+client.test("Stale restore rejected", function () {
+    client.assert(response.status === 409, "Expected 409.");
+});
+%}
 
 ### 16. Cannot change status while deleted — expected 404
 POST {{host}}/animal/{{lifecycleAnimalId}}/status-changes
@@ -144,9 +216,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "status": 0,
   "effectiveDate": "2026-11-18"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 17. Restore — expected 200; status MUST remain Sold (1)
 POST {{host}}/animal/{{lifecycleAnimalId}}/restore
@@ -154,10 +232,12 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "notes": "Verify restoration preserves lifecycle status."
 }
 
 > {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
 client.test("Restore preserves Sold status", function () {
     client.assert(response.status === 200, "Expected 200.");
     client.assert(response.body.status === 1, "Expected Sold status.");
@@ -171,8 +251,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "notes": "Repeated restore must not create another event."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### 19. Normal GET works again — expected 200 with Sold status
 GET {{host}}/animal/{{lifecycleAnimalId}}
@@ -192,6 +278,11 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "reason": 3,
   "notes": "Lifecycle test completed."
 }
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}

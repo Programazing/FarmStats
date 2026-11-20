@@ -13,6 +13,13 @@ public sealed partial class FarmStatsDbContext
         ConfigureLookup<Breed>(modelBuilder);
         ConfigureLookup<FarmArea>(modelBuilder);
 
+        modelBuilder.Entity<Species>().HasIndex("NormalizedName")
+            .IsUnique().HasDatabaseName(LookupUniqueness.SpeciesIndex);
+        modelBuilder.Entity<Breed>().HasIndex("SpeciesId", "NormalizedName")
+            .IsUnique().HasDatabaseName(LookupUniqueness.BreedIndex);
+        modelBuilder.Entity<FarmArea>().HasIndex("NormalizedName")
+            .IsUnique().HasDatabaseName(LookupUniqueness.AreaIndex);
+
         modelBuilder.Entity<LookupHistoryEntry>(entity =>
         {
             entity.HasKey(entry => entry.Id);
@@ -33,6 +40,8 @@ public sealed partial class FarmStatsDbContext
         builder.Entity<T>().Property(entity => entity.Revision).IsConcurrencyToken();
         builder.Entity<T>().Property(entity => entity.DeletionNotes).HasMaxLength(2000);
         builder.Entity<T>().HasIndex(entity => entity.DeletedAtUtc);
+        builder.Entity<T>().Property<string>("NormalizedName")
+            .HasComputedColumnSql("upper(btrim(\"Name\"))", stored: true);
     }
 
     private void PrepareLookupLifecycleChanges()

@@ -5,6 +5,8 @@ namespace FarmStats.API.Features.Animal.Lifecycle;
 
 public sealed class AnimalLifecycleResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
 
     public AnimalStatus Status { get; init; }
@@ -25,6 +27,7 @@ public static class AnimalLifecycleSupport
     public static AnimalLifecycleResponse ToLifecycleResponse(
         this Data.Entities.Animal animal) => new()
     {
+        Revision = animal.Revision,
         Id = animal.Id,
         Status = animal.Status,
         StatusEffectiveDate = animal.StatusEffectiveDate,

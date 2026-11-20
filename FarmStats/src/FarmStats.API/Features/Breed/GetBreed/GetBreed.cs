@@ -43,6 +43,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
             .ThenBy(breed => breed.Id)
             .Select(breed => new GetBreedsResponse
             {
+                Revision = breed.Revision,
                 Id = breed.Id,
                 Name = breed.Name,
                 SpeciesId = breed.SpeciesId
@@ -61,6 +62,8 @@ public sealed class GetBreedsRequest
 
 public sealed class GetBreedsResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
     public Guid SpeciesId { get; init; }

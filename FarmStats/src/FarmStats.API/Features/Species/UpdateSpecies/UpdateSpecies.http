@@ -16,6 +16,7 @@ Accept: application/json
 }
 
 > {%
+if (response.status === 201) client.global.set("updateSpeciesRevision", response.body.revision);
 client.test("Creation returns 201", function () {
     client.assert(response.status === 201, "Expected 201; choose a new testName if duplicate.");
 });
@@ -33,8 +34,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateSpeciesRevision}}",
   "name": "{{testName}} renamed"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateSpeciesRevision", response.body.revision);
+%}
 
 ### Verify lookup in collection - expected 200
 GET {{host}}/species
@@ -46,8 +53,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateSpeciesRevision}}",
   "name": "   "
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateSpeciesRevision", response.body.revision);
+%}
 
 ### Reject overlong name - expected 400
 PUT {{host}}/species/{{updateSpeciesId}}
@@ -55,8 +68,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateSpeciesRevision}}",
   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateSpeciesRevision", response.body.revision);
+%}
 
 ### Reject nonexistent target - expected 404
 PUT {{host}}/species/{{missingId}}
@@ -64,8 +83,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateSpeciesRevision}}",
   "name": "{{testName}} renamed"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateSpeciesRevision", response.body.revision);
+%}
 
 ### Reject empty target GUID - expected 400
 PUT {{host}}/species/00000000-0000-0000-0000-000000000000
@@ -73,8 +98,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateSpeciesRevision}}",
   "name": "{{testName}} renamed"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateSpeciesRevision", response.body.revision);
+%}
 
 ### Reject malformed target GUID - expected 400
 PUT {{host}}/species/not-a-guid
@@ -82,8 +113,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateSpeciesRevision}}",
   "name": "{{testName}} renamed"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateSpeciesRevision", response.body.revision);
+%}
 
 ### Create a different record for the duplicate-name test - expected 201
 POST {{host}}/species
@@ -100,10 +137,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateSpeciesRevision}}",
   "name": "{{testName}} conflicting record"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateSpeciesRevision", response.body.revision);
+%}
 
 ### Verify final lookup collection - expected 200
 GET {{host}}/species
 Accept: application/json
-

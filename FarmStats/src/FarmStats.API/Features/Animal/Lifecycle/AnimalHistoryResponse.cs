@@ -25,6 +25,8 @@ public sealed class AnimalHistoryItem
 
 public sealed class AnimalHistoryResponse
 {
+    public Guid Revision { get; init; }
+
     public List<AnimalHistoryItem> Items { get; init; } = [];
 
     public int Page { get; init; }

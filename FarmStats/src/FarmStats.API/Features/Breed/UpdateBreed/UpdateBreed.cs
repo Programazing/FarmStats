@@ -16,6 +16,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         Summary(summary =>
         {
+            summary.Description = "Supply the revision from the latest response; stale revisions return 409.";
             summary.Summary = "Update a breed";
             summary.Response(409, "Concurrent modification; reload and retry.");
             summary.Response<UpdateBreedResponse>(200, "The saved breed.");
@@ -35,8 +36,16 @@ public sealed class Endpoint(FarmStatsDbContext db)
             return;
         }
 
+        if (entity.Revision != req.Revision)
+        {
+            await FarmStats.API.Features.LookupLifecycle.LookupLifecycleSupport.Conflict(HttpContext, "The lookup has changed. Reload and retry.");
+            return;
+        }
+
+        db.Entry(entity).Property(item => item.Revision).OriginalValue = req.Revision;
+
         var name = req.Name.Trim();
-        var normalizedName = name.ToUpperInvariant();
+        var normalizedName = await LookupUniqueness.NormalizeAsync(db, name, ct);
 
         var speciesExists = await db.Species
             .AnyAsync(species => species.Id == req.SpeciesId, ct);
@@ -49,7 +58,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         var duplicateExists = await db.Breeds.IgnoreQueryFilters()
             .AnyAsync(item => item.Id != req.Id
-                    && item.Name.Trim().ToUpper() == normalizedName
+                    && EF.Property<string>(item, "NormalizedName") == normalizedName
                     && item.SpeciesId == req.SpeciesId, ct);
 
         if (duplicateExists)
@@ -76,6 +85,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
         entity.Name = name;
         entity.SpeciesId = req.SpeciesId;
 
+        db.Entry(entity).Property(item => item.Revision).IsModified = true;
+
         try
         {
             await db.SaveChangesAsync(ct);
@@ -89,6 +100,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         await Send.ResponseAsync(new UpdateBreedResponse
         {
+            Revision = entity.Revision,
             Id = entity.Id,
             Name = entity.Name,
             SpeciesId = entity.SpeciesId
@@ -98,6 +110,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class UpdateBreedRequest
 {
+    public Guid Revision { get; set; }
+
     [RouteParam]
     public Guid Id { get; set; }
 
@@ -108,6 +122,8 @@ public sealed class UpdateBreedRequest
 
 public sealed class UpdateBreedResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
     public Guid SpeciesId { get; init; }
@@ -117,6 +133,8 @@ public sealed class UpdateBreedValidator : Validator<UpdateBreedRequest>
 {
     public UpdateBreedValidator()
     {
+        RuleFor(req => req.Revision).NotEmpty().WithMessage("A non-empty revision is required.");
+
         RuleFor(req => req.Id)
             .NotEmpty()
             .WithMessage("Breed ID must not be an empty GUID.");

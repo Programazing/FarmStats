@@ -17,6 +17,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         AllowAnonymous(); // Development only: add authorization and farm scope.
         Summary(summary =>
         {
+            summary.Description = "Supply the revision from the latest response; stale revisions return 409.";
             summary.Summary = "Soft-delete a area";
             summary.Response<LookupLifecycleResponse>(200, "The resulting lookup state.");
             summary.Response(400, "Invalid ID, reason, or notes.");
@@ -35,6 +36,14 @@ public sealed class Endpoint(FarmStatsDbContext db)
             await Send.NotFoundAsync();
             return;
         }
+
+        if (entity.Revision != req.Revision)
+        {
+            await FarmStats.API.Features.LookupLifecycle.LookupLifecycleSupport.Conflict(HttpContext, "The lookup has changed. Reload and retry.");
+            return;
+        }
+
+        db.Entry(entity).Property(item => item.Revision).OriginalValue = req.Revision;
 
         if (await LookupLifecycleSupport.HasReferences(db, LookupKind.Area, entity.Id, ct))
         {
@@ -69,6 +78,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class DeleteAreaRequest
 {
+    public Guid Revision { get; set; }
+
     [RouteParam]
     public Guid Id { get; set; }
     public LookupDeletionReason Reason { get; set; } = (LookupDeletionReason)(-1);
@@ -79,6 +90,8 @@ public sealed class Validator : Validator<DeleteAreaRequest>
 {
     public Validator()
     {
+        RuleFor(req => req.Revision).NotEmpty().WithMessage("A non-empty revision is required.");
+
         RuleFor(req => req.Id).NotEmpty();
         RuleFor(req => req.Notes).MaximumLength(2000);
         RuleFor(req => req.Reason).IsInEnum()

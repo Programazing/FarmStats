@@ -27,10 +27,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
     public override async Task HandleAsync(AddSpeciesRequest req, CancellationToken ct)
     {
         var name = req.Name.Trim();
-        var normalizedName = name.ToUpperInvariant();
+        var normalizedName = await LookupUniqueness.NormalizeAsync(db, name, ct);
 
         var duplicateExists = await db.Species.IgnoreQueryFilters()
-            .AnyAsync(item => item.Name.Trim().ToUpper() == normalizedName, ct);
+            .AnyAsync(item => EF.Property<string>(item, "NormalizedName") == normalizedName, ct);
 
         if (duplicateExists)
         {
@@ -51,6 +51,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         await Send.ResponseAsync(new AddSpeciesResponse
         {
+            Revision = entity.Revision,
             Id = entity.Id,
             Name = entity.Name
         }, 201, ct);
@@ -64,6 +65,8 @@ public sealed class AddSpeciesRequest
 
 public sealed class AddSpeciesResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
 }

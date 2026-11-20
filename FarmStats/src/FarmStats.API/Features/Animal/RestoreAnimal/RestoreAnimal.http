@@ -11,8 +11,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "notes": "Restore without changing lifecycle status."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### Invalid route GUID — expected 400
 POST {{host}}/animal/not-a-guid/restore
@@ -20,8 +26,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "notes": "Restore without changing lifecycle status."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### Empty route GUID — expected 400
 POST {{host}}/animal/00000000-0000-0000-0000-000000000000/restore
@@ -29,8 +41,14 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "notes": "Restore without changing lifecycle status."
 }
+
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}
 
 ### Absent record — expected 404 if this ID is unused
 POST {{host}}/animal/ffffffff-ffff-4fff-8fff-ffffffffffff/restore
@@ -38,5 +56,10 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{lifecycleAnimalRevision}}",
   "notes": "Restore without changing lifecycle status."
 }
+
+> {%
+if (response.status === 200) client.global.set("lifecycleAnimalRevision", response.body.revision);
+%}

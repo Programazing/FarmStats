@@ -5,4 +5,7 @@
   <Folder Name="/src/">
     <Project Path="src/FarmStats.API/FarmStats.API.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FarmStats.API.IntegrationTests/FarmStats.API.IntegrationTests.csproj" />
+  </Folder>
 </Solution>

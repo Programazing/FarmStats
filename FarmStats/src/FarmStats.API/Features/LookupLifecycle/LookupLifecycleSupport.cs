@@ -6,6 +6,8 @@ namespace FarmStats.API.Features.LookupLifecycle;
 
 public sealed class LookupLifecycleResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
     public DateTimeOffset? DeletedAtUtc { get; init; }
@@ -20,6 +22,7 @@ public static class LookupLifecycleSupport
 
     public static LookupLifecycleResponse ToResponse(ISoftDeletableLookup lookup) => new()
     {
+        Revision = lookup.Revision,
         Id = lookup.Id,
         Name = lookup.Name,
         DeletedAtUtc = lookup.DeletedAtUtc,

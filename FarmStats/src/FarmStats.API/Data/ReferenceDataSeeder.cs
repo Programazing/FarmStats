@@ -66,6 +66,7 @@ public static class ReferenceDataSeeder
         foreach (var seed in ReadCatalog<NamedSeed>("species.json"))
         {
             var match = FindMatch(
+                db,
                 existingSpecies,
                 seed.Id,
                 seed.Name,
@@ -149,6 +150,7 @@ public static class ReferenceDataSeeder
                         entity.SpeciesId == actualSpeciesId);
 
                 var match = FindMatch(
+                    db,
                     speciesBreeds,
                     seed.Id,
                     seed.Name,
@@ -182,6 +184,7 @@ public static class ReferenceDataSeeder
                      "development-areas.json"))
         {
             var match = FindMatch(
+                db,
                 existingAreas,
                 seed.Id,
                 seed.Name,
@@ -206,6 +209,7 @@ public static class ReferenceDataSeeder
     }
 
     private static T? FindMatch<T>(
+        FarmStatsDbContext db,
         IEnumerable<T> existing,
         Guid seedId,
         string seedName,
@@ -214,16 +218,19 @@ public static class ReferenceDataSeeder
         Func<T, string> getName)
         where T : class
     {
-        var acceptedNames = aliases
-            .Append(seedName)
-            .Select(Normalize)
-            .ToHashSet(StringComparer.Ordinal);
+        var entities = existing.ToList();
+        var names = entities.Select(getName).ToArray();
+        var acceptedNames = aliases.Append(seedName).ToArray();
+        var matchingIndexes = db.Database.SqlQuery<int>($"""
+            SELECT (candidate.ordinality - 1)::integer AS "Value"
+            FROM unnest({names}::text[]) WITH ORDINALITY AS candidate(name, ordinality)
+            WHERE EXISTS (
+                SELECT 1 FROM unnest({acceptedNames}::text[]) AS accepted(name)
+                WHERE upper(btrim(candidate.name)) = upper(btrim(accepted.name)))
+            """).ToHashSet();
 
-        var matches = existing
-            .Where(entity =>
-                getId(entity) == seedId
-                || acceptedNames.Contains(
-                    Normalize(getName(entity))))
+        var matches = entities
+            .Where((entity, index) => getId(entity) == seedId || matchingIndexes.Contains(index))
             .ToList();
 
         if (matches.Count > 1)
@@ -237,7 +244,7 @@ public static class ReferenceDataSeeder
 
         if (match is not null
             && getId(match) == seedId
-            && !acceptedNames.Contains(Normalize(getName(match))))
+            && !matchingIndexes.Contains(entities.IndexOf(match)))
         {
             throw new InvalidOperationException(
                 $"Catalog ID '{seedId}' for '{seedName}' "
@@ -264,10 +271,6 @@ public static class ReferenceDataSeeder
                    $"Catalog '{filename}' contains no JSON array.");
     }
 
-    private static string Normalize(string value)
-    {
-        return value.Trim().ToUpperInvariant();
-    }
 
     public sealed class NamedSeed
     {

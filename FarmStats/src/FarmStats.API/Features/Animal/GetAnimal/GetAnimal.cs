@@ -42,6 +42,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
             .Where(a => a.Id == req.Id)
             .Select(a => new GetAnimalResponse
             {
+                Revision = a.Revision,
                 Id = a.Id,
                 Name = a.Name,
                 SpeciesId = a.SpeciesId,
@@ -75,6 +76,8 @@ public sealed class GetAnimalRequest
 
 public sealed class GetAnimalResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
 
     public string Name { get; init; } = string.Empty;

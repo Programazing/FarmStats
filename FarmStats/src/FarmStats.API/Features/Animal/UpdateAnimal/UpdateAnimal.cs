@@ -25,6 +25,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 "Concurrent modification; reload and retry.");
 
             summary.Description =
+                "Supply the revision from the latest response; stale revisions return 409. " +
                 "Replaces the editable animal fields. Omitted or null "
                 + "optional fields are cleared. Does not create missing animals.";
 
@@ -58,6 +59,14 @@ public sealed class Endpoint(FarmStatsDbContext db)
             await Send.NotFoundAsync();
             return;
         }
+
+        if (animal.Revision != req.Revision)
+        {
+            await FarmStats.API.Features.Animal.Lifecycle.AnimalLifecycleSupport.WriteConcurrencyProblem(HttpContext);
+            return;
+        }
+
+        db.Entry(animal).Property(item => item.Revision).OriginalValue = req.Revision;
 
         var speciesExists = await db.Species
             .AnyAsync(
@@ -117,6 +126,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
         animal.Birthdate = req.Birthdate;
         animal.AreaId = req.AreaId;
 
+        db.Entry(animal).Property(item => item.Revision).IsModified = true;
+
         try
         {
             await db.SaveChangesAsync(ct);
@@ -131,6 +142,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         await Send.ResponseAsync(new UpdateAnimalResponse
         {
+            Revision = animal.Revision,
             Id = animal.Id,
             Name = animal.Name,
             SpeciesId = animal.SpeciesId,
@@ -157,6 +169,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class UpdateAnimalRequest
 {
+    public Guid Revision { get; set; }
+
     [RouteParam]
     public Guid Id { get; set; }
 
@@ -183,6 +197,8 @@ public sealed class UpdateAnimalRequest
 
 public sealed class UpdateAnimalResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
 
     public string Name { get; init; } = string.Empty;
@@ -214,6 +230,8 @@ public sealed class Validator : Validator<UpdateAnimalRequest>
 {
     public Validator()
     {
+        RuleFor(req => req.Revision).NotEmpty().WithMessage("A non-empty revision is required.");
+
         RuleFor(req => req.Id)
             .NotEmpty()
             .WithMessage("Animal ID must not be an empty GUID.");

@@ -17,7 +17,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         Summary(summary =>
         {
             summary.Summary = "Get area deletion and restoration history";
-            summary.Response<HistoryResponse>(200, "A page of audit entries.");
+            summary.Response<HistoryResponse>(200, "A page of audit entries and the current entity revision, including for deleted lookups. The revision can become stale after this read.");
             summary.Response(400, "Invalid ID or pagination.");
             summary.Response(404, "Lookup not found.");
         });
@@ -26,7 +26,9 @@ public sealed class Endpoint(FarmStatsDbContext db)
     public override async Task HandleAsync(HistoryRequest req, CancellationToken ct)
     {
         // Retain farm scope here when tenant filters are introduced.
-        if (!await db.Areas.IgnoreQueryFilters().AnyAsync(e => e.Id == req.Id, ct))
+        var revision = await db.Areas.IgnoreQueryFilters().Where(e => e.Id == req.Id)
+            .Select(e => (Guid?)e.Revision).FirstOrDefaultAsync(ct);
+        if (revision is null)
         {
             await Send.NotFoundAsync();
             return;
@@ -40,7 +42,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
             .Skip(skip).Take(req.PageSize).ToListAsync(ct);
         await Send.ResponseAsync(new HistoryResponse
         {
-            Items = items, Page = req.Page, PageSize = req.PageSize, TotalCount = count
+            Revision = revision.Value, Items = items, Page = req.Page, PageSize = req.PageSize, TotalCount = count
         }, 200, ct);
     }
 }
@@ -55,6 +57,7 @@ public sealed class HistoryRequest
 
 public sealed class HistoryResponse
 {
+    public Guid Revision { get; init; }
     public List<LookupHistoryEntry> Items { get; init; } = [];
     public int Page { get; init; }
     public int PageSize { get; init; }

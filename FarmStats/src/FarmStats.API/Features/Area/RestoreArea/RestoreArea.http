@@ -8,25 +8,52 @@ POST {{host}}/area/{{lookupAreaId}}/restore
 Content-Type: application/json
 Accept: application/json
 
-{}
+{
+  "revision": "{{lookupAreaRevision}}"
+}
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Malformed GUID - expected 400
 POST {{host}}/area/not-a-guid/restore
 Content-Type: application/json
 Accept: application/json
 
-{}
+{
+  "revision": "{{lookupAreaRevision}}"
+}
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Empty GUID - expected 400
 POST {{host}}/area/00000000-0000-0000-0000-000000000000/restore
 Content-Type: application/json
 Accept: application/json
 
-{}
+{
+  "revision": "{{lookupAreaRevision}}"
+}
+
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}
 
 ### Missing target - expected 404 if this ID is absent
 POST {{host}}/area/ffffffff-ffff-4fff-8fff-ffffffffffff/restore
 Content-Type: application/json
 Accept: application/json
 
-{}
+{
+  "revision": "{{lookupAreaRevision}}"
+}
+
+> {%
+if (response.status === 200) client.global.set("lookupAreaRevision", response.body.revision);
+%}

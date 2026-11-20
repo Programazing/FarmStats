@@ -17,7 +17,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         Summary(summary =>
         {
             summary.Summary = "Get animal status changes";
-            summary.Response<AnimalHistoryResponse>(200, "A page of history.");
+            summary.Response<AnimalHistoryResponse>(200, "A page of history and the current entity revision, including for deleted animals. The revision can become stale after this read.");
             summary.Response(400, "Invalid ID or pagination.");
             summary.Response(404, "Animal not found.");
         });
@@ -29,10 +29,12 @@ public sealed class Endpoint(FarmStatsDbContext db)
     {
         // Include deleted animals so their audit trail remains accessible.
         // This is NOT a tenant-safe query once farm filters are introduced.
-        var exists = await db.Animals.IgnoreQueryFilters()
-            .AnyAsync(animal => animal.Id == req.Id, ct);
+        var revision = await db.Animals.IgnoreQueryFilters()
+            .Where(animal => animal.Id == req.Id)
+            .Select(animal => (Guid?)animal.Revision)
+            .FirstOrDefaultAsync(ct);
 
-        if (!exists)
+        if (revision is null)
         {
             await Send.NotFoundAsync();
             return;
@@ -67,6 +69,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         await Send.ResponseAsync(new AnimalHistoryResponse
         {
+            Revision = revision.Value,
             Items = items,
             Page = req.Page,
             PageSize = req.PageSize,

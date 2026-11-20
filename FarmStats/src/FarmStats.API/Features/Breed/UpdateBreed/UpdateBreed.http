@@ -18,6 +18,7 @@ Accept: application/json
 }
 
 > {%
+if (response.status === 201) client.global.set("updateBreedRevision", response.body.revision);
 client.test("Creation returns 201", function () {
     client.assert(response.status === 201, "Expected 201; choose a new testName if duplicate.");
 });
@@ -35,9 +36,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "{{testName}} renamed",
   "speciesId": "{{cattleId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Verify lookup in collection - expected 200
 GET {{host}}/species/{{cattleId}}/breed
@@ -49,9 +56,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "   ",
   "speciesId": "{{cattleId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Reject overlong name - expected 400
 PUT {{host}}/breed/{{updateBreedId}}
@@ -59,9 +72,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "speciesId": "{{cattleId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Reject nonexistent target - expected 404
 PUT {{host}}/breed/{{missingId}}
@@ -69,9 +88,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "{{testName}} renamed",
   "speciesId": "{{cattleId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Reject empty target GUID - expected 400
 PUT {{host}}/breed/00000000-0000-0000-0000-000000000000
@@ -79,9 +104,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "{{testName}} renamed",
   "speciesId": "{{cattleId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Reject malformed target GUID - expected 400
 PUT {{host}}/breed/not-a-guid
@@ -89,9 +120,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "{{testName}} renamed",
   "speciesId": "{{cattleId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Create a different record for the duplicate-name test - expected 201
 POST {{host}}/breed
@@ -109,9 +146,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "{{testName}} conflicting record",
   "speciesId": "{{cattleId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Reject nonexistent species - expected 400
 PUT {{host}}/breed/{{updateBreedId}}
@@ -119,9 +162,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "{{testName}} renamed",
   "speciesId": "{{missingId}}"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Reject empty species GUID - expected 400
 PUT {{host}}/breed/{{updateBreedId}}
@@ -129,20 +178,41 @@ Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{updateBreedRevision}}",
   "name": "{{testName}} renamed",
   "speciesId": "00000000-0000-0000-0000-000000000000"
 }
 
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
+
 ### Reject moving Bessie's Holstein to Sheep - expected 400
 # Requires Bessie to still reference Holstein. Sheep must exist to isolate the in-use check. No change is saved if validation fails.
+GET {{host}}/species/{{cattleId}}/breed
+Accept: application/json
+
+> {%
+const holstein = response.body.find(item => item.id === "33333333-3333-4333-8333-333333333333");
+if (holstein) client.global.set("holsteinRevision", holstein.revision);
+%}
+
+### Attempt to move Holstein
 PUT {{host}}/breed/33333333-3333-4333-8333-333333333333
 Content-Type: application/json
 Accept: application/json
 
 {
+  "revision": "{{holsteinRevision}}",
   "name": "Holstein",
   "speciesId": "22222222-2222-4222-8222-222222222222"
 }
+
+
+> {%
+if (response.status === 200) client.global.set("updateBreedRevision", response.body.revision);
+%}
 
 ### Verify Bessie remains unchanged - expected 200
 GET {{host}}/animal/1748e896-2a19-42e9-b6a7-a37d42bdaeb7

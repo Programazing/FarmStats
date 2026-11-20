@@ -18,6 +18,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         Summary(summary =>
         {
+            summary.Description = "Supply the revision from the latest response; stale revisions return 409.";
             summary.Summary = "Update a species";
             summary.Response(409, "Concurrent modification; reload and retry.");
             summary.Response<UpdateSpeciesResponse>(200, "The saved species.");
@@ -37,12 +38,20 @@ public sealed class Endpoint(FarmStatsDbContext db)
             return;
         }
 
+        if (entity.Revision != req.Revision)
+        {
+            await FarmStats.API.Features.LookupLifecycle.LookupLifecycleSupport.Conflict(HttpContext, "The lookup has changed. Reload and retry.");
+            return;
+        }
+
+        db.Entry(entity).Property(item => item.Revision).OriginalValue = req.Revision;
+
         var name = req.Name.Trim();
-        var normalizedName = name.ToUpperInvariant();
+        var normalizedName = await LookupUniqueness.NormalizeAsync(db, name, ct);
 
         var duplicateExists = await db.Species.IgnoreQueryFilters()
             .AnyAsync(item => item.Id != req.Id
-                    && item.Name.Trim().ToUpper() == normalizedName, ct);
+                    && EF.Property<string>(item, "NormalizedName") == normalizedName, ct);
 
         if (duplicateExists)
         {
@@ -53,6 +62,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
         ThrowIfAnyErrors();
 
         entity.Name = name;
+
+        db.Entry(entity).Property(item => item.Revision).IsModified = true;
 
         try
         {
@@ -67,6 +78,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
         await Send.ResponseAsync(new UpdateSpeciesResponse
         {
+            Revision = entity.Revision,
             Id = entity.Id,
             Name = entity.Name
         }, 200, ct);
@@ -75,6 +87,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class UpdateSpeciesRequest
 {
+    public Guid Revision { get; set; }
+
     [RouteParam]
     public Guid Id { get; set; }
 
@@ -83,6 +97,8 @@ public sealed class UpdateSpeciesRequest
 
 public sealed class UpdateSpeciesResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
 }
@@ -91,6 +107,8 @@ public sealed class UpdateSpeciesValidator : Validator<UpdateSpeciesRequest>
 {
     public UpdateSpeciesValidator()
     {
+        RuleFor(req => req.Revision).NotEmpty().WithMessage("A non-empty revision is required.");
+
         RuleFor(req => req.Id)
             .NotEmpty()
             .WithMessage("Species ID must not be an empty GUID.");

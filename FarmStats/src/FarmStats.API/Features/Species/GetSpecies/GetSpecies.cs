@@ -31,6 +31,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
             .ThenBy(species => species.Id)
             .Select(species => new GetSpeciesResponse
             {
+                Revision = species.Revision,
                 Id = species.Id,
                 Name = species.Name
             })
@@ -42,6 +43,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class GetSpeciesResponse
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
     public string Name { get; init; } = string.Empty;
 }

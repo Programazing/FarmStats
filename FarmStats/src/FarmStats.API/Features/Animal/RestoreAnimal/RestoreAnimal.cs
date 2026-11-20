@@ -18,6 +18,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         {
             summary.Summary = "Restore a deleted animal record";
             summary.Description =
+                "Supply the revision from the latest response; stale revisions return 409. " +
                 "Restores visibility without changing lifecycle status. "
                 + "Deletion details remain in history.";
             summary.Response<AnimalLifecycleResponse>(200, "The restored lifecycle state.");
@@ -43,6 +44,14 @@ public sealed class Endpoint(FarmStatsDbContext db)
             await Send.NotFoundAsync();
             return;
         }
+
+        if (animal.Revision != req.Revision)
+        {
+            await FarmStats.API.Features.Animal.Lifecycle.AnimalLifecycleSupport.WriteConcurrencyProblem(HttpContext);
+            return;
+        }
+
+        db.Entry(animal).Property(item => item.Revision).OriginalValue = req.Revision;
 
         if (animal.DeletedAtUtc is null)
         {
@@ -84,6 +93,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class RestoreAnimalRequest
 {
+    public Guid Revision { get; set; }
+
     [RouteParam]
     public Guid Id { get; set; }
 
@@ -94,6 +105,8 @@ public sealed class Validator : Validator<RestoreAnimalRequest>
 {
     public Validator()
     {
+        RuleFor(req => req.Revision).NotEmpty().WithMessage("A non-empty revision is required.");
+
         RuleFor(req => req.Id).NotEmpty();
         RuleFor(req => req.Notes).MaximumLength(2000);
     }

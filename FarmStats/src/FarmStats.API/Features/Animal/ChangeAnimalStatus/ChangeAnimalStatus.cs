@@ -18,6 +18,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         {
             summary.Summary = "Change animal lifecycle status";
             summary.Description =
+                "Supply the revision from the latest response; stale revisions return 409. " +
                 "Applies to the entire animal record, including its full quantity. "
                 + "Adds a history entry and saves the new current status atomically.";
             summary.Response<AnimalLifecycleResponse>(200, "The updated lifecycle state.");
@@ -39,6 +40,14 @@ public sealed class Endpoint(FarmStatsDbContext db)
             await Send.NotFoundAsync();
             return;
         }
+
+        if (animal.Revision != req.Revision)
+        {
+            await FarmStats.API.Features.Animal.Lifecycle.AnimalLifecycleSupport.WriteConcurrencyProblem(HttpContext);
+            return;
+        }
+
+        db.Entry(animal).Property(item => item.Revision).OriginalValue = req.Revision;
 
         if (animal.Status == req.Status)
         {
@@ -96,6 +105,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
 public sealed class ChangeAnimalStatusRequest
 {
+    public Guid Revision { get; set; }
+
     [RouteParam]
     public Guid Id { get; set; }
 
@@ -110,6 +121,8 @@ public sealed class Validator : Validator<ChangeAnimalStatusRequest>
 {
     public Validator()
     {
+        RuleFor(req => req.Revision).NotEmpty().WithMessage("A non-empty revision is required.");
+
         RuleFor(req => req.Id).NotEmpty();
 
         RuleFor(req => req.Status)

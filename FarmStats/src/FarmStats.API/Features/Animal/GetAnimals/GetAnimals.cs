@@ -63,6 +63,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
             .Take(req.PageSize)
             .Select(a => new AnimalListItem
             {
+                Revision = a.Revision,
                 Id = a.Id,
                 Name = a.Name,
                 SpeciesId = a.SpeciesId,
@@ -123,6 +124,8 @@ public sealed class GetAnimalsResponse
 
 public sealed class AnimalListItem
 {
+    public Guid Revision { get; init; }
+
     public Guid Id { get; init; }
 
     public string Name { get; init; } = string.Empty;
