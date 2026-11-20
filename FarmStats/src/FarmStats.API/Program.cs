@@ -1,45 +1,80 @@
-using FastEndpoints;
+global using FastEndpoints;
+global using FluentValidation;
+
+using FarmStats.API.Data;
+using FarmStats.API.Data.Seeding;
+using FastEndpoints.Swagger;
+using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-builder.Services.AddFastEndpoints();
+builder.Services
+    .AddFastEndpoints()
+    .SwaggerDocument(options =>
+    {
+        options.AutoTagPathSegmentIndex = 0;
+    });
+
+var connectionString =
+    builder.Configuration.GetConnectionString("FarmStats")
+    ?? throw new InvalidOperationException(
+        "Connection string 'FarmStats' is not configured.");
+
+var includeDevelopmentAreas =
+    builder.Environment.IsDevelopment();
+
+builder.Services.AddDbContext<FarmStatsDbContext>(options =>
+{
+    options.UseNpgsql(connectionString);
+
+    options.UseSeeding((context, _) =>
+    {
+        ReferenceDataSeeder.Seed(
+            (FarmStatsDbContext)context,
+            includeDevelopmentAreas);
+    });
+
+    options.UseAsyncSeeding(async (context, _, ct) =>
+    {
+        await ReferenceDataSeeder.SeedAsync(
+            (FarmStatsDbContext)context,
+            includeDevelopmentAreas,
+            ct);
+    });
+});
 
 var app = builder.Build();
-app.UseFastEndpoints();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
+app.Use(async (context, next) =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    try
+    {
+        await next(context);
+    }
+    catch (DbUpdateException exception) when (LookupUniqueness.IsConflict(exception))
+    {
+        await Results.Problem(statusCode: 409, title: "Lookup operation conflict",
+            detail: "A lookup with this name already exists, including deleted records.")
+            .ExecuteAsync(context);
+    }
+});
 
-app.MapGet("/weatherforecast", () =>
+app.UseFastEndpoints(config =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+    config.Errors.UseProblemDetails();
+});
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseOpenApi(options =>
+    {
+        options.Path = "/openapi/{documentName}.json";
+    });
+
+    app.MapScalarApiReference();
+}
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

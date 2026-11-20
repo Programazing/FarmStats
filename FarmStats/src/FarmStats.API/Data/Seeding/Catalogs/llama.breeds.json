@@ -1,0 +1,42 @@
+[
+  {
+    "id": "6c477593-9f1f-56cc-89aa-60386cacecb5",
+    "speciesId": "0373b2e1-7bbc-5260-a72d-3a9d5f06d900",
+    "name": "Classic",
+    "kind": "fiber-type",
+    "aliases": [],
+    "sourceIds": [
+      "ncat"
+    ]
+  },
+  {
+    "id": "0bc9b931-6382-5024-b12c-273233fca4bf",
+    "speciesId": "0373b2e1-7bbc-5260-a72d-3a9d5f06d900",
+    "name": "Silky",
+    "kind": "fiber-type",
+    "aliases": [],
+    "sourceIds": [
+      "ncat"
+    ]
+  },
+  {
+    "id": "1f317a83-4621-507a-a27a-521d907368a5",
+    "speciesId": "0373b2e1-7bbc-5260-a72d-3a9d5f06d900",
+    "name": "Suri",
+    "kind": "fiber-type",
+    "aliases": [],
+    "sourceIds": [
+      "ncat"
+    ]
+  },
+  {
+    "id": "bb72395d-ebef-54fa-a361-447621dd5d71",
+    "speciesId": "0373b2e1-7bbc-5260-a72d-3a9d5f06d900",
+    "name": "Wooly",
+    "kind": "fiber-type",
+    "aliases": [],
+    "sourceIds": [
+      "ncat"
+    ]
+  }
+]

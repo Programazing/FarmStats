@@ -1,0 +1,505 @@
+[
+  {
+    "speciesId": "5932be38-4c0a-5393-a3a7-a4a3b6f9f359",
+    "name": "Alpaca",
+    "seededBreedCount": 2,
+    "status": "seeded-curated",
+    "notes": "Both alpaca breeds described by Rutgers Cooperative Extension.",
+    "sourceIds": [
+      "rutgers"
+    ]
+  },
+  {
+    "speciesId": "00a9c5e8-5586-5290-838d-690655f67782",
+    "name": "Budgie",
+    "seededBreedCount": 0,
+    "status": "types-and-mutations-not-imported",
+    "notes": "Show/exhibition versus pet-type birds and color mutations are discussed in the source. They are not seeded as standardized breeds. Parakeet overlaps with this category.",
+    "sourceIds": [
+      "budgerigar"
+    ]
+  },
+  {
+    "speciesId": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Canary",
+    "seededBreedCount": 42,
+    "status": "seeded-curated",
+    "notes": "Named song, type and posture breeds from the retrieved canary reference. Individual color mutations are excluded. Not an exhaustive current COM registry.",
+    "sourceIds": [
+      "wiki-canary"
+    ]
+  },
+  {
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Cat",
+    "seededBreedCount": 92,
+    "status": "seeded-curated",
+    "notes": "Multi-registry selection including developing breeds and landraces. Not a CFA-only recognition list; classification and recognition vary. Explicitly extinct entries and coat-length-only household types are excluded.",
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Cattle",
+    "seededBreedCount": 361,
+    "status": "seeded-curated",
+    "notes": "Curated source-backed selection; not a complete worldwide inventory.",
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "speciesId": "de8ec559-2a86-59e6-be90-929021b6ff04",
+    "name": "Chicken",
+    "seededBreedCount": 230,
+    "status": "seeded-curated",
+    "notes": "Curated source-backed selection; not a complete worldwide inventory.",
+    "sourceIds": [
+      "wiki-chicken"
+    ]
+  },
+  {
+    "speciesId": "ad9e9f1c-8147-5ce1-9a0d-59ac1e5ce6c5",
+    "name": "Cockatiel",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "1693d44b-ccc8-5ea9-8ee0-883dcb56bfdf",
+    "name": "Cockatoo",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "0d397db2-519f-55b0-b0b2-c7709dbe774a",
+    "name": "Conure",
+    "seededBreedCount": 0,
+    "status": "taxon-group-not-imported",
+    "notes": "Conure is a loosely defined group across several genera, not one species. A species/subtype layer is needed before assigning true breed lists. No species names or mutations imported as breeds.",
+    "sourceIds": [
+      "conure"
+    ]
+  },
+  {
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dog",
+    "seededBreedCount": 375,
+    "status": "seeded-curated",
+    "notes": "Curated multi-source breed/landrace selection, not a claim of full AKC, FCI, or Kennel Club recognition. Normalized selected names; no designer-crossbreed catalog.",
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "speciesId": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Donkey",
+    "seededBreedCount": 105,
+    "status": "seeded-curated",
+    "notes": "Curated source-backed selection; not a complete worldwide inventory.",
+    "sourceIds": [
+      "wiki-donkey"
+    ]
+  },
+  {
+    "speciesId": "1a09f392-4c87-5819-adbe-5cdbbc32b484",
+    "name": "Dove",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Duck",
+    "seededBreedCount": 59,
+    "status": "seeded-curated",
+    "notes": "Partial list from extracted breed index. Muscovy and Mulard remain separate categories to match the application UI; color varieties are not imported as breeds.",
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "speciesId": "7e40ab3f-13c4-543c-a3d8-3c8041ba3789",
+    "name": "Emu",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Ratite source distinguishes species/subspecies; those are not automatically domestic breeds.",
+    "sourceIds": [
+      "merck-ratites"
+    ]
+  },
+  {
+    "speciesId": "6d51eacd-1466-55a4-97e8-2089f7960a61",
+    "name": "Finch",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Goat",
+    "seededBreedCount": 163,
+    "status": "seeded-curated",
+    "notes": "Curated source-backed selection; not a complete worldwide inventory.",
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "speciesId": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Goose",
+    "seededBreedCount": 99,
+    "status": "seeded-curated",
+    "notes": "Curated source-backed selection; not a complete worldwide inventory.",
+    "sourceIds": [
+      "wiki-goose"
+    ]
+  },
+  {
+    "speciesId": "bc16b8a3-9f42-5ad6-bc3c-328ae074c98d",
+    "name": "Guinea Fowl",
+    "seededBreedCount": 0,
+    "status": "varieties-not-imported",
+    "notes": "Pearl, Lavender, White and Royal Purple are described as varieties; no color varieties imported as breed rows.",
+    "sourceIds": [
+      "guinea-varieties"
+    ]
+  },
+  {
+    "speciesId": "4913b610-b5e2-552f-bacf-4ec02ed7eb37",
+    "name": "Hinny",
+    "seededBreedCount": 0,
+    "status": "hybrid-no-breed-rows",
+    "notes": "Equine hybrid category. Do not copy horse or donkey breeds underneath it; parentage needs separate modeling. No breed rows supplied.",
+    "sourceIds": [
+      "hybrid-equines"
+    ]
+  },
+  {
+    "speciesId": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Horse",
+    "seededBreedCount": 239,
+    "status": "seeded-curated",
+    "notes": "Curated horse and pony selection, including verified OSU additions. Not exhaustive: the main index extraction omitted most horse sections A–K; only separately supported additions from those sections are included.",
+    "sourceIds": [
+      "wiki-horse",
+      "osu-quarter",
+      "osu-andalusian",
+      "osu-friesian",
+      "osu-haflinger",
+      "osu-clydesdale",
+      "osu-arabian",
+      "osu-appaloosa",
+      "osu-hanoverian",
+      "osu-morgan",
+      "osu-pinto"
+    ]
+  },
+  {
+    "speciesId": "0373b2e1-7bbc-5260-a72d-3a9d5f06d900",
+    "name": "Llama",
+    "seededBreedCount": 4,
+    "status": "seeded-curated",
+    "notes": "Fiber types, not asserted to be internationally standardized breeds. Included for practical compatibility with the current Breed dropdown; kind metadata preserves the distinction.",
+    "sourceIds": [
+      "ncat"
+    ]
+  },
+  {
+    "speciesId": "31293cc0-9c7f-5d39-87ae-5ce9e83626e7",
+    "name": "Lovebird",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "d5e72a20-8ce3-50fc-a7f8-c39ac5854ac9",
+    "name": "Macaw, Blue and Gold",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "79b7e5dc-264b-5185-a16f-ab7b0bfd7a4d",
+    "name": "Macaw, Hyacinth",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "420e5e60-2c8a-5df6-a027-0aa6bbdeb1b0",
+    "name": "Macaw, Red and Green",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "acb01d3b-e4e1-5cc6-a565-997a6c6183ab",
+    "name": "Macaw, Scarlet",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "1680dc30-43f2-5f6e-a225-8790fb040934",
+    "name": "Mulard",
+    "seededBreedCount": 0,
+    "status": "hybrid-no-breed-rows",
+    "notes": "Muscovy/common-duck hybrid category. No fabricated breed rows.",
+    "sourceIds": [
+      "hybrid-ducks"
+    ]
+  },
+  {
+    "speciesId": "1d719414-32a8-5085-90e3-d0759dad3374",
+    "name": "Mule",
+    "seededBreedCount": 0,
+    "status": "hybrid-no-breed-rows",
+    "notes": "Equine hybrid category. Do not copy horse or donkey breeds underneath it; parentage needs separate modeling. No breed rows supplied.",
+    "sourceIds": [
+      "hybrid-equines"
+    ]
+  },
+  {
+    "speciesId": "a0c3a87f-a21d-543b-bbe3-00cd30390398",
+    "name": "Muscovy",
+    "seededBreedCount": 0,
+    "status": "varieties-not-imported",
+    "notes": "Kept separate from Duck to match the UI. Domestic forms/colors are not imported as separate breeds.",
+    "sourceIds": [
+      "muscovy",
+      "wiki-duck"
+    ]
+  },
+  {
+    "speciesId": "ee68f014-423d-5745-ac21-1773b07aeff7",
+    "name": "Ostrich",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Ratite source distinguishes species/subspecies; those are not automatically domestic breeds.",
+    "sourceIds": [
+      "merck-ratites"
+    ]
+  },
+  {
+    "speciesId": "0bb900a8-6e9c-53d4-88a6-7b618182ad5a",
+    "name": "Parakeet",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Broad group names can cover species, while named macaw entries identify species. Do not use species names or color mutations as breed rows without a separate classification decision.",
+    "sourceIds": [
+      "merck-birds"
+    ]
+  },
+  {
+    "speciesId": "720f0942-e424-5b8f-860b-de1f7f59e55d",
+    "name": "Peafowl, India Blue",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "cc372142-478c-5deb-bc09-2fcd4e71146b",
+    "name": "Pheasant, Golden",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "771c8ee2-a220-5b1d-86ed-0cd59a0a2899",
+    "name": "Pheasant, Lady Amherst",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "126fe129-53ba-5d6e-9eb9-73693f2018d4",
+    "name": "Pheasant, Reeves",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "a5ff9300-04df-5c2f-89c2-4f174f64e680",
+    "name": "Pheasant, Ringneck",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "e1c141ad-c6ca-5420-8b61-0a483f208f71",
+    "name": "Pheasant, Silver",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "23932298-60c6-55c9-b5d8-d05f05e569a3",
+    "name": "Pheasant, Swinhoe",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Pig",
+    "seededBreedCount": 117,
+    "status": "seeded-curated",
+    "notes": "Curated source-backed selection; not a complete worldwide inventory.",
+    "sourceIds": [
+      "wiki-pig"
+    ]
+  },
+  {
+    "speciesId": "93fd4fd2-0e6d-5b12-80ef-a66e2d78e03b",
+    "name": "Pigeon",
+    "seededBreedCount": 176,
+    "status": "seeded-curated",
+    "notes": "Curated breed selection from an index containing aliases, color captions, and breed groups. Those non-breed entries were not blindly imported; not an exhaustive pigeon registry.",
+    "sourceIds": [
+      "wiki-pigeon"
+    ]
+  },
+  {
+    "speciesId": "b4631abd-3bcc-513d-a764-f3fb5692c0b3",
+    "name": "Quail, Bobwhite",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "c92d84ba-6215-51a0-89bb-87dfafa1319a",
+    "name": "Quail, Button",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "49c30b0c-9d9b-5266-95bc-84f2493cf6df",
+    "name": "Quail, California",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "b39ff654-572f-53cb-b5be-2c76853f92d0",
+    "name": "Quail, Coturnix",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "e00aa773-333c-54c2-8a76-4ff301c017f5",
+    "name": "Quail, Gambel's",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "d5c287c7-116e-56c9-bf6d-148e1c7b6bc4",
+    "name": "Quail, Mearns",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Rabbit",
+    "seededBreedCount": 53,
+    "status": "seeded-curated",
+    "notes": "All 53 rabbit breed headings in the retrieved ARBA recognized-breeds page, excluding the separate Cavies heading. Registry-scoped, not every rabbit breed worldwide.",
+    "sourceIds": [
+      "arba"
+    ]
+  },
+  {
+    "speciesId": "e9fb9306-7f3e-5fce-a4be-43e210f34dff",
+    "name": "Rhea",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional. Ratite source distinguishes species/subspecies; those are not automatically domestic breeds.",
+    "sourceIds": [
+      "merck-ratites"
+    ]
+  },
+  {
+    "speciesId": "22222222-2222-4222-8222-222222222222",
+    "name": "Sheep",
+    "seededBreedCount": 360,
+    "status": "seeded-curated",
+    "notes": "Curated source-backed selection; not a complete worldwide inventory.",
+    "sourceIds": [
+      "wiki-sheep"
+    ]
+  },
+  {
+    "speciesId": "ec1a69c7-1872-555c-a4da-85d4167b06ca",
+    "name": "Tragopan",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  },
+  {
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Turkey",
+    "seededBreedCount": 25,
+    "status": "seeded-curated",
+    "notes": "Breed/variety terminology differs by registry. Source explicitly identifies many domestic turkey entries as varieties; this distinction is preserved in catalog metadata.",
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "speciesId": "23a3c5d3-a249-5b01-bdb7-216c03387226",
+    "name": "Zebra",
+    "seededBreedCount": 0,
+    "status": "not-seeded-unresolved",
+    "notes": "Category retained from the supplied UI. No verified breed catalog imported for this category; empty does not establish that no breeds or varieties exist. BreedId remains optional.",
+    "sourceIds": []
+  }
+]

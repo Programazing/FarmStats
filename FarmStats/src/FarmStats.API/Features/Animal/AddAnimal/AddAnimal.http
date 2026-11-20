@@ -1,0 +1,231 @@
+@base-url = http://127.0.0.1:5000
+
+# Replace these example IDs with actual database IDs.
+@cattle-species-id = 11111111-1111-4111-8111-111111111111
+@sheep-species-id = 22222222-2222-4222-8222-222222222222
+@cattle-breed-id = 33333333-3333-4333-8333-333333333333
+@north-pasture-id = 44444444-4444-4444-8444-444444444444
+@south-pasture-id = 55555555-5555-4555-8555-555555555555
+
+# Keep this ID absent from the database for the lookup-failure tests.
+@nonexistent-id = ffffffff-ffff-4fff-8fff-ffffffffffff
+
+@empty-id = 00000000-0000-0000-0000-000000000000
+
+### Valid: all fields supplied
+# Expected: 201 Created; response contains the new animal's id
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "breedId": "{{cattle-breed-id}}",
+  "quantity": 1,
+  "referenceId": "C5481",
+  "sex": 2,
+  "color": "Black and white",
+  "birthdate": "2023-04-15",
+  "areaId": "{{north-pasture-id}}"
+}
+
+### Valid: required fields only
+# Expected: 201 Created; quantity defaults to 1, sex defaults to 0
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}"
+}
+
+### Valid: group of animals
+# Expected: 201 Created
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Spring Lambs",
+  "speciesId": "{{sheep-species-id}}",
+  "quantity": 12,
+  "sex": 0,
+  "areaId": "{{south-pasture-id}}"
+}
+
+### Valid: explicitly null optional fields
+# Expected: 201 Created
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "breedId": null,
+  "quantity": 1,
+  "referenceId": null,
+  "sex": 0,
+  "color": null,
+  "birthdate": null,
+  "areaId": null
+}
+
+### Invalid: empty name
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "",
+  "speciesId": "{{cattle-species-id}}"
+}
+
+### Invalid: whitespace-only name
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "   ",
+  "speciesId": "{{cattle-species-id}}"
+}
+
+### Invalid: missing name
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "speciesId": "{{cattle-species-id}}"
+}
+
+### Invalid: name exceeds 100 characters
+# Expected: 400 Bad Request
+# Name contains 110 characters
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
+  "speciesId": "{{cattle-species-id}}"
+}
+
+### Invalid: empty species ID
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{empty-id}}"
+}
+
+### Invalid: missing species ID
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie"
+}
+
+### Invalid: species does not exist
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{nonexistent-id}}"
+}
+
+### Invalid: empty breed ID
+# Expected: 400 Bad Request
+# Omit breedId or use null when no breed is selected
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "breedId": "{{empty-id}}"
+}
+
+### Invalid: breed does not exist
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "breedId": "{{nonexistent-id}}"
+}
+
+### Invalid: breed belongs to a different species
+# Expected: 400 Bad Request
+# The cattle breed must exist and belong to Cattle, not Sheep
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Mismatched Breed",
+  "speciesId": "{{sheep-species-id}}",
+  "breedId": "{{cattle-breed-id}}"
+}
+
+### Invalid: quantity is zero
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "quantity": 0
+}
+
+### Invalid: quantity is negative
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "quantity": -1
+}
+
+### Invalid: undefined sex enum value
+# Expected: 400 Bad Request
+# Error lists 0 (Unknown), 1 (Male), 2 (Female)
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "sex": 99
+}
+
+### Invalid: empty area ID
+# Expected: 400 Bad Request
+# Omit areaId or use null when no area is selected
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "areaId": "{{empty-id}}"
+}
+
+### Invalid: area does not exist
+# Expected: 400 Bad Request
+POST {{base-url}}/animal
+Content-Type: application/json
+
+{
+  "name": "Bessie",
+  "speciesId": "{{cattle-species-id}}",
+  "areaId": "{{nonexistent-id}}"
+}

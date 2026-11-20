@@ -1,0 +1,3627 @@
+[
+  {
+    "id": "4720c1c9-0135-5266-be19-2b3fd6218212",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Aberdeen Angus",
+    "kind": "breed",
+    "aliases": [
+      "Angus"
+    ],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9bd61d85-6f97-5dea-a9a2-cc8ef911cf68",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Abondance",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f9bae646-3d50-5d79-a387-b2e529f5af2c",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Aceh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f6f22d79-23bb-5cb6-abdd-8675eecf22e2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Achham",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "14244534-80a4-503c-b176-e2161ecc6e6a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Adaptaur",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "bc54d1af-9967-5d88-8563-8ff23a78ce0e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Afrikaner",
+    "kind": "breed",
+    "aliases": [
+      "Africander"
+    ],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9b3a1693-4e22-5012-9006-2fb85cd8cc4f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Agerolese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "080ff769-fc53-5f13-9bf8-f74747ae0256",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Alambadi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "43121656-b210-5053-8074-3f5bcfbef2b7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Alatau",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7f738595-2fa3-52b5-9592-4788b4d3f8b3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Alentejana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "788d492f-1047-52a5-b79f-192e1ece90a6",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Allmogekor",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "59dfbd66-4bfe-5c0b-befc-62cad054623a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "American Angus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "46f734ab-4e3d-5321-9f9e-4efeb0a34259",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "American Brown Swiss",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a9d53feb-2c89-506b-a046-f73f091e049d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "American Milking Devon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "fdbe88fa-94ad-5e0b-8d93-25c2999f0328",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "American White Park",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "baffafb6-ecb7-5682-8733-fde34b031245",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Amerifax",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7dda9880-b714-5abb-a339-ba54bc902bf3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Amrit Mahal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8ff2f63e-e74f-5e13-ac5b-ebe7ef9476ab",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Anatolian Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6e514853-17cb-5ae5-b1d7-32da985d6040",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Andalusian Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7801bb5b-82cc-5ada-9f3d-4b22a495e997",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Andalusian Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "dd492fdf-0a4a-537a-804e-7b0bb79540c1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Angeln",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3946804f-222d-596a-b7a8-aae21235f8b7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ankole",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d486497a-1a0a-5d38-9de0-4f16f6bc7aee",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ankole-Watusi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a2333e94-bf97-5f28-94a2-527305021ec7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Argentine Criollo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6d0692b0-7921-550d-aa43-c171e19cb3f6",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Armorican",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "06d62a98-8ad7-5541-8a93-9adfc6b43d2d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Arouquesa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "85c6f7cf-0b0a-531e-b692-ee1680ff1e53",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Asturian Mountain",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "58814d3e-b46f-5815-937a-8ead3e5b59aa",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Asturian Valley",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f03fb178-a75d-5094-8308-b110aeff82db",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Aubrac",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a9f222df-1f59-5f45-90f0-6a67645b19b1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Aulie-Ata",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d2a86212-758c-56a4-99b7-131e5280b1c2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Australian Braford",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "cd79d5c1-40d1-5aaa-b799-8770aff207ab",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Australian Brangus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "06510326-782d-54d4-b441-68649c2d9c39",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Australian Charbray",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "fc88dafa-c5c6-5c10-80c3-5036b56f5ef1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Australian Friesian Sahiwal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1482085a-f022-5dfd-bd78-7f18b5f33a83",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Australian Lowline",
+    "kind": "breed",
+    "aliases": [
+      "Lowline"
+    ],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5936c965-1cf7-5da4-a2cd-aa41bf834f25",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Australian Milking Zebu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "fa3f3453-e42b-5b17-85fd-4143969ddb0b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ayrshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "64de5fc5-7954-579f-8f08-0cb430bd7f58",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Azaouak",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4801c1ae-cb62-57ee-8fe6-770ac9f86d45",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bachaur",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "156f3abd-3dcc-5fa0-9904-5eca9d230a90",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Balancer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "101d3212-7838-597c-8d1b-34abbfe95d77",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Baoule",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "77769885-a1da-5648-80bf-4ef907277faa",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bargur",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9c0e5696-d51d-5f17-8c09-7b6bbc491c8b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Barrosã",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a2076b24-9a66-5c48-8f0e-c51170b025a2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Barzona",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2bd05b70-2bf6-5e24-8d3a-18393d88fcdc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bazadaise",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3d86018e-8b2f-5c3c-b971-0b4cb3ee09bd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Beef Friesian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "47cbbcbe-edcd-5fe3-9dbb-33ba1c645081",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Beefmaster",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "89d36bfd-a9ed-5ef2-a812-1f0341a9ad03",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Belgian Blue",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ead457f1-cfdd-51fb-89fe-cb3b5c403e63",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Belgian Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7fe10178-fcbb-5d6e-8908-b59c5105fb3a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Belgian White-and-Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "73aa5469-e9fa-5eb7-8fe8-768ef84ba716",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Belmont Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d917a247-eb6c-514c-bf12-eee025e3de55",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Belted Galloway",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ed717b8c-3c75-5279-9649-7761ee2e37c8",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Berrenda",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d1ceefce-57c8-5a0c-a81b-56b120ba1a65",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Betizu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e0da0a0a-7845-5d7e-be17-2f991594d508",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bianca Modenese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a7de8616-87bc-5ae1-8711-5d406e69a799",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Blaarkop",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f6c11c1a-0432-5970-9e8d-ff40fa9ecdc0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Blanca Cacereña",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "03bb9a7e-751a-5805-8d87-182820c7298c",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Blanco Orejinegro BON",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6243ed66-03b4-514a-8735-fe8e120fdac8",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Blonde d'Aquitaine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d826259f-c2f9-5ab6-bc87-9071e9dfeadf",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Blue Albion",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5dca8d86-f3b7-5143-8d4d-4ccacd5c4729",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Blue Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "12f8c6cd-34fb-5d4d-8983-64924ba4a468",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bonsmara",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d3b000b0-76b9-56be-8e7f-875376184087",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Boran",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c11408ea-ef48-569c-b95a-fc75e0bafe79",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Braford",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6a04fdb9-b73a-548d-a861-619408666bf5",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Brahman",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1b901247-d616-5696-af1c-58b26cd47b81",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Brahmousin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7f7c978c-7cd8-5d6f-be71-e27a6b675f9e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Brangus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "555633f0-6ba3-5ac8-9e03-de9f2535f742",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Braunvieh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "59a62640-0f72-5081-8d8b-d1edf85a9011",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bretonne Pie Noir",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "69d950b4-518d-516d-a40b-16686588af85",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "British Friesian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "344d5513-aa94-5cfd-a833-46a8c0efe01d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "British White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "77b8f212-8399-568a-b7aa-ce74a9d91596",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Brown Carpathian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c50677d5-d356-59a9-b675-bf05f3767cb3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Brown Caucasian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9f48b800-50b2-5f74-8c7b-c5d4c92895b8",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Brown Swiss",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "bc91883f-2448-5864-9b65-ce62e921f4f2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bue Lingo",
+    "kind": "breed",
+    "aliases": [
+      "Buelingo"
+    ],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4b788a7f-dafb-52e6-b449-ddcd98e54063",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Burlina",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "178e9d43-f762-5d5b-a2d1-5a7246762135",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Bushuyev",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "86139986-de25-5d1b-8bf2-90b72a0b5ae9",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Butana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "76e81b42-7b8a-5b27-b4a9-e5026290489d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Buša",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b0cd8b4f-651f-5713-94ee-536602d381c2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Cachena",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "15bc2a84-ec86-5668-b87e-25929a919d1a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Caldelana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "58f015ef-1f1f-51cd-9ef0-430b183857d5",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Camargue",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "736e9b23-aa0f-5e50-8891-0f2774395a48",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Canadian Speckle Park",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a80575ae-8da2-546e-9d9a-76b647c7150e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Canadienne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "392d32b4-eec9-5146-985d-08a3163c4348",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Canaria",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "91b834bb-5608-5f6f-9b40-f6a69bd8c8ca",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Canchim",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "22b3e107-918e-5927-8d36-ae8321ac0ac2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Caracu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2f442f4b-cca9-56a8-94ed-8f56a4fd7a1a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Carinthian Blondvieh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6f423fbd-a866-5974-b699-144d302269fe",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Carora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8fe39a47-3337-595d-adea-1d539e978a43",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Charbray",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "131153ac-722a-5e35-9030-5e8f66c64989",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Charolais",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "37a7b244-e4c6-5fb8-8e76-207a9514e935",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Chiangus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a8c09494-bd76-5483-9ddd-9d7829f4cc0e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Chianina",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d59279c4-2504-56d2-84b0-ba15821aaf4d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Chillingham",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "67b374af-c705-556f-ac0a-d1b846e17cf0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Chinese Black Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "36716d82-25a4-5303-bf5b-fee4ae5ffc3a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Cholistani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "afbe2064-00b3-55ab-8f5e-16f2edfb9259",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Cika",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "fd4fa3f8-6f4f-5420-9598-080768ba96ca",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Corriente",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6a088640-5147-5da6-a4ee-466b436075f5",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Corsican",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "0c157550-fe8c-52b4-a5d5-4119ba0aa4ef",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Costeño con Cuernos",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "eee52439-6667-5434-a0fe-ac47f6bb8a94",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Crioulo Lageano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "968ddaa7-0da4-551a-ac2b-dfa3919f6f11",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Dairy Shorthorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7a2837c1-964b-5b8c-a0a2-94a3dcd80d7d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Dajal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a012c598-5c1c-5c1f-81c2-2f1749ff8cb2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Dangi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6f360ad0-613d-5703-953a-b2e934dd8d3a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Danish Black-Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c36b4367-2e7c-56a7-b501-9b6944edb4fd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Danish Jersey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1e899aea-f99e-5fe6-8be6-c1008fa47efe",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Danish Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "33e0e562-3da3-5b8a-83e3-381544268361",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Deoni",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "68031865-38d5-5093-ba3b-169288084791",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Devon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "0d3a7c1e-4bfb-55d9-8dde-176da4d946ab",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Dexter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "98205ad2-9e0d-5a50-b5dc-ce600c6c62b0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Dhanni",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "244d7b67-d365-5fd9-8fd3-75fb7647fd04",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Drakensberger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ac5cf321-3113-5857-8579-808410171991",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Droughtmaster",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c8a806fd-114c-534b-8f60-104fdbf35688",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Dutch Friesian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8fd318ee-257f-5989-9e23-922cb5e11f04",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Dølafe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d1351bad-6661-5d02-8755-494d336f4df1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "East Anatolian Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "42256f51-fac9-5c29-87b9-bb9614048573",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Eastern Finncattle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2120714e-83d8-5ac5-9d73-ee651efed40a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "English Longhorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "bcf88b58-e181-555a-97b5-3d7689eff378",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ennstaler Bergscheck",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "73aca291-a7d0-5e52-8721-8eb748172129",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Estonian Holstein",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4e05e6f2-b10c-58a3-b2d6-87ef9ae9d5dd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Estonian Native",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "78909569-fc11-5148-8f30-300f0faebc36",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Estonian Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8a930cde-7cd0-549e-abb8-a7ad238919cf",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Finncattle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "057601ba-cef7-5cde-a785-86c5c9d480b5",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Finnish Ayrshire",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f3758ec9-db80-56e1-a0b0-c3bebb33bf3a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Fjäll",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "360dd98a-dfef-5d41-ae7c-7effaf704374",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Fleckvieh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a8d17e1f-850a-5960-ab02-014a2cfa13f9",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Florida Cracker",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9c4d4e24-1dbd-5f25-b24d-adfd316ed434",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Fogera",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "082754c8-cb7e-5cd4-8526-537a899dfb2b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "French Simmental",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "60130280-4bd3-5f76-bdcb-c7285f860436",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Galician Blond",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4a1f9652-d76c-5bcb-bf3e-dec648552611",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Galloway",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5cb5e24a-2073-5e96-b5c2-5d677b65b05e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gangatiri",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f7d596b0-a990-5c64-a712-2aeb5abd3257",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gaolao",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b59b5de4-1c92-51db-b974-6096ed0fe209",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Garvonesa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3d17715e-03c4-566a-b312-343ea32c8cbb",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gascon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c2806a33-2af7-5106-9554-de0fddbd139b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gelbvieh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6ca7c104-ad02-551c-9a4c-5f7a280e3fdc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Georgian Mountain",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "deb07a82-7ef3-5718-b7b0-181471072807",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "German Angus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f29fde0b-43ce-52b1-be54-ac0fa3634e51",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "German Black Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "592a7ac4-2ee8-52fe-9fda-505aa1f31efd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "German Red Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b6bb9d59-c8ca-5e76-a94d-b1ff2244a544",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gir",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "97b2ef02-2ef5-5ca4-ac33-05a9e8d29ed7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Glamorgan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f656aac6-498d-502a-a87d-e78664159dcc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Glan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "79833b56-facd-5f78-9810-f07f4302b36b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gloucester",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9bee29c7-63d2-5cfc-a847-3591d9d7075d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gobra",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "cf6f79d2-b39b-582f-9867-6c18a25792c2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Greek Shorthorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "69a62d0c-1ab2-5211-bfb8-7f92e807e640",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Greek Steppe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "65659a5a-fa99-5e3a-b41e-076498bf8c5d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Greyman",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "68b6bfd4-df4d-599c-8c12-400ae9b1271e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Gudali",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4ff42640-dca9-579c-b09b-9a70777e1cbd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Guernsey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "53aa4d91-a803-567e-be1e-6e27d3a09d12",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Guzerá",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2aa346e6-ee4b-55d8-976a-cf2ba5828d62",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hallikar",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "73da87b3-6df0-5117-b076-9c5f5264e08a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hanwoo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ff0fb575-0024-565c-b69c-83aff1725d66",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hariana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4c32a1d8-4f9a-5a47-a2b3-215ec6f9d93c",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hartón del Valle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ef3d794b-a1b1-5367-87b7-5f1ebe595931",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Harzer Rotvieh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8be8d0d3-cb90-5c7f-a392-661d8a40aa7b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hays Converter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "097482c7-2b6d-5d18-aec7-c1193d703836",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Heck",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6c4cacdc-18a1-561a-a3ee-e19c2d17bed7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hereford",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7effb7ae-1903-572c-b198-1ebecbfdb98d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Highland",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c8546982-e828-50ec-845d-bcd59caf75dd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hinterwald",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "15a8217c-4939-53bf-a656-b37e4d81b122",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Holando-Argentino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "33333333-3333-4333-8333-333333333333",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Holstein",
+    "kind": "breed",
+    "aliases": [
+      "Holstein Friesian",
+      "Holstein-Friesian"
+    ],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8bb0bca9-4048-5391-86c7-5cd8484d50b6",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hungarian Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a1ea80cd-3fd5-5ed6-8dfc-7c201b97ead7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Hérens",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e7497dec-04ec-5b69-9707-7d9517aa618a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Icelandic",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "36216f13-7f2d-5d11-96f9-a34f4a951c98",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Illawarra",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6af6b004-3318-5ac5-a02d-e1a875404921",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Indo-Brazilian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ae3cc001-11a9-5063-858c-3377e0f9484e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Irish Moiled",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "070549dc-29d1-59bc-9838-b25d462e1cc8",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Israeli Holstein",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "50a9cf3d-ce54-5073-a5e7-d16134b8b400",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Israeli Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e1072768-bba0-5150-8f09-0f20464818ac",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Istoben",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5292f215-61f0-563f-bd02-7e3104b39b41",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Jamaica Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a7a24302-6d54-5273-843c-0c25aac94bc7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Jamaica Hope",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5db04724-c4d5-5b18-966f-e0058ef123b9",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Jamaica Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "80e2f254-7761-56d3-a3f6-35cdba071f38",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Japanese Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "cbbb856c-c3bd-564f-bb6e-4e43c8b37b05",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Japanese Brown",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f781c4f9-00dd-53bd-b65f-d44a3e0e0ec0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Japanese Polled",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3f261830-adb0-518a-bc88-8c16026545ff",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Japanese Shorthorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "0c3e816d-9fb2-5145-9180-e59f70e6d6f1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Jarmelista",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ee747e4e-d8f5-5e40-90dc-da4e51531fc6",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Jersey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8a89eaa0-c400-544e-990a-f476c01eb29f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Jutland",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3574ba6c-f10c-5874-ad5f-a99110548b36",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kalmyk",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2d82bf64-a757-57dd-ad69-44753c1242aa",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kamphaeng Saen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3a1507e9-9314-5dee-9f71-254c44c73955",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kangayam",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8c3ef188-b341-5a72-b22c-271d8c91f40a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kankrej",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d63b20f7-62c6-567f-9ac3-593d98535a57",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Karan Swiss",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "02c5a3b7-9fdf-5115-879c-978248785050",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kasaragod Dwarf",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c113059e-4792-55b2-a03e-219b7f1d3870",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kazakh Whiteheaded",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1f6ae50d-7770-5ba4-a904-d9ee708a3cab",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kenana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "427aa800-f164-55d4-b5a6-9fbd7ee9bfea",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kenkatha",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a0f42f3b-5188-5e0e-bd93-baa71bcf730f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kerry",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d58eea7e-75d6-5408-b112-2e0cf80ebf9c",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kherigarh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9ddcaad2-1b7a-5085-9cac-e5cf596ad9f9",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Khillari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9a0234d5-a644-5874-a617-eb5c395174f3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kostroma",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1c069cdd-7284-51dc-a6c5-00dddc96ccf7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Krishna Valley",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "35ba21b0-71e2-5b2a-8c41-5732b10f08bc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kurgan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "02b3e034-f950-515e-97de-fc77840fd915",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Kuri",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "27678169-5f41-5a2d-a213-939ca8964cc3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "La Reina",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c4a83199-89c3-5fbf-b969-38a6915c1ea6",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lakenvelder",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ecf8eead-8e3a-577a-91ba-f00bdf46b5bd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Latvian Blue",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f733aaee-71c1-53c4-bf7d-e92319a6d672",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Latvian Brown",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9297e0c6-ab94-5d91-be40-cf7cfea6e6ac",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lebedyn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "29be3fbe-6321-5fba-bbdd-d8900276c830",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Limia",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f4e2b38a-d0ba-5d05-9f9c-c891463d4d23",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Limousin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d4bc56a7-5019-5db3-b790-0517b05fd1ab",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Limpurger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "cbafe8e0-726c-5c42-a856-d51b69f23887",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lincoln Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "031a567b-e8a9-5951-ae5c-637e028ada8e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lithuanian Black-and-White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c3f245a2-4aa8-552d-899e-3149f057f98b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lithuanian Light Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1eb44e73-cf7e-5923-b9b6-49ca5ac3627b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lithuanian Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "84a3d700-a631-5161-8392-9f9b74a4ca00",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lithuanian White-Backed",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8ec2279d-fb98-5f6f-b833-259c89b6f298",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lohani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c1164bb1-c20c-5021-8ac6-4e968bc92540",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lourdais",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b81ade2d-a860-51fc-8aa5-2bf7e05ed6a4",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Lucerna",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "631aa303-f900-5570-8f27-b3629eb386fa",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Luing",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ea865f48-bf6d-5565-9a62-ef9edceec1ed",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Madagascar Zebu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d9211746-bb64-5bb1-be06-5058101cc7dc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Maine-Anjou",
+    "kind": "breed",
+    "aliases": [
+      "Maine-Anjou (Rouge des Prés)"
+    ],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "22dc0b02-1bf5-524e-89ba-ce6866de0bbd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Malnad Gidda",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6fd21b55-9668-5318-a8be-c3fe0cda543a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Malvi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d95476b7-d8b9-5c3c-9aa3-889250342977",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Mandalong Special",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8d5f407f-158a-5ed3-8a2f-829cddd510b3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Maraîchine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f42bd675-568b-54ed-bfa3-ac4563e243a6",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Marchigiana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c24cb4ec-2908-57be-a931-043ab84c4c2d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Maremmana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3fd3d8c6-bb2e-5b92-bb33-e99c87118b09",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Marinhoa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9f76efce-f447-53b0-b10a-9b3b912832b1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Maronesa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b3e3980e-92b8-5d8d-b550-78e5da289a80",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Mashona",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ae2f96e2-773e-5a16-b8fc-b9f000b3ec3a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Menorquina",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a24d60c8-2e59-57f9-8e7e-8d495259c500",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Mertolenga",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f69139aa-72bf-57e7-bcae-7b5181bc589a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Meuse-Rhine-Issel",
+    "kind": "breed",
+    "aliases": [
+      "Meuse Rhine Issel"
+    ],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1fa1940d-a8b7-5687-9ae8-294470dfd93e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Mewati",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "24d1a880-af01-5ade-913b-948c30edddc3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Milking Shorthorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f5e5d90d-a78a-5b2e-b82d-a45846d54a1b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Minhota",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "bcbbe094-f7ae-51fe-851b-247758deee3f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Mirandesa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1388e903-1ef8-5423-96c9-1c251e19e63d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Monchina",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c3d7faf9-27ba-5597-a438-895428e347b7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Mongolian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "290c5ab1-c6ff-58fd-828b-a28514856a05",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Montbéliarde",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "afb7e62b-c248-5ded-8c47-5c55fde8258d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Morucha",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "de226ebf-6b3f-58db-be40-1c278b3ffd53",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Murboden",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "979fea3c-5a64-534d-86c0-83f4661d1c0e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Murciana-Levantina",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "acadaaa7-65c5-56a3-9c38-4baae0e02bd5",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Murnau-Werdenfels",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "afabaa1c-2ab8-51f1-a0cf-184c5236169a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Murray Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "0f82d1d1-25b4-582f-ae97-e07f31e596d3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Muturu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1a2c4970-e306-541a-b756-d8b02d4e6208",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "N'Dama",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "880eed6b-7a24-5dcc-bb71-945d50c85ec6",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Nagori",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e8ac6f85-a53c-58f5-bf4d-40a56612f631",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Nelore",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "884fbd61-97fb-5e2d-8e81-7814f1688280",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Nguni",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "abe9760b-f34c-5775-9624-2178baa247fc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Nimari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "dd91fb74-083f-5d69-b47a-68bf6f4af6f0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Normande",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c5f90371-3edd-556e-a0d5-e2be461a0fe3",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Northern Finncattle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9be11ba6-ee2f-5704-a02d-6d7df2180d53",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Norwegian Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2dfbb845-1301-58a3-bc80-378bfbd9b7f1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ongole",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b0812351-3e2a-54ee-b034-4256a2d4d2d9",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Original Simmental",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "042bafec-8638-545f-aee8-7813dd664048",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pajuna",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3688ad08-3aa2-595f-a92e-77a9b86f0296",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Palmera",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "db9a0ec3-339a-5cec-b477-2384b2b43d61",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pantaneiro",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c0fb23b7-1d04-5c2a-ac01-ee2ff89208df",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Parda Alpina",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "94121ef4-1d22-5b75-b8d0-527a634013fc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Parthenaise",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9bfe0c39-3a10-5bd6-ab1a-631d7bbe8da9",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pasiega",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5f2e70cb-78fd-5d4b-ad27-3eabd8c573a2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Philippine Native",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3fa31d0e-9c52-56c9-b216-74b08221006e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pie Rouge des Plaines",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "dd54aa86-4ee6-575d-8a2a-ef8e49530aa1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Piedmontese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "314f9da7-d5e7-5abd-996d-ea2a823117ba",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pineywoods",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8da47b8f-b1cf-5007-a6bf-0a8c8babb5f1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pinzgauer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "acb88f42-5623-5ce3-8800-fd3d00d74012",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pirenaica",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "966f3dc3-e49c-5f3a-b540-257997b9abcb",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Podolica",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e01c0bab-fe27-5b42-8f00-9ed91ec0f6ee",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Polish Black-and-White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5c943843-4428-50dd-8fb8-6c85b913b1e1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Polish Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "740e1ca2-e70b-5a6d-9554-4fca243df53f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Polled Hereford",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6622c3d4-17ba-56c3-9823-cf038e3756e0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Polled Shorthorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f5fbaf22-708d-5276-a6ed-37bf772842b7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ponwar",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6cc6be32-535d-5b66-897f-14b677f7bb50",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Preta",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c9bf2555-c95b-5b0b-a410-bcf81037f2f1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pulikulam",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6743f178-4cee-5d87-8bef-d166f6244c71",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Punganur",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8f21e6d1-67fe-54dd-8663-d69c9b66a398",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Pustertaler Sprinzen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c6cadbcf-b1c5-5a6e-8b89-9e5b62e00c5e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ramo Grande",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "93a486e3-036c-5674-aa79-2baa692da2dc",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Randall",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b99daad5-479c-583c-bad4-857a0d2752f2",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Raramuri Criollo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e5b7aea1-e3ad-5dbc-8ef0-3265844d130a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Rathi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1ff18eda-d5b4-531c-9a32-2d842840fa02",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Angus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "140b97c1-8727-5b34-bd32-d74f1be6e3e7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Brangus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8cfcac31-bd8d-5c90-ac3a-661925c57b2e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Chittagong",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "78a6fcc8-a8f2-59bf-a65c-5909a09a0f20",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Fulani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f2607b6f-cc0a-5dbf-bca2-7f589dc6c473",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Gorbatov",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c944ee85-9d0f-5155-bed9-3eb009c90c8a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Holstein",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7c559e89-7777-5d44-8922-ac53395358c1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Kandhari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "87e91e17-97da-56ce-b191-a9da136ceb3b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Poll",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "febfec45-ec1f-5845-ab5a-b765b459427f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Red Sindhi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b6d36114-c175-5d72-813e-1f61568ef55a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Retinta",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "18b04d9c-8519-5f8d-8c9b-098af3a44ed0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Riggit Galloway",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "03116d6d-2d8a-5f21-aa77-698ff77d0929",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ringamåla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6fe6feb5-0794-551b-b065-594cda0e76ce",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Romagnola",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f8f291d4-42e8-5bb6-b102-0324e859c359",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Romanian Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9cb5ec9e-91ff-52fe-86b8-24c59ae215d4",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Romosinuano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4723efba-525d-5910-bace-ddd5f3822819",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Russian Black Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2de75ce1-edd9-585c-9abe-1a19d5eda76b",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Rätisches Grauvieh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2ac03dbb-4377-5dbd-b660-ea928cabbe96",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Sahiwal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9def16ef-7556-5d06-8327-6acf006a7832",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Salers",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f76c8ee2-42f7-5ac1-93dc-b09a9c66b5cf",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Salorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b94632fb-9899-5df2-9d84-b6993fa28de7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Sanhe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e8ceb92e-df0f-516f-8469-c9c77cf6f2aa",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Sanmartinero",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9145ab3b-5294-5dc6-a71d-8a6ae636e37e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Santa Cruz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "264c660e-ae30-5449-9c58-0da4a2e8c4fd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Santa Gertrudis",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "5bf6dfa2-15f2-5bcb-8c02-b541bbe0e049",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Sayaguesa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "eede6ec4-05d0-5eab-8a32-cc3f3c1291d4",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Senepol",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "d0d3a68a-fc3a-5342-8435-a9dcbcb47673",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Serbian Pied",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "25eb7cb1-af49-5149-91dc-19e0f73770db",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Shetland",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9c043509-251c-590f-9907-e469dec47d94",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Shorthorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "52be0fe7-e6cc-5143-93cb-be95c6269ad1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Sibi Bhagnari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "542769b1-6aa9-51ca-a71a-d76eaf2e32c9",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Siboney de Cuba",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c0aa4cf0-aefb-5558-9b0f-f07d924b8932",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Simbrah",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "256aac75-aad2-51c4-b5b7-a261a398221e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Simford",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6bc53571-818d-5475-a21e-87e7dc22ac9a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Simmental",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "0324a6c0-dbe1-5dad-bd05-db95e0d1e00d",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Siri",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "7deef4dc-9ebd-5b59-a69c-c40f61c6940a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "South Devon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c17dade7-38eb-552b-8ea7-deac94d63c7e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Spanish Fighting Bull",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "9d5b4470-0872-5cef-9c71-9a940c134e18",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Square Meater",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "97153d9d-cfd7-5537-b18d-37a7500e0c5f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Stabiliser",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "8fb118f6-327f-59cf-811c-b20452208db5",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Sussex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b200a7cf-d3ab-5ddc-99ce-e380bea9c233",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Swedish Friesian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a9c520f2-6fb9-5eee-b551-f7ecba9d2e15",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Swedish Polled",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f09b99e4-e9b7-58e2-bd31-91ef78efad6f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Swedish Red Polled",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4415c253-e13e-518e-973c-b2913c7caa78",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Swedish Red-and-White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "270df176-b866-505a-ad4e-dbfbb423c434",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tabapuã",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "59d0022f-3435-5c3c-85e7-5f039307e81e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tarentaise",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "95f225ee-8ff2-5c1c-8c17-613d11bd0d65",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tasmanian Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "6114aa44-f838-5557-a61b-0b709a3d2abd",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Telemark",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4739f0f3-2c9d-5245-9494-43f962bbace7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Texas Longhorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1267f7e3-e0b3-554e-8b06-a312c49f8981",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Texon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "59b883d0-4ee5-547d-bc71-a57e8a2cf85a",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Thai Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "987e02aa-496f-5cee-b36b-166e6efe63ac",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Thai Friesian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a13f9282-2301-5c0b-9276-638d7ee0e2b0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Thai Milking Zebu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "a8bc83a5-bb21-550c-8d24-26f3dc2efc47",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tharparkar",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3dd25154-4909-55c8-b8bb-cf715c98cfb5",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tswana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ffe0740d-4e22-5a4e-a41b-2107039c9517",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tudanca",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "3cce776d-451b-560b-86b8-7d06be0351d7",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tuli",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "0bc82705-13c9-51ae-813f-f6ae923ae9c1",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Turkish Grey Steppe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "31e8cd7b-dfd9-5464-9ac0-1444ee43191f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tux-Zillertal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "66dd9c3a-072d-5110-bc68-b9a31ed1d466",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Tyrol Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "1a7bd401-a78b-5353-b677-2b5376f58667",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Ukrainian Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "af17537b-3eeb-5540-a9a7-50ae2899599f",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Umblachery",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4d26a201-f07a-5c1f-b78a-0079769a075e",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Valdostana Castana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e13ed381-0196-528f-a721-f922df601d85",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Valdostana Pezzata Nera",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "efd7cfae-bfec-5308-bffa-e8e478453cd0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Valdostana Pezzata Rossa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "826d5715-d306-57a8-994a-0a8aa92aa20c",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Vaynol",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "ba417688-8410-5516-80c6-e2680ee779df",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Vechur",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "2b7cc823-78ad-582c-b80f-f069f9bdfffa",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Vestland Fjord",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "f996c660-7938-5e1e-921f-e5c917f04518",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Vestland Red Polled",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "bb71ec6e-843e-5b03-a04a-6bf623eed898",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Vianesa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "4a350c71-4e72-5cb7-b501-54db4f463748",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Vorderwald",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "341a9ead-5a5d-50d2-9fc0-e9a812a902fb",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Vosgienne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "037d9b88-968d-5844-b885-793c3106d724",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Väneko",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "c610ab70-784d-540d-89fa-85b4eae1c978",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Welsh Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "931d553c-d325-5014-bf0b-89851030f127",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Western Finncattle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "91b574b6-6fa3-5472-98b9-c88d055cd603",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "White Fulani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "0458b60c-85b2-590c-b0af-054babd1c210",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "White Lamphun",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "b0ac15a2-4be0-5edb-9b15-b6f505e1bbf0",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "White Park",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "e4c03b5f-b3f0-5525-aba1-9556398a0133",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Whitebred Shorthorn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "519b39e2-9d0b-5c0e-a7da-21f479bf4519",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Xinjiang Brown",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "42e54539-9d2f-5685-89ce-d7f335822668",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Yakutian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "67e5969e-61bf-5393-a3f4-29513095be57",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Yanbian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  },
+  {
+    "id": "59e829e1-3fc6-5981-93fe-a48af5a9eaba",
+    "speciesId": "11111111-1111-4111-8111-111111111111",
+    "name": "Évolène",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cattle"
+    ]
+  }
+]

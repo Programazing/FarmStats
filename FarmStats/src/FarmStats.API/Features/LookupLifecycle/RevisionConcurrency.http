@@ -1,0 +1,93 @@
+@host = http://127.0.0.1:5000
+
+### Create a disposable area
+< {%
+request.variables.set("name", "Revision test " + Date.now() + "-" + Math.random().toString(16).slice(2));
+%}
+POST {{host}}/area
+Content-Type: application/json
+
+{ "name": "{{name}}" }
+
+> {%
+client.test("Created", () => client.assert(response.status === 201 && response.body.revision, "Expected revision"));
+client.global.set("revisionAreaId", response.body.id);
+client.global.set("oldAreaRevision", response.body.revision);
+%}
+
+### Update with the current revision
+PUT {{host}}/areas/{{revisionAreaId}}
+Content-Type: application/json
+
+{ "name": "Revision test updated {{revisionAreaId}}", "revision": "{{oldAreaRevision}}" }
+
+> {%
+client.test("Updated revision", () => client.assert(response.status === 200 && response.body.revision !== client.global.get("oldAreaRevision"), "Expected a new revision"));
+client.global.set("newAreaRevision", response.body.revision);
+%}
+
+### Stale write must not overwrite the update
+PUT {{host}}/areas/{{revisionAreaId}}
+Content-Type: application/json
+
+{ "name": "Stale write", "revision": "{{oldAreaRevision}}" }
+
+> {%
+client.test("Stale revision rejected", () => client.assert(response.status === 409, "Expected 409"));
+%}
+
+### Missing revision is invalid
+PUT {{host}}/areas/{{revisionAreaId}}
+Content-Type: application/json
+
+{ "name": "Missing revision" }
+
+> {%
+client.test("Revision required", () => client.assert(response.status === 400, "Expected 400"));
+%}
+
+### Delete using the latest revision
+POST {{host}}/area/{{revisionAreaId}}/deletion
+Content-Type: application/json
+
+{ "reason": 4, "notes": "Disposable revision test", "revision": "{{newAreaRevision}}" }
+
+> {%
+client.test("Deleted", () => client.assert(response.status === 200, "Expected 200"));
+client.global.set("deletedAreaRevision", response.body.revision);
+%}
+
+### Normal reads still hide the deleted area
+GET {{host}}/area
+
+> {%
+client.test("Deleted area hidden", () => client.assert(response.status === 200 && !response.body.some(area => area.id === client.global.get("revisionAreaId")), "Expected deleted area to be absent"));
+%}
+
+### Restore with the pre-delete revision must fail
+POST {{host}}/area/{{revisionAreaId}}/restore
+Content-Type: application/json
+
+{ "revision": "{{newAreaRevision}}" }
+
+> {%
+client.test("Stale restore rejected", () => client.assert(response.status === 409, "Expected 409"));
+%}
+
+### Recover the current revision from history
+GET {{host}}/area/{{revisionAreaId}}/history
+
+> {%
+client.test("History provides deleted revision", () => client.assert(response.status === 200 && response.body.revision === client.global.get("deletedAreaRevision"), "Expected current revision"));
+if (response.status === 200) client.global.set("deletedAreaRevision", response.body.revision);
+%}
+
+### Restore using the history revision
+POST {{host}}/area/{{revisionAreaId}}/restore
+Content-Type: application/json
+
+{ "revision": "{{deletedAreaRevision}}" }
+
+> {%
+client.test("Restored", () => client.assert(response.status === 200, "Expected 200"));
+%}

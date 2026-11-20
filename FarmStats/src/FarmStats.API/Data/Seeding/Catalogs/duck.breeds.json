@@ -1,0 +1,592 @@
+[
+  {
+    "id": "fe5c5625-ed8b-531b-b2f5-58441870dd34",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Abacot Ranger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "8422db7f-fc45-5518-8f16-cb6d178525a5",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "American Pekin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "30b0dff9-c709-59a2-b688-f304c73b004f",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Ancona",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "721917cf-fc35-56dc-b96e-92ada52488a3",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Aylesbury",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "18de3853-9d47-5873-ad24-f6ea8b57a869",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Call",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "d20a8456-e971-52aa-a3a6-7ecbc75085f5",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Cayuga",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "24669836-6d63-52a0-8423-7a2a0af198d7",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Challandais",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "3b373bd8-4da5-54a0-a230-c831f9d4733e",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Chara-Chemballi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "c8693b33-1efb-5723-8563-14a69a42ac14",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Crested",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "e22da95f-537c-5ecf-aa8d-c7ed7dd5d765",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Danish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "bcb41b98-b2a1-5a90-be8a-b898fc43e7a4",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Dendermond",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "e1e78546-2a2c-5428-bb44-a8420c005900",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Deshi Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "101291a3-b96b-578d-b32b-4b84ea62b3cd",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Deshi White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "62841b4c-cad1-5ef0-b76b-844c24e696db",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Duclair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "ef71d202-b4e5-57b2-8d4a-c6f87439437e",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "East Indie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "54a500f9-3545-5df1-bab4-7da8bc56bbbc",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Elizabeth",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "f432acc4-52e4-588d-9322-d20be7076655",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Estaires",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "e52840fc-1ca9-5e57-867c-bf4843e17033",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Faroese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "f02f05f9-41bf-5489-bf43-d2e823655de2",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Forest",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "60b412c7-3adb-55d2-9462-24f20074e7af",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "German Pekin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "a74cbb09-db3d-584e-8883-fd49eb786660",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Gimbsheimer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "b843aaf0-ed35-5fd2-ac9a-a39c0b4ea89b",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Golden Cascade",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "5f01e7c9-4fd9-5e22-aa01-7173f537fbcf",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Havanna",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "22832673-9ee8-5a95-a9fc-d2254eed29b3",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Herve",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "3a3bf057-c588-5987-8762-4bfa791e17ea",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Hook Bill",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "cf37323d-eb53-5900-b29c-1aeafe70fa98",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Hungarian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "505c3910-402a-5ad5-86b4-1e327e1ea583",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Huttegem",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "b50d6425-0e21-57ef-9e87-b039854bddab",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Idegem",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "c71ea8bf-48a0-5835-9ec6-f1a6af8f91b6",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Indian Runner",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "1eac162b-952c-56b8-ba4b-3a911325a3e6",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Japanice Criollo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "04134c11-2912-57a9-9000-dd82181639b0",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Jending",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "fdc29cda-5d57-513e-879c-228384d0f51b",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Khaki Campbell",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "ec71aa9b-b5ec-5062-ae51-06878e8e2db3",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Laplaigne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "2a6a8da3-198d-54cc-aa3a-b62da6ee4904",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Magpie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "42e695c2-fe3f-55df-af5d-d69c6b248c85",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Merchtem",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "7c0bffb7-df88-557c-96f4-3f1790d0cf6e",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Naked Neck",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "293245cf-c038-532d-8c13-3f244223f7a0",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Orpington",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "a35acc4a-c588-5453-9c90-b2ca472f35d3",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Overberg",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "d535dbff-cf03-5d09-8214-341dd16b9aab",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Pomeranian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "2763ddb3-f4a9-5ccb-863b-3fc4d6622f28",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Pond",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "2a13a540-04c4-528d-a94d-52a020e31eb0",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Rouen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "ba5836fc-f5fd-59ae-941c-399ff38c9a1d",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Saxony",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "d39b8314-c8f3-583d-b185-87451c504bb8",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Semois",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "7ca2770f-1997-551f-870b-2e47249c883b",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Shetland",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "6667eeca-0415-5549-ae6e-48ac523c2395",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Silver Appleyard",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "c127d547-c304-55a9-b3e2-c1019a2e185e",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Silver Bantam",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "8ca076fc-13b6-595a-a7dd-faa4c1d13836",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Swedish Blue",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "af46df65-3971-5102-a6e1-597a55bfd4a0",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Swedish Yellow",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "6dc57254-20a8-5850-9a95-4764eb8a4017",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Tea Ankam",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "9684a25d-0857-557e-b27f-be2039d6c2d2",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Tea Kapa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "8958184e-dbcd-53a7-a0e5-ddbf1b82427b",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Tsaiya",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "365961c2-abe9-5468-b883-596b3c14f2a0",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Ukrainian Clay",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "3ee1bb52-b5ba-57a3-b6c3-47e136c25b41",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Ukrainian Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "bab9bf29-e792-5830-a876-0c0b750eebe7",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Ukrainian White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "d31e94a1-42b5-5166-9156-4242e91f25ce",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Venetian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "368314ee-3d1b-512f-93c6-4b8865be93ea",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Vouillé",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "26dbb468-366a-5367-8665-6c1e6eba65df",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Watervale",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "45572946-785d-52b6-9a8c-a96ec70cb67b",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Welsh Harlequin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  },
+  {
+    "id": "6710fd37-9f9f-5449-a4ec-fc7b368369f8",
+    "speciesId": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "White-breasted Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-duck"
+    ]
+  }
+]

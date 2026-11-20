@@ -1,27 +1,37 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net11.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    </PropertyGroup>
+      <UserSecretsId>12984945-5b0e-4f6a-a146-74067585596c</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="FastEndpoints" Version="9.0.0" />
-        <PackageReference Include="FastEndpoints.AspVersioning" Version="9.0.0" />
         <PackageReference Include="FastEndpoints.Swagger" Version="9.0.0" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="11.0.0" />
+
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.15">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+
+        <PackageReference Include="Scalar.AspNetCore" Version="2.21.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+        <Content Include="..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
     </ItemGroup>
-
+    
     <ItemGroup>
-      <Folder Include="Features\" />
+    	<EmbeddedResource Include="Data/Seeding/Catalogs/*.json">
+            <LogicalName>FarmStats.Seeding.%(Filename)%(Extension)</LogicalName>
+    	</EmbeddedResource>
     </ItemGroup>
 
 </Project>

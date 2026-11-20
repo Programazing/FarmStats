@@ -1,0 +1,1641 @@
+[
+  {
+    "id": "48b32114-ed4a-5840-a7ac-15cad3ac86ea",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Abaza",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "f72ca127-5a8e-5be7-9cd6-7f42096324be",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Abergelle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "497a108d-63cb-56ba-9671-f3eaf5be3e9a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Afar",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "6d845098-85f9-54d5-a2c3-67f7c0ec92aa",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Agew",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "7e321349-8f8e-5bfd-ade8-18017e88c91a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Agrupación de las Mesetas",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "e53b1735-2f75-50b1-bf8e-e83f6bcaab2a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Albatinah",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a19b50d1-b5b4-5bbe-96a6-0428d2c58735",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Algarvia",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "bbd24e86-ec80-53ef-994c-8564cd5ccb65",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Aljabal Alakhdar",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "5bd67c0a-7f4e-5534-84bc-7ec24ca39f3c",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Alpine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "dea533bf-2508-5cf7-83fe-c1e8140b9c35",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Altai Mountain",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "bdb9ce27-6d4d-5039-9286-0bf925996f1e",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "American Lamancha",
+    "kind": "breed",
+    "aliases": [
+      "LaMancha",
+      "Lamancha"
+    ],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "679af1ce-5057-5eab-9107-4d9cd1901f9b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Anglo-Nubian",
+    "kind": "breed",
+    "aliases": [
+      "Nubian"
+    ],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "b890ccf4-a85b-5c98-8dab-43141ac4ccdc",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Angora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "e6d9a817-61e8-5851-97a7-03fa7265afef",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Appenzell",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "3602c68d-4ca5-5af4-8372-fe3b28c4acd4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Aradi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a2dfcddf-8b9f-5d55-a505-22156f9480a6",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Arapawa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "37f41ad7-4f35-5787-8eac-64a4a80dfaf3",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Argentata dell'Etna",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "4df97b23-ff86-5313-8e0e-56f46bd7b3e3",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Arsi-Bale",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "bfb02a56-1123-5f22-85f2-24078d4a616d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Asmari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "3cfce217-b0c5-538b-8112-43ba4a9a8f7b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Aspromonte",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "4000e0af-179b-5ccb-a954-a5b00e6c0e6b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Assam Hill",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "4113fc21-80df-5ab7-9103-cd3f3f10ebc9",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Aswad",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "9f15fbc6-b7b9-520e-85bc-f9785fe6071f",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Attaouia",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "18c25904-e0ad-54f1-9c9a-c2d907bb4c2b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Attappady Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "09a92d9d-bf26-540e-8074-49844be55b9b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Auckland Island",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "ddb23429-73a1-57d1-8190-a0e87e3a00ef",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Australian Brown",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "117da5ed-5579-56b8-8efe-af90dd4f295d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Australian Cashmere",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "c4dff99d-3c68-5a26-a149-93cbf30cfde1",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Australian Heritage Angora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "43ad48b1-4245-5d2d-adbd-4e55f36160c0",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Australian Melaan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "acb4cb13-28b1-53bf-8396-a2b259466875",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Australian Miniature",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "4df01d91-eca7-5cf9-8a3e-cfd8b080b187",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Azpi Gorri",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "f7d45058-5706-5ce4-bb90-9513b1f42cdd",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Azul",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "b4bde848-dfa2-5dd1-9c31-20497a4d4369",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Bagot",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "81c19af1-3fa5-5aee-99a7-f91afc647701",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Banatian White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "649ccccc-adc4-58e9-8ea3-5210592ed5ce",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Barbari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "92188d3c-1d02-56c2-ab30-b96b5a74a0ce",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Beetal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "ab057787-28f4-5f84-8f16-a71e301c0c6e",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Belgian Fawn",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "ea280808-cd4b-59af-b039-3a80619b98cd",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Benadir",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "5e203e98-c807-579b-ac96-5e1b823965b7",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Bhuj",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "74ff3902-fd28-54bc-99cb-96aafbe74c3b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Bilberry",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "3171993d-6cd7-51e4-b808-45e5a32aa651",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Bionda dell'Adamello",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "0e7b702e-c5fe-55a9-9e24-9d3b5176267b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Black Bengal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "dc27d211-68ce-5088-9fcd-a47a187fe550",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Boer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "1cf7b5f5-64ad-50e0-b622-079348393e6e",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "British Alpine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "d2bac33c-acff-532c-b9ba-00984d2ec259",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Brown Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "2e7c7441-cd4e-5150-9d5f-d08d6cba980d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Canary Island",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "f468383e-348d-55d0-be9f-42ec9f24c150",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Canindé",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "80066589-4e0c-5b92-8f08-f59dbca036dc",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Carpathian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "333879c1-ad79-5c9e-9e16-1ec328080dac",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chamba",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "3a8dce48-d317-5178-9faf-3037a6c0a4a4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chamois Coloured",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "052792d6-6708-5597-a766-837a03e4280d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Changthangi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a386f0fc-f1f3-5b97-b085-dabc9dd02abd",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chappar",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "7df840db-23c5-5986-9ac9-86be2e9cafd7",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Charnequeira",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "739bc2f9-d316-5aed-b124-1095f4ac3bb2",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chengde Polled",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "44387bd0-0a6a-5f4e-a09e-8535b7540c46",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chengdu Brown",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "1b62996e-e113-54b4-b3ff-8db92b529cce",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chigu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "300e9892-7acf-575c-923b-13542b2b881a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chué",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "275e949a-ef63-5b76-9f1f-e351c9292230",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Chyangra",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "1bda7cce-a3a8-5288-87d6-3e0f8d23c17f",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Corsican",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a180ce72-2f1a-51f9-8f48-59d3af31e61d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Damani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "7a8c9c68-ee4e-507c-92eb-f699a5388eb8",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Damascus",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "cf365b79-51a5-5ec7-bc30-9eae6816218c",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Danish Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "9b3f8e32-33e7-584b-a7ee-727a03f89801",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Dera Din Panah",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "04efdf92-da5b-5bf0-ab27-914f4cc1635b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Don",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "d18ae46d-6b1c-50e2-bf92-93938c397c4d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Drežnica",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "ab3ed5fb-1571-57f7-9c1a-3733be4bff67",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Duan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "d679c29d-1833-59e5-95b3-a6a4b19d3641",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Dutch Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "747a16f0-d3f5-5d83-850e-21071e2ace22",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Dutch Toggenburg",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "0a8f272c-565d-5aa9-842f-f64fa541f76b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Erzgebirge",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "c17128f3-dc50-5a51-be33-89f6ad358d41",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Fainting",
+    "kind": "breed",
+    "aliases": [
+      "Myotonic"
+    ],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a282e0b7-d00d-5513-816b-b17c0a7ce603",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Finnish Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "0e3a493b-8861-5d44-923c-888f0b966188",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Flemish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "9a0b714a-fe75-52ef-bf81-923b46e6cfe8",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Frisa Valtellinese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "74072b14-c865-5f1d-acb6-a2e37a24172b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Garganica",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "262ceef9-4bb7-56dd-91a9-32aaf1d8e166",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Girgentana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "35c31167-0c78-5943-a3f9-b876be75ece4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Golden Guernsey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "79d7bb59-ffbb-510b-a417-bc820219fb7e",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Grisons Striped",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "d4b3fdc4-ba91-589a-80a1-a6f3d13b47db",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Guddi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "28ea890d-e88b-52c8-83f9-941a971b6a04",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Göingeget",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "4657fcfd-5510-5ee0-b6e2-7cd2be62587f",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Hailun",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "88ab5be1-7966-562f-9bbf-5550bb174b19",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Haimen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a5ca5b18-09d9-52c2-b130-ca2bd992efa7",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Hasi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "141b680e-5299-5f32-880d-ba5d9854de26",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Hejazi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "ef64c7e0-d244-5beb-b813-fcb8ce08e160",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Hexi Cashmere",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "fc65dd33-1016-5cd2-b1cd-73075d8efd10",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Hongtong",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "2c39b429-7566-5ee0-9e33-0ce785fae7b4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Huaipi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "b1f6b20e-5c7e-5551-b26b-bf69939e03a4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Huaitoutala",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "9cf5d0ea-2689-5322-8b41-e7ee165bfbc5",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Hungarian Improved",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "5f12869e-96d2-5b89-8e8b-7c936343622d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Icelandic",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "099f038d-30aa-5467-96a7-b385db7af956",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Irish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "866a0224-eb7e-5eb7-b1af-ae4a53263607",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Jamnapari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "87fc9580-470f-5c43-8ef8-9e292ae2fa01",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Jining Grey",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "699851a2-5686-53e7-a769-56169fb76549",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Jonica",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "cec1c8c2-7bac-5a53-b8cf-3963814079c8",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kaachan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "524bda79-67dd-59aa-8654-a341064b7ab9",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kaghani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "195314ce-df60-5353-a6e0-c5c589159289",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kalahari Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "b93a44cf-2c4b-5b43-b3bf-4c401b2cc2c5",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kalbian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "0d1b0a58-67c2-5c9f-af74-b0c126f4bd1a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kamori",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "bb08852b-df65-5446-bea9-a4600aa45689",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kempic",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "73645770-b626-5fc6-99c5-3f9dd1a028a3",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kiko",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "c108177e-0b03-59ff-959d-8a3ff790a202",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Kinder",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "82399fa1-8993-5bf1-bab3-765c2b396a46",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Korean Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "e9fdf26c-0560-5c41-a1e3-ecb0dd98d641",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Laoshan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "4fc8a196-41eb-5331-9a18-61a96645360b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Majorera",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "42555f07-2022-5929-8fd5-986c516be43e",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Malabari",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "d91348b2-dbe3-5430-b5f5-692d897a0348",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Maltese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "c0417cec-1481-54e1-afde-1d074a71211a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Markhoz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "d298e8e8-e366-5f02-9e5f-c9cc7a0e671f",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Massif Central",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "6fd9ddcb-c3ea-5661-b2ef-dbcfe9f6517a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Messinese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "cf753aa7-4b80-5dbd-80c1-87801a5fc481",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Mini Oberhasli",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "e3a90855-45d8-5ceb-a416-8556f22babb6",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Moxotó",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "bd9cf80c-cd77-52e6-9846-a01fd0b05761",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Murcia-Granada",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "14da9363-c124-5712-8f82-3224201c0412",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Murciana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a6bc8433-3d38-5354-8ea2-bab97d2de330",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Nachi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "50e016cf-fdf1-5beb-9b8e-fc0fc3916992",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Nera Verzasca",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "3cf29448-0b6b-5f99-804e-fee9712ecb30",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Nigerian Dwarf",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "11953d4a-8279-54f6-b11a-6d66d9bfda33",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Nigora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "afac45b1-47d2-5c37-ba25-846e8aabc740",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Norwegian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "189f8405-c5d6-52b5-92dc-990d4ed56ab9",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Oberhasli",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a3945c5b-2752-5fba-b09f-d0eafdda1b54",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Orobica",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "74ae9351-f1ab-5575-80b6-649c48164ca0",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Peacock",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "1e65282f-ba51-58d2-b2a4-6f5940dfc3e6",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Philippine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "b486ba22-f724-56d2-aa57-71a4f8d8c489",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Pinzgauer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "30466576-3e4e-5f84-b225-9144dc39c997",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Poitou",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "981a1c9d-1718-5631-af05-adcc7958f02e",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Pridonskaya",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "f56cd1fd-e3f8-516c-813b-5ac22c4a80b9",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Pygmy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "4d442d14-af78-5171-8915-b0f9d6b742cf",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Pygora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "710c703f-f0e8-527a-89c9-debed8fa347c",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Pyrenean",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "e2efcd97-57d3-5316-8afe-ea0d542248db",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Qinshan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "b3d28f7b-306e-5b5a-83af-751d191599e6",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Red Mediterranean",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "c3908efc-716e-5ba6-be64-1cb6d5bdbf4a",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Repartida",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "989f274e-8c90-5c79-885e-b97efbd3935d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Rove",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "b133aa87-884d-530b-8e44-c844e349003b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Russian White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "0d950bf2-acb0-5ddb-9a3d-7371831f632b",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Saanen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "56755135-f439-5dc0-9c03-b14ae46f5f68",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Sable Saanen",
+    "kind": "breed",
+    "aliases": [
+      "Sable"
+    ],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "9928566e-4f95-500d-b69d-31b3eb6958cb",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Sahelian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "2fd46635-191d-562c-8efb-be74442f3da9",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "San Clemente Island",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "d26e03a0-099d-598b-a28e-c71a8fdbaf27",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Sarda",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "6f9c5466-3460-5809-bc62-82d836ae9121",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Short-eared Somali",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "7be73495-7273-56e5-84b0-2f4dbb780a3d",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Sirohi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "ceb9325a-c817-5544-b7d7-2e83c4b401f6",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Sokoto Red",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "fb62fa10-3f43-50cb-8226-bcbfcecfd9b4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Somali",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "fd1e2a62-cb09-5aec-986c-560dc4eef2a6",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Spanish",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "65f02af1-99a4-5bc6-94d6-82b4afa609b4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Stiefelgeiss",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "747e26cf-8ebe-592b-8319-57fc3ce57c81",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Surati",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "83ab25cc-4d6d-5128-bf61-6a61b09943dc",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Swedish Landrace",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "86ae9db1-6062-5929-a4aa-85016ef264fe",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Syrian Jabali",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "716975ce-7619-5be3-8c47-429fda45730c",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Tauernscheck",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "3be5c497-1f6a-5c08-a941-11e304414a77",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Thuringian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "70b21ade-b701-5b77-acf9-e78372705926",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Toggenburg",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "626cb90a-9da0-568e-a73f-82496a9e983f",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Uzbek Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "5b8a61c5-cef5-585f-85ef-d7d9b4626e71",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Valais Blackneck",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "664addb8-4df9-561b-ba4f-4bf5b0477cb4",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Valdostana",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "461a2c6e-8d4e-53ff-86eb-d9711ed158a3",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Vatani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "87ea326c-21db-59f8-b760-e07a96f64ab5",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Verata",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "2566e3de-4df5-53c4-8475-3e0217aff188",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "West African Dwarf",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "44ac9071-0066-5655-a57d-6bb9cb99b4a0",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "White Shorthaired",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "e8421695-230e-5f98-a8a0-61c559f74764",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Xinjiang",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "6fa8b870-913c-56af-8f46-5d4b82782061",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Xuhai",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "662c3af0-4f4d-5958-bb30-961c72375aa1",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Yemen Mountain",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "fafdfb01-4c39-5766-a28d-5e74d06c3a5f",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Zalawadi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "9165e06b-c6be-5d82-84c7-2f5628bc17b8",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Zhiwulin Black",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  },
+  {
+    "id": "a1686606-16b1-53a7-ad1d-dd82b2d63b31",
+    "speciesId": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Zhongwei",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-goat"
+    ]
+  }
+]

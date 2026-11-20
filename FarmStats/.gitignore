@@ -1,0 +1,18 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+# Build and test output
+**/bin/
+**/obj/
+**/TestResults/
+*.trx
+
+# Local installer backups
+_ReSharper.Caches/
+*.installer-backup/
+installer-backup/
+installer-backups/

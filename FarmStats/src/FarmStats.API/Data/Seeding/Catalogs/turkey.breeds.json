@@ -1,0 +1,254 @@
+[
+  {
+    "id": "8053f155-6f62-5679-9bdf-ffce4e7225a1",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Auburn",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "30960eea-c6d2-5b22-b772-76713f2ff3fb",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Beltsville Small White",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "0a5e83ee-1d1a-548f-aeae-8182dbd989e5",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Black",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "0c590763-8925-576b-a818-55d4c494f0aa",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Bourbon Red",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "7487bbad-9dfe-554e-8403-1ab84dafe521",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Bronze",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "23ab0cf1-587e-5216-8d0e-fc4b4b735641",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Buff",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "b0d89001-5ddf-5800-b8fd-4002fd0b521b",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Cambridge Bronze",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "c0db6026-5657-59c9-a66e-b748e596c28e",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Castano d'Italia",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "abd293dd-21a8-5cd5-8545-6b3eab1b585f",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Chocolate",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "bb46ffff-ae18-564e-809c-ea54244b4ef4",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Czech",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "ad02decd-2d9b-54f6-a3c8-e4dccde39fa2",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Deutsche Pute",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "6958dad0-5d5f-553e-a6b1-c185ffd848fd",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Dindon du Bourbonnais",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "6228eddc-c4f3-5a58-9fbd-3cc10dd236ed",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Dindon du Gers",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "5331028a-8d65-51a1-aeba-a1137b75fc26",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Midget White",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "73ef7f1a-f17d-5abb-83ea-d090ee4cca29",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Narragansett",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "719dc0c5-7522-5b67-b10d-1c1028edaa32",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Nero d'Italia",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "33b6f600-e61d-5ce5-8c4f-2b340a10ec7d",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Norfolk Black",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "41222fec-b924-5979-ac53-265a684f40ca",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Pavo Oscense",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "8ae1d102-d291-53ad-9f0f-2eeffa9908c3",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Ronquières",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "286524ef-8fe2-51d8-aaaa-79c10a7824e0",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Rouge des Ardennes",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "8a9c9618-54cb-5129-a94c-1c56da4d8c5f",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Royal Palm",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "1e1d18f9-3c2d-5344-8ca6-3f00b2ab6f8e",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Slate",
+    "kind": "breed-or-variety",
+    "aliases": [
+      "Blue Slate"
+    ],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "ac46561a-d918-5c84-b597-ed3348876cb0",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Sologne",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "768ae1a4-ed8e-579e-9e9a-1fbc37b8358f",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "White Holland",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  },
+  {
+    "id": "70548f29-eb77-531f-b528-5c88ecf37a78",
+    "speciesId": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Zagorje",
+    "kind": "breed-or-variety",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-turkey"
+    ]
+  }
+]

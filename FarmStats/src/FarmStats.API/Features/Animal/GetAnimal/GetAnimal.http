@@ -1,0 +1,27 @@
+@host = http://127.0.0.1:5000
+## Bessie the cow
+@animalId = 1748e896-2a19-42e9-b6a7-a37d42bdaeb7
+
+### Get an existing animal
+# Expected: 200 OK with the animal's details.
+GET {{host}}/animal/{{animalId}}
+Accept: application/json
+
+
+### Get a nonexistent animal
+# Expected: 404 Not Found, provided this ID does not exist.
+GET {{host}}/animal/ffffffff-ffff-4fff-8fff-ffffffffffff
+Accept: application/json
+
+
+### Get an animal with an empty GUID
+# Expected: 400 Bad Request.
+# Validation message: Animal ID must not be an empty GUID.
+GET {{host}}/animal/00000000-0000-0000-0000-000000000000
+Accept: application/json
+
+
+### Get an animal with an invalid GUID
+# Expected: 400 Bad Request from request binding.
+GET {{host}}/animal/not-a-guid
+Accept: application/json

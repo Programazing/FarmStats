@@ -1,0 +1,289 @@
+[
+  {
+    "id": "wiki-cattle",
+    "title": "List of cattle breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_cattle_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:270]"
+  },
+  {
+    "id": "wiki-goat",
+    "title": "List of goat breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_goat_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:211]"
+  },
+  {
+    "id": "wiki-sheep",
+    "title": "List of sheep breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_sheep_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:212]"
+  },
+  {
+    "id": "wiki-pig",
+    "title": "List of pig breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_pig_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:213]"
+  },
+  {
+    "id": "wiki-horse",
+    "title": "List of horse breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_horse_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:217]"
+  },
+  {
+    "id": "wiki-donkey",
+    "title": "List of donkey breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_donkey_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:218]"
+  },
+  {
+    "id": "wiki-chicken",
+    "title": "List of chicken breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_chicken_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:214]"
+  },
+  {
+    "id": "wiki-duck",
+    "title": "List of duck breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_duck_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:215]"
+  },
+  {
+    "id": "wiki-goose",
+    "title": "List of goose breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_goose_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:216]"
+  },
+  {
+    "id": "wiki-turkey",
+    "title": "List of turkey breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_turkey_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:220]"
+  },
+  {
+    "id": "arba",
+    "title": "ARBA recognized breeds",
+    "url": "https://arba.net/recognized-breeds/",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:204]"
+  },
+  {
+    "id": "wiki-cat",
+    "title": "List of cat breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_cat_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:222]"
+  },
+  {
+    "id": "wiki-dog",
+    "title": "List of dog breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_dog_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:221]"
+  },
+  {
+    "id": "wiki-pigeon",
+    "title": "List of pigeon breeds",
+    "url": "https://en.wikipedia.org/wiki/List_of_pigeon_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:223]"
+  },
+  {
+    "id": "wiki-canary",
+    "title": "Domestic canary: breeds",
+    "url": "https://en.wikipedia.org/wiki/Domestic_canary",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:269]"
+  },
+  {
+    "id": "rutgers",
+    "title": "Rutgers: Llamas and Alpacas",
+    "url": "https://extension.rutgers.edu/fs917",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:225]"
+  },
+  {
+    "id": "ncat",
+    "title": "NCAT: Llamas and Alpacas on the Farm",
+    "url": "https://www.ncat.org/publication/llamas-and-alpacas-on-the-farm/",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:232]"
+  },
+  {
+    "id": "akc",
+    "title": "AKC breed directory",
+    "url": "https://www.akc.org/dog-breeds/",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:219]"
+  },
+  {
+    "id": "royal-kennel",
+    "title": "Royal Kennel Club A–Z",
+    "url": "https://www.thekennelclub.org.uk/search/breed-a-to-z/",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:271]"
+  },
+  {
+    "id": "simple-dog",
+    "title": "Simple English dog breed index",
+    "url": "https://simple.wikipedia.org/wiki/List_of_dog_breeds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:272]"
+  },
+  {
+    "id": "cfa",
+    "title": "CFA recognized breeds directory (partial extraction)",
+    "url": "https://cfa.org/breed/",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:203]"
+  },
+  {
+    "id": "merck-birds",
+    "title": "Merck: Popular pet birds",
+    "url": "https://www.merckvetmanual.com/multimedia/table/popular-pet-birds",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:241]"
+  },
+  {
+    "id": "merck-ratites",
+    "title": "Merck: Overview of ratites",
+    "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/ratites/overview-of-ratites",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:239]"
+  },
+  {
+    "id": "hybrid-equines",
+    "title": "The Donkey Sanctuary: Mules and hinnies",
+    "url": "https://www.thedonkeysanctuary.org.uk/for-owners/owners-resources/caring-for-mules-and-hinnies",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:255]"
+  },
+  {
+    "id": "hybrid-ducks",
+    "title": "Metzer Farms: Mule ducks",
+    "url": "https://www.metzerfarms.com/mule-ducks.html",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:267]"
+  },
+  {
+    "id": "guinea-varieties",
+    "title": "Guinea fowl variety study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12794570/",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:229]"
+  },
+  {
+    "id": "budgerigar",
+    "title": "Budgerigar: aviculture and mutations",
+    "url": "https://en.wikipedia.org/wiki/Budgerigar",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:303]"
+  },
+  {
+    "id": "conure",
+    "title": "Conure classification",
+    "url": "https://en.wikipedia.org/wiki/Conure",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:275]"
+  },
+  {
+    "id": "muscovy",
+    "title": "Muscovy duck",
+    "url": "https://en.wikipedia.org/wiki/Muscovy_duck",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:304]"
+  },
+  {
+    "id": "fao",
+    "title": "FAO Domestic Animal Diversity Information System",
+    "url": "https://www.fao.org/dad-is/en",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:183]"
+  },
+  {
+    "id": "ef-seeding",
+    "title": "EF Core data seeding",
+    "url": "https://learn.microsoft.com/en-us/ef/core/modeling/data-seeding",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:188]"
+  },
+  {
+    "id": "osu-quarter",
+    "title": "OSU: Quarter Horse",
+    "url": "https://breed.okstate.edu/horses/quarter-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:290]"
+  },
+  {
+    "id": "osu-andalusian",
+    "title": "OSU: Andalusian",
+    "url": "https://breed.okstate.edu/horses/andalusian-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:289]"
+  },
+  {
+    "id": "osu-friesian",
+    "title": "OSU: Friesian",
+    "url": "https://breed.okstate.edu/horses/friesian-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:291]"
+  },
+  {
+    "id": "osu-haflinger",
+    "title": "OSU: Haflinger",
+    "url": "https://breed.okstate.edu/horses/haflinger-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:288]"
+  },
+  {
+    "id": "osu-clydesdale",
+    "title": "OSU: Clydesdale",
+    "url": "https://breed.okstate.edu/horses/clydesdale-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:292]"
+  },
+  {
+    "id": "osu-arabian",
+    "title": "OSU: Arabian",
+    "url": "https://breed.okstate.edu/horses/arabian-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:293]"
+  },
+  {
+    "id": "osu-appaloosa",
+    "title": "OSU: Appaloosa",
+    "url": "https://breed.okstate.edu/horses/appaloosa-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:301]"
+  },
+  {
+    "id": "osu-hanoverian",
+    "title": "OSU: Hanoverian",
+    "url": "https://breed.okstate.edu/horses/hanoverian-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:302]"
+  },
+  {
+    "id": "osu-morgan",
+    "title": "OSU: Morgan and related breeds",
+    "url": "https://breed.okstate.edu/horses/morgan-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:299]"
+  },
+  {
+    "id": "osu-pinto",
+    "title": "OSU: Paint versus Pinto",
+    "url": "https://breed.okstate.edu/horses/pinto-horses",
+    "retrievedOn": "2026-11-15",
+    "citation": "[web:295]"
+  }
+]

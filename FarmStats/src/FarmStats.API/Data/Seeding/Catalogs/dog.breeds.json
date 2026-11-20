@@ -1,0 +1,4877 @@
+[
+  {
+    "id": "240363dc-c014-5adc-9d35-80493762eb8d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Affenpinscher",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8da2bba7-50b2-509b-86bb-82f50e8464be",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Afghan Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5ed42965-44c4-5d59-947b-5dd6371f58b1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Airedale Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "17d3bc67-4435-54e6-8a10-ee02506102e7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Akita",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "005e339c-2ed5-5366-81da-df766d1da009",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Alaskan Klee Kai",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ebb8d8b4-1c6a-53ca-baa3-5227861ce971",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Alaskan Malamute",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cf5bc21f-a6b8-5dff-a12a-ccc9d39f171f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "American Bulldog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "88fb4147-8a63-50b1-accd-ea1d9238c5cb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "American English Coonhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "351b9a0a-8e72-5162-9eca-0529177531ee",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "American Eskimo Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bd02a761-1aad-516e-8ec8-d73aa78ec16b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "American Foxhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a623f753-5def-5634-ab2a-8622529433a3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "American Hairless Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c5028205-1c2a-5a72-8e0d-1e3d4ec86f2e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "American Leopard Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cabba5de-2f50-5456-ae15-0f2cb55393f1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Anatolian Shepherd Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cec73102-03f7-5c7c-985e-26c58a6891a3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Australian Cattle Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cb274c5e-8be4-5576-9496-9d9e59cb5311",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Australian Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "993f29c7-b45a-5276-9837-497d26f0147c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Australian Silky Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7b11bf6e-fa90-5db7-83e9-9f3d7eb548ac",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Australian Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "db522633-744f-5bf5-bb1b-f5c437476f96",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Azawakh",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "854f5ba5-5eee-5900-9313-9d256ccdd8da",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Barbet",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d0ce4f87-dcdb-5601-8e78-9ecab911c23a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Basenji",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "602b416e-0060-5f2f-ad44-b5e45da37f82",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Basset Bleu de Gascogne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b5741331-af66-59aa-9381-a6f591e1fedd",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Basset Fauve de Bretagne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3554c215-d30a-5eb8-a1ab-7fb0e7310c92",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Basset Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7e9ddbc0-d8c7-540f-9c17-0a829a0c6171",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bavarian Mountain Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "659a4e18-06c8-5485-ae45-95a8ffeec15c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Beagle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "063b7868-fc51-53b4-a481-831b36abd71b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bearded Collie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b3f170ce-7b81-56c9-9c2f-828c470f0166",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Beauceron",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4a91971d-d5fd-5bff-9edd-1bce15e4cf9b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bedlington Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e4c90b51-ed80-531e-8371-1a98599b347c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Belgian Shepherd Dog (Groenendael)",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "63876be1-7196-5dbd-9a5a-1b059f00bf93",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Belgian Shepherd Dog (Laekenois)",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6fbb388d-8de3-5029-b9e3-3837e3b18241",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Belgian Shepherd Dog (Malinois)",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1f682196-50cf-5dbc-a6b7-4488890aa3e6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Belgian Shepherd Dog (Tervueren)",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ba29640d-19b1-52a5-8689-871c99a552c9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bergamasco",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f95f9a1a-eb62-5df9-a29e-f83479760db0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bernese Mountain Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6d5b4c66-96b9-5c0e-8237-ecb4f1ae79fd",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bichon Frise",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9ef75ac5-5633-515f-8a16-284fe2637134",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Black and Tan Coonhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7a857493-1636-537b-8b1a-bc4bf7899aeb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bloodhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6c426560-3101-5a41-b559-887ce67c4c94",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bolognese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "87d6e4d3-c22d-5e54-b924-949b0a02a66b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Border Collie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e94946c7-c89d-553a-9805-22750dca8e9d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Border Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2587188b-3f86-5536-bd81-9b743685538a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Borzoi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f04d9693-4144-53df-a966-ce46ed539965",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Boston Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c7f335e0-1c8d-5f34-9845-03b609bf7fce",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bouvier des Flandres",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "70ffa51f-afa8-5815-8d5f-789ccd2b4525",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Boxer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "970de64f-37bd-5b99-ada7-ef056644c10c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bracco Italiano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e8e76ab1-bc48-560a-8235-31a774a8e8d9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Braque d'Auvergne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "243b676a-3aa1-5c0a-976f-d264f45f2feb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Braque du Bourbonnais",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "821731cb-02d9-53e7-9a60-012b754ef815",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Briard",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "742b1578-e734-5240-acfa-da721d956229",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Brittany",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "dc5efefb-be24-5218-8b7c-691a554fe08c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bull Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cb285bc6-3e04-5051-9445-c7c1f4dd7b69",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bulldog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c9f79706-2a10-5e74-b1d3-12d261a900a0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Bullmastiff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6b7886cd-55e6-52ed-886e-ac0c7437e002",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Cairn Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "050c94d5-eb84-5939-926e-297a850b20a9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Canaan Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "21a2842b-5dd5-5502-9451-8883b567b43d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Canadian Eskimo Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "80e52efd-30dd-55d8-aed4-995e6278ac22",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Cane Corso",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "be00c971-609e-53ff-ad6c-98165b5ae3fb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Cardigan Welsh Corgi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d4a466bd-14a5-5fa1-812a-f26801905f7f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Catahoula Leopard Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "44b11479-4ddb-5e97-b65b-4f4071b6bf7e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Catalan Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "39706422-d1d1-5f9e-afba-8c26d56fa786",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Caucasian Ovcharka",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "63f3fe6f-103a-5993-97eb-b6e70a4d207e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Cavalier King Charles Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "86ac5761-c1da-562c-aa7d-e679fab3885d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Central Asia Shepherd Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7b75008b-ef6d-5570-94e9-7488ac7c98fd",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Cesky Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "aa129ca5-62df-5c9e-86ee-fbdd41acb493",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Chesapeake Bay Retriever",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "05f2c3d2-7d19-534b-a3ce-4ad3bb9e359d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Chihuahua",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "586f67eb-ecfc-5bea-9528-7e0505c39a20",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Chinese Crested Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "433d3e01-0cb2-5bdf-be2b-16da7271d840",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Chinook",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7a80b0e1-94f8-557b-aa32-808b31d1d2ad",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Chow Chow",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "35b66ab9-4c5e-5f62-aefd-f7915760ab69",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Cirneco dell'Etna",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b7cc77a2-b5ed-5701-ba87-ae19a533c35b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Clumber Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e7e14c7a-ea97-538a-a033-16f83475843d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Coton de Tulear",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "18253f6d-06f4-56a6-ac61-083a96918ec4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Croatian Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "656fa4e1-a525-56e7-88d3-5899260de91e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Curly Coated Retriever",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4c5b2a6a-1067-5798-bbdf-90b3929f8b4d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Czechoslovakian Wolfdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2e2c9231-5e37-5bc5-aac8-81cb119e3c29",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dachshund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "fc0ae542-582a-5d9e-b27a-a73eec050f18",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dalmatian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1e47edd9-1a02-5984-978a-1c9901d78df0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dandie Dinmont Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "90aa6a00-70d1-5576-a7d3-28ebf456a26c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Danish Spitz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9de0fb26-fbdc-5c73-bbd8-a73bb6a6a293",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Danish–Swedish Farmdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "929550a7-86d5-58a8-8ff7-2ee5aceacdf8",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Denmark Feist",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "360a8b1c-b3d3-5478-b326-fe74794ffcca",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dikkulak",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bd6ec69c-d658-5adc-849e-e4cad5791dcc",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dobermann",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2adb7b13-bc29-58f1-b7db-9c31a8992b6d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dogo Argentino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5fca39c7-060b-5d6c-bbcc-acf210aba7d6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dogo Sardesco",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0613e01e-9654-5f18-be33-9255345c1065",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dogue Brasileiro",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c79c8817-0481-5bb8-b6dd-b6587ede88e6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dogue de Bordeaux",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e924820a-7447-5bca-abb9-968c13659b85",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Donggyeongi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5a2329ca-254a-5d24-ad1a-935edf1a9533",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Drentse Patrijshond",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a18f411c-81b5-5f4d-af16-204756597a70",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Drever",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "774d3c30-a6b9-575c-802b-135167c7c504",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dunker",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2d397636-ae64-520d-917f-4ab850453374",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dutch Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "45e0972a-4eab-521e-a6ca-3dff2c0e8002",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dutch Smoushond",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "82e96fac-ad6e-5455-b669-fa99ae4e8ab0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "East European Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4fb2546f-9cc2-577a-b980-81ee706f3e7d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "East Siberian Laika",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bd9d7739-2539-55f1-895d-2946f1cd3d05",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Ecuadorian Hairless Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "821db126-de4f-5cb1-93af-c294a2107adb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "English Cocker Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1fe98c48-383e-566d-8ca4-de882629edec",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "English Foxhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3a99066c-028a-5ef1-ac55-145615cf1638",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "English Mastiff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9f6adb7d-70db-5bfc-a562-166fc57ed412",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "English Setter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "11480b6a-f6e2-55af-a02c-95befeb7698d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "English Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "925cbf31-d38b-5f3f-9b56-21aff587cec7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "English Springer Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "422dca10-3cbc-5d88-a40c-511427c5f275",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "English Toy Terrier (Black & Tan)",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "91308523-b919-5803-b2fa-7855ee8f32f8",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Entlebucher Mountain Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "34aa2ec7-1103-547e-9f36-728321c1e911",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Estonian Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "dfba71d4-da64-527f-8e5a-c56c2753536b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Estrela Mountain Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e8e577d0-bc94-5f5f-8671-739a23842caa",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Eurasier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "31a63974-5568-57e6-b612-221ad2221c92",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Field Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0086cabf-9aa3-54d1-b67a-ac151a7b8833",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Fila Brasileiro",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "fca0ea71-768b-5112-ad36-3c270b9d9bf0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Finnish Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "89d4c16e-b56e-5cc7-9768-c4e31630d04a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Finnish Lapphund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6f5830e3-52b4-5615-8816-f411c9c64c5d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Finnish Spitz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f3b4f618-8148-5952-b891-ae7d6f9fc8a1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Flat-coated Retriever",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "61e677e2-10bc-5cbb-b422-5fb375c957e9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "French Bulldog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a3daaac1-8adc-5cb5-a59d-0f55c5277967",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "French Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "65082948-7bf2-5c43-93f6-6a1665c4b129",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Galgo Español",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9cb09696-e19a-521f-9cd9-d537c8d1f150",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Gascon Saintongeois",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "dc449b07-1dd9-5ad9-b45c-3361cfd0e2dc",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ed2f0dfc-a76b-5d35-996f-55b86de40b54",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Longhaired Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5004e42f-b42c-520c-9879-f17dd532563e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Pinscher",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9546342d-b7a9-5e43-b648-111535b4e030",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Roughhaired Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6c9dfe00-45bb-58f4-a4f3-16ba7c913b32",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "05cb9b99-46f1-5d15-b9df-7afbdcfef8a9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Shorthaired Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "013aaf9d-db52-5b4f-bdbc-248d822a6837",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0715d67b-b142-5fae-9e56-e04ac610c0f4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Spitz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7c235f5b-e327-5c53-87b7-278f0c43b41b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "German Wirehaired Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bfdec0bb-2a46-5f96-a28c-6e9997003492",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Giant Schnauzer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2aa1da30-afc7-51db-a541-2e73ad2e3ea0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Glen of Imaal Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3a895a8b-2087-557b-9cdf-7ba7c74cebd0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Golden Retriever",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a51c5803-6760-5bcd-a205-0ad56ee7f9a8",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Gordon Setter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "aaa8058d-2713-5233-a655-0a60d20eae6d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Gończy Polski",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5b10b0a4-fabe-51bd-80ad-030c9dfcea2c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Grand Anglo-Français Blanc et Noir",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2f4d289f-781d-5565-86e4-85c9a66ace80",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Grand Anglo-Français Blanc et Orange",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3e875dd6-db9b-56a2-af32-4ad6e4e1adfa",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Grand Anglo-Français Tricolore",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0a957158-9173-5d0e-b7b8-21e6c7e952d3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Grand Basset Griffon Vendéen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2594fd2a-5c39-5565-ac4e-531da22cc4a3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Grand Bleu de Gascogne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "61382def-f596-56aa-a378-3a2e83373cc5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Grand Griffon Vendéen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "75cdd372-7fc5-5373-879c-6eb21f1ae8fc",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Great Dane",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "370e51df-4321-5f66-9147-ab9c625ffe48",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Greater Swiss Mountain Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "67b8a2c1-e984-5e7c-b700-ad18638943ea",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Greek Harehound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "391684e5-b57b-5a41-9e0f-012e4101a46c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Greek Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "314c1443-b002-56c9-926e-1a3dd76d3e39",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Greenland Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d8693841-8256-5c75-86df-d3ea04e5bcf3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Greyhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "659f1002-335a-57a5-a315-e03891ee0200",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Griffon Bleu de Gascogne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d7807557-d226-57be-b89b-9299c42cefb6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Griffon Bruxellois",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b73c2b8d-da44-5693-ad9f-087d8b739042",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Griffon Fauve de Bretagne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "29839faf-053f-599c-b349-14ea8d50458e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Griffon Nivernais",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "811051f3-e9dd-5508-be8b-cd98f7b462b7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Gull Dong",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7859952a-d207-5c3c-9b73-e2b83d18a29c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Gull Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f40b9c2e-fd1a-5c02-af63-e139f4ea19ad",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Halden Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2cdfd094-4aad-50a5-9154-535c20a65d47",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Hamiltonstövare",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7ccfe424-986c-5a53-803d-624f337d19a0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Hanover Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b8b5930f-2449-57a5-81c2-01609eb8f812",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Harrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1f5699e0-ceaa-5fb3-991c-b99b8ac9b5fa",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Havanese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a884821b-34fc-515c-92af-727d5c380c9d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Himalayan Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d5ed9234-5adc-589a-87fd-0fac07a2185a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Hokkaido",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4789883c-77b6-50f7-9ad7-2b55f3e63dc4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Hovawart",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9d63f3f1-3a16-5e61-8d2d-5fcd4670c596",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Huntaway",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ad809741-d5c4-5b46-ab6f-ca07c94df58f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Hygen Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8c5fac2d-af1f-5b7d-90a9-cd5cc7034dd1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Hällefors Elkhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "51d3a23a-e1b3-5665-a877-a823c8ab1b85",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Ibizan Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4d1bb2e9-af54-5725-8077-37c3f5878e61",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Icelandic Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "66a52390-f1e4-5faf-ad3b-cec68e077257",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Indian Pariah Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5baaa27e-ad50-5396-a3bb-cae9663178e1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Indian Spitz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "84da4ca6-e5d5-538b-86e9-7f1a44b8b0c2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Irish Red and White Setter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4a36fcb5-2726-51fc-9d79-6ce44872b0b2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Irish Setter",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "fa33f21f-3fe8-5061-96bb-6a936086346e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Irish Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "774a6fde-36a3-5c9e-a985-f54197a4b978",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Irish Water Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "dac0b2f0-ee49-5ba1-9b24-2237366899c3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Irish Wolfhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d43b2011-64a3-5273-8a57-8c87e9d9b39e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Istrian Coarse-haired Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f32810bb-f7c9-5cb9-9010-3c586a822c9f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Istrian Shorthaired Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "615b666e-6a60-5563-85f7-2df174416d76",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Italian Greyhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9c167015-9381-54e2-b27d-1fdc348c4bdc",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Jack Russell Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "79fc252a-daaa-5bfc-894a-04b0126ef9ff",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Jagdterrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ea751499-314f-5569-a9a1-cb8f97c6402d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Japanese Chin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "09dec1c1-735e-54de-a09f-5b53e015705f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Japanese Spitz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5a946c07-b0a9-5dfe-b184-f32f0792f512",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Japanese Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "fdd1e2bf-61fa-5cdd-9c9a-a0e0642249f2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Jeju",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "65d902c4-0032-555e-983d-61048fe7e898",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Jindo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f8afad49-3db7-525b-9437-7ec5cdcad7ee",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Jonangi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f54a0457-5160-5c58-94b7-29466493d6cc",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Jämthund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "84d9ec02-dbbf-5f5e-870e-06f61d8fdfbb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kai Ken",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b0c39445-7ffb-5451-8669-2065603db0ec",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kaikadi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1be96b23-6640-5de8-9d88-371d78d8cae5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kangal Shepherd Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5fa406d7-292c-52eb-a9d8-1e2352cbd027",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kanni",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3b1664cb-10bc-5558-a122-68b29f59367d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Karakachan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e7916c98-91a3-512c-a355-8cefa4f3cdc7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Karelian Bear Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "70a46f4f-3808-5c15-9427-7a558e40ddcb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Karelo-Finnish Laika",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "32b3002c-f244-53c2-86cc-37adb1e39602",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kars",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "962ed826-a937-53d9-9244-d1408f9df4c1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Karst Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f937c486-ccb0-5430-b0f7-05e3449715e6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kazakh Tazy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9b87f199-c5ac-5159-b6b2-8bb7621a3787",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Keeshond",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a5cf69d6-a49e-53bb-87f7-45268f6e14f9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kerry Beagle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "11fe1d9d-8bac-5eb5-8dae-a618785c4ab5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kerry Blue Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9d6e56f1-af2c-5730-a904-b14ad8b04416",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "King Charles Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0134419d-55e7-5cf0-9b06-2ed186f67b18",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kintamani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cc2cecf0-f612-5555-bdca-c744bfc9b9eb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kishu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4e511154-2bd7-5cc4-af58-0873ffac7701",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kokoni",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "127cc4b8-db55-59d5-8cd3-969aabc66bc0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kombai",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a321ebce-2bee-58a5-9422-e25eece79180",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Komondor",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cf4bee8c-08d7-5fca-96dd-89deb7eb9909",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kooikerhondje",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6c567001-f601-533a-9119-75e8dceff294",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Koolie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6c0e2935-4fb2-5da3-ac59-c4ef01cdba20",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kromfohrländer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4d67663c-dac9-5922-b232-c5a3c02e8119",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Kuvasz",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cef2b46b-e42b-5643-85bb-352093d6ff4e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Labrador Retriever",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8b750154-d146-5756-a10e-71ad629cc356",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Lagotto Romagnolo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "133ce9e3-dab2-5fef-acf7-cb9bd9e28ad2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Lakeland Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "500f79cb-08d6-574c-9d37-5833dd379b2e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Lancashire Heeler",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "538faa8c-d670-5a25-85b3-9a506e0a31bd",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Landseer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b8aa55b2-cd5d-5ac9-9757-05094a7888c4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Lapponian Herder",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "461a877d-fdb4-5108-936a-290a6e4b7fd4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Large Münsterländer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "792d39ab-015a-5b38-bdad-c1f353bdf945",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Leonberger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0efc3377-a954-5668-89bd-d5336ae8586f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Lhasa Apso",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7057e5b1-7d9e-56e5-bc71-a6fb780e2f6f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Lithuanian Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "94a88c29-01cd-5a00-b2ba-b5670e634dfa",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Löwchen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8cc47087-f1df-500e-b6d3-cee872c7aa2c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Magyar Agár",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f58c10a4-6e5c-5eff-919a-eb079e3922c9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Maltese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1bafe95e-0462-56c2-9526-d5b741e73326",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Manchester Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5a658761-d8ae-532a-921c-fcd6089f371a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Maremmano-Abruzzese Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0f2ae6cc-babe-5465-95c3-7c28eb1f682a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "McNab",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0bfd5a2d-e8ff-5943-b6c4-4a9978f7e89f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Miniature American Shepherd",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a06ffd32-e5b3-5161-bfb9-eb217294c59b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Miniature Bull Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a4a8cc6d-7b49-5c97-bc97-2f573dc575da",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Miniature Fox Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d053905d-ea20-5d2b-ba4e-6e152ea355d2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Miniature Pinscher",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a73e6eb8-25bf-5f11-91c2-86d0c7fbf6d5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Miniature Schnauzer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "95eb8863-37f9-566b-aa02-95a917e3bbe3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Montenegrin Mountain Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "06c13695-4d7c-512c-912e-0b934d14e3b4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Moscow Watchdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7b4babc3-96a4-526d-84ae-81f4750f2f43",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Mountain Cur",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "12f84e8b-b1ef-5c1d-94b9-183427c8afbf",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Mountain Feist",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a6deea18-f412-59e9-8ed8-276df21524dc",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Mudhol Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "52e75be8-b13a-5a99-9566-41c709dc6fcb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Mudi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1e9d2e3d-0adb-5357-91a8-a8715c6e44e0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Neapolitan Mastiff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "25167ade-85d3-5382-9e4e-fa4725acdbcd",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "New Zealand Heading Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "61864673-61ad-5285-b08f-d11403e37f16",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Newfoundland",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f1f94535-e55a-59b7-9161-2d64ae585050",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Norfolk Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4e105d31-52bc-5fdd-80fa-18ef0f22cc98",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Norrbottenspets",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4dbe215d-92ce-5e9c-b913-b84e0ea4ba9d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Norwegian Buhund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "743adfc7-ac27-5387-aec7-9982f15eea53",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Norwegian Elkhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4ff161e8-6e2a-5c70-9794-e8947345a599",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Norwegian Lundehund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "4b270228-5785-53c9-982a-fd46be76d1b3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Norwich Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3273f2eb-e1f3-5856-989f-b6e681d48631",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Nova Scotia Duck Tolling Retriever",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6e624443-bf75-5ff5-aecd-867292aefa2c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Old Danish Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "22918916-b953-5461-8ece-3a6f17757e58",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Old English Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "98d224cf-cf32-5a2d-9105-239d7f2aab73",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Olde English Bulldogge",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "67d62c9a-36c4-5a63-8c92-2cd7661b0b77",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Otterhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "817e1c5f-1db8-520b-9499-aa3cd3967181",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Papillon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cf31415b-65e4-5944-9fec-42e9380fc36d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Parson Russell Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0f5fce91-d2ee-53ec-b31c-4f15328df9e2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Patterdale Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "75aae084-9606-54b1-8ef2-26fb00fa73f7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pekingese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6b39994c-1b4f-508d-97c5-7d9be99416c4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pembroke Welsh Corgi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f2326cc6-6932-577f-86b7-c999a13974da",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Peruvian Hairless Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a2037a97-13ec-5c3c-bcc4-7060c00d9241",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Petit Basset Griffon Vendéen",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1467ef3f-98ce-5df0-84d6-0e8c85911da6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Petit Bleu de Gascogne",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ae96ed34-3aef-5742-ab25-445f8aa91884",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pharaoh Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1d293a55-3770-51cf-ab5a-68c077513983",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Picardy Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a378f6bc-c393-511d-acad-e09e1292eb27",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Plott Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "12359f85-f2f1-54f3-9d5d-f00aac8c964e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Podenco Canario",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d25a7aea-d632-5eee-ac3a-568d5df460b5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0d766740-eb8b-5535-aaae-ab016430fc1b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Poitevin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6bd81016-23e2-5e2d-85d7-b9ca83efcffb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Polish Greyhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bb6ca08d-4e2c-5e43-8ec8-abf95ae7f42c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Polish Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "04de44b2-02f8-52a1-a846-978d4d7c8181",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Polish Lowland Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a8fb920f-d239-59cf-bbae-e325b37fc97e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pomeranian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8c301c77-291a-5dba-8c28-9362327d5218",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pont-Audemer Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5b462fb3-f5b5-5910-9209-c71ae5fcd1b7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Poodle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "967ce61f-1b65-5ccb-8b9f-cb75f64b06dd",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Porcelaine",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "20b2022e-5604-57ed-a44d-f7254ce05db0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Portuguese Podengo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bb991b1f-9b8f-5825-a872-a6652aebd868",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Portuguese Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d5ea5965-e7a6-5e15-a13a-c4ae6e6be2e9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Portuguese Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b73a9537-eec8-567c-bc11-27bdfe44bde1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Portuguese Water Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b5d617fd-996a-54fd-8caf-8e405327b6a4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Posavac Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9ad0628e-dc68-5af7-935b-7c8359068e45",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pražský Krysařík",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8b4a8370-b805-569a-9748-76e1445511a2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Presa Canario",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "68a4b817-405d-587b-bf6b-007f3fe9777f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pudelpointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "33cd4204-d10a-5b18-88ec-433d2369ae86",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pug",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "985014a5-5cba-53a9-8c8f-2ddbfc94d921",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Puli",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "569493ef-409e-56dc-9e06-139b77704854",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pumi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "55fcff02-b47a-5b88-ab57-99d157b2e04f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pyrenean Mastiff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d21c4b0b-289d-505a-aef2-75ff5355a8fe",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pyrenean Mountain Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d193cdc1-6af8-576d-b9c1-8bcf229d091a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Pyrenean Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9b901d1f-ca45-5396-96e9-eaf8eb51ab47",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Rafeiro do Alentejo",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "89ccb898-a8ce-5e30-b410-ba3ec2023520",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Rajapalayam",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c67f2942-2994-5830-8e7a-dee0a5621b0d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Rampur Greyhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "24890e0f-5f48-56f2-a34a-0dae242bacce",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Rat Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "41ed830d-0df5-5f7f-881e-b02e1a0f5b9e",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Redbone Coonhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d75973bb-2170-5db5-a9a3-db726699621d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Rhodesian Ridgeback",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5bf33c6d-8c0a-5a43-95f3-558dc368de6c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Romanian Mioritic Shepherd Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bb1de86a-54ef-546d-8713-4bab7021a2ec",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Romanian Raven Shepherd Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "de5cbdaa-36f1-5f5a-9a9c-60814a09b355",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Rottweiler",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1882d8c6-8156-51c4-9624-9ab58011969c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Rough Collie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5e1b03fa-255a-568a-a220-dcdab7a9fb12",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Russian Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "92908d2a-7a1a-5e47-a606-fcf651dc9d4d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Russkiy Toy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c7aadcf6-4161-58a2-86be-cbf7d7a017ee",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Russo-European Laika",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f3dd9178-abd5-58ed-ae89-1a23abc5d8a3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Saarloos Wolfdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e4ce8370-7122-5864-8f81-be0f741819ee",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Sabueso Español",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "64950ea8-5063-5be9-8675-eb975b6724fc",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Saint Miguel Cattle Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "328e2a6a-a480-567b-aaf1-3c6cfaa35e7d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Saluki",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "18e861bd-0e18-59a0-9bab-992e82f86bf7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Samoyed",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "af20440a-98a5-586b-abf3-7feca09100a1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Sapsali",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b4985d8a-228a-5837-8d90-d10d8956c5b8",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Schapendoes",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "188eb857-5a9e-5fd5-b727-a198275dd948",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Schillerstövare",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "155b7424-725a-5cc8-bd5e-cc7e18f99783",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Schipperke",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bae9e420-b639-5641-9fff-a444a2423349",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Schweizer Laufhund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3a2052f2-9311-5a58-a0fd-e2c9a8916737",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Schweizerischer Niederlaufhund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e86f42d9-354a-5777-9a42-473bf4cfe594",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Scottish Deerhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5900ef51-e056-5f2f-a1fa-652233ec10e1",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Scottish Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "29cdc51a-e11c-5b1d-992f-7192a51a083c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Sealyham Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "62c8c253-6d4d-53c3-83e7-2536e21bd5a5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Segugio Italiano a Pelo Forte",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2815e05e-e2d7-546e-80bf-06d5e6f9ed96",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Segugio Italiano a Pelo Raso",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "2c43ef41-fad2-57b5-9566-64b702dc635d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Serbian Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "affd83dd-be63-5223-b840-e6caa324ef9c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Serbian Tricolour Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c56ee01f-cd90-5ff2-b573-c63369b3a3a9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Shar Pei",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b157f351-365d-5c51-8e6d-819eab833771",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Shetland Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "fa754b74-23fe-5325-8e54-b3630c27c24f",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Shiba Inu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "b5a08a54-dc39-5f3b-afb6-371ef1b21e6a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Shih Tzu",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9d5e59cb-ac55-55de-aff5-2cedd72a4cd0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Shikoku",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5b1f9d34-26ee-59e1-be2d-54d80e430333",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Siberian Husky",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "e1025984-cced-5e26-bc26-f2eae3430717",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Silken Windhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f419b0e4-4cb0-5bee-ad04-e412818f59d4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Skye Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "45ae3d9f-48d6-50f6-9095-91780e3bef01",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Sloughi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "79c1c282-143c-59df-a5b0-733560ba2753",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Slovak Cuvac",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "85538693-9a5d-5b3d-957e-1feaf71d486c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Slovak Rough-haired Pointer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a3b614b9-b76a-5b59-bf85-e13f689c9064",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Slovenský Kopov",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "75d2370a-4f90-59cf-a727-ff95719be2e0",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Smaland Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "7f786825-ad42-5bf0-9a43-ea718034cc12",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Small Münsterländer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9e290276-2311-5a63-b7c7-3fa2ae4b9ebb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Smooth Collie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "52bee656-86b6-52b4-b17e-25f965e969f4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Smooth Fox Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1037f62f-3ff9-5463-827f-2b9b20eba6e7",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Soft-coated Wheaten Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1c87f99d-cc1a-5554-a822-66f6ce23e463",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "South Russian Ovcharka",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3fecb299-0997-56b7-aa8f-306ca6fadf14",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Spanish Mastiff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6ae414d8-55db-5245-8d9b-c7146437eb2a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Spanish Water Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0ee9d0a3-feee-53d9-9f4f-b1bdfed447ec",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Spinone Italiano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a2d09051-9e0b-5bd1-96de-e87a3435dda5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "St. Bernard",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "6dfaa8ea-078b-5043-940c-1d856c90fdee",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Stabyhoun",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cfb4ca6d-dcff-5f10-8e5e-41038218fdac",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Staffordshire Bull Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ac6ef5f7-892f-5b6a-bec0-5574e0280686",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Standard Schnauzer",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "9fc492ff-019e-587f-81ff-4187c2888657",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Styrian Coarse-haired Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a38e487a-1bab-5002-8453-992f66d6b999",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Sussex Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "be7163e4-0ba1-568c-9812-2aef2498b8a5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Swedish Lapphund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d0a9d7d2-3192-5dd2-86e5-2a4215cd4325",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Swedish Vallhund",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "18d7e747-90bf-5aad-8006-f4300b96d130",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Taiwan Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "783dee28-1d5a-5bec-834a-7b5d01654ae9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Teddy Roosevelt Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0eaacf5f-c663-5e76-9c70-89601e009d68",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Tenterfield Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "91e1191a-b9b4-5806-b073-951c8ac5d1ea",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Thai Bangkaew Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3bf18fe1-86d8-5f41-b46b-611682652066",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Thai Ridgeback",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5bc44109-e715-5f4b-9c97-1e8924d502a5",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Tibetan Mastiff",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "96caace1-df1e-5142-acb5-b646b86094c6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Tibetan Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "3379ebeb-359c-578f-996e-5d2981d10229",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Tibetan Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "175195be-be6c-5992-b2ac-da2b555a8825",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Tornjak",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5c65d7db-9f0d-5ebe-a909-f8ca47fd5160",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Tosa",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ee087d1b-3d59-57eb-80c4-d5123b94427d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Toy Fox Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "bbf22120-58e1-5b6f-95e2-751b7a662e9d",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Toy Manchester Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "42069f5c-950c-521c-bdda-52695b2149f9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Transylvanian Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f8b334b0-e516-5ef6-a41a-cb9a79f98cee",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Treeing Cur",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8199035e-4f5f-51d1-8e4e-dabeb57c6ae9",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Treeing Tennessee Brindle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "422f4263-330c-541d-aac4-adfe7e2500da",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Treeing Walker Coonhound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "f6a23328-de4f-5c05-94fb-cbb21b1752bb",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Tyrolean Hound",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "71b20d73-1ac8-5a41-b5a9-269aee181d68",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Vizsla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0803dd90-be57-5903-8374-b7455588abf8",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Volpino Italiano",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "c3b93070-4032-51bb-b8f7-105b4f945985",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Weimaraner",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "1d8b0783-ffa0-59a5-8c78-47cc9fd142d2",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Welsh Sheepdog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "ae345a9b-2030-5281-a083-36e21ecc3e04",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Welsh Springer Spaniel",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0f7defc6-65e3-5374-be00-2f99c2b78cf6",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Welsh Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "a77ab02c-b623-5e14-b0bf-a757d1b99c6b",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "West Highland White Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0f97e471-200d-5ab1-9c50-6363e450a74a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "West Siberian Laika",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "16578314-cd6d-5171-bfda-e908ba958689",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Westphalian Dachsbracke",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "44dd14f3-9c75-5ef7-9588-a0d11223ca06",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Wetterhoun",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "982b09da-4bca-5ac1-af02-63bbe6ebbe93",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Whippet",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "74050d1a-90de-55ac-bec8-9f5c70dce9c3",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "White Swiss Shepherd Dog",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "d137f2ea-1c85-5204-833a-e4cf4ec25d55",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Wire Fox Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "0c438b6d-f6e4-50c6-8c3b-7931611b2b8a",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Wirehaired Pointing Griffon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5fb3301a-5a03-56f4-a256-b9820578b6bd",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Wirehaired Vizsla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cec52b3d-4775-59c3-a0ed-e831377c1ac8",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Xoloitzcuintle",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "8202edbc-6306-5bdd-b39b-66be48597a7c",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Yakutian Laika",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "5ce2c6ce-79ea-516d-bab3-ad12f78e3e20",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Yorkshire Terrier",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  },
+  {
+    "id": "cc3cfe9a-99ff-5fd4-aa3d-036235a6a9e4",
+    "speciesId": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Šarplaninac",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-dog",
+      "akc",
+      "royal-kennel",
+      "simple-dog"
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+@host = http://127.0.0.1:5000
+
+# Run top to bottom. This intentionally leaves retained references.
+# It verifies that soft-deleting an animal does NOT permit deleting its lookups.
+
+### Create Species
+< {%
+request.variables.set("fixtureName", "Reference safety Species " + Date.now() + "-" + Math.random().toString(16).slice(2));
+%}
+POST {{host}}/species
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{fixtureName}}"
+}
+
+> {%
+if (response.status === 201) client.global.set("safetySpeciesRevision", response.body.revision);
+client.test("Created", function () { client.assert(response.status === 201, "Expected 201"); });
+if (response.status === 201) client.global.set("safetySpeciesId", response.body.id);
+else client.global.clear("safetySpeciesId");
+%}
+
+### Create Breed
+< {%
+request.variables.set("fixtureName", "Reference safety Breed " + Date.now() + "-" + Math.random().toString(16).slice(2));
+%}
+POST {{host}}/breed
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{fixtureName}}",
+  "speciesId": "{{safetySpeciesId}}"
+}
+
+> {%
+if (response.status === 201) client.global.set("safetyBreedRevision", response.body.revision);
+client.test("Created", function () { client.assert(response.status === 201, "Expected 201"); });
+if (response.status === 201) client.global.set("safetyBreedId", response.body.id);
+else client.global.clear("safetyBreedId");
+%}
+
+### Create Area
+< {%
+request.variables.set("fixtureName", "Reference safety Area " + Date.now() + "-" + Math.random().toString(16).slice(2));
+%}
+POST {{host}}/area
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "{{fixtureName}}"
+}
+
+> {%
+if (response.status === 201) client.global.set("safetyAreaRevision", response.body.revision);
+client.test("Created", function () { client.assert(response.status === 201, "Expected 201"); });
+if (response.status === 201) client.global.set("safetyAreaId", response.body.id);
+else client.global.clear("safetyAreaId");
+%}
+
+### Create a disposable animal using all three lookups - expected 201
+POST {{host}}/animal
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Lookup reference safety animal",
+  "speciesId": "{{safetySpeciesId}}",
+  "breedId": "{{safetyBreedId}}",
+  "areaId": "{{safetyAreaId}}",
+  "quantity": 1,
+  "sex": 0
+}
+
+> {%
+if (response.status === 201) client.global.set("safetyAnimalRevision", response.body.revision);
+client.test("Created animal", function () { client.assert(response.status === 201, "Expected 201"); });
+if (response.status === 201) client.global.set("safetyAnimalId", response.body.id);
+else client.global.clear("safetyAnimalId");
+%}
+
+### Referenced Species cannot be deleted - expected 409
+POST {{host}}/species/{{safetySpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "revision": "{{safetySpeciesRevision}}",
+  "reason": 4
+}
+
+
+> {%
+if (response.status === 200) client.global.set("safetySpeciesRevision", response.body.revision);
+%}
+
+### Referenced Breed cannot be deleted - expected 409
+POST {{host}}/breed/{{safetyBreedId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "revision": "{{safetyBreedRevision}}",
+  "reason": 4
+}
+
+
+> {%
+if (response.status === 200) client.global.set("safetyBreedRevision", response.body.revision);
+%}
+
+### Referenced Area cannot be deleted - expected 409
+POST {{host}}/area/{{safetyAreaId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "revision": "{{safetyAreaRevision}}",
+  "reason": 4
+}
+
+
+> {%
+if (response.status === 200) client.global.set("safetyAreaRevision", response.body.revision);
+%}
+
+### Soft-delete only the disposable animal - expected 200
+POST {{host}}/animal/{{safetyAnimalId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "revision": "{{safetyAnimalRevision}}",
+  "reason": 3,
+  "notes": "Reference safety test."
+}
+
+
+> {%
+if (response.status === 200) client.global.set("safetyAnimalRevision", response.body.revision);
+%}
+
+### Retained deleted-animal reference still blocks Species - expected 409
+POST {{host}}/species/{{safetySpeciesId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "revision": "{{safetySpeciesRevision}}",
+  "reason": 4
+}
+
+
+> {%
+if (response.status === 200) client.global.set("safetySpeciesRevision", response.body.revision);
+%}
+
+### Retained deleted-animal reference still blocks Breed - expected 409
+POST {{host}}/breed/{{safetyBreedId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "revision": "{{safetyBreedRevision}}",
+  "reason": 4
+}
+
+
+> {%
+if (response.status === 200) client.global.set("safetyBreedRevision", response.body.revision);
+%}
+
+### Retained deleted-animal reference still blocks Area - expected 409
+POST {{host}}/area/{{safetyAreaId}}/deletion
+Content-Type: application/json
+Accept: application/json
+
+{
+  "revision": "{{safetyAreaRevision}}",
+  "reason": 4
+}
+
+> {%
+if (response.status === 200) client.global.set("safetyAreaRevision", response.body.revision);
+%}

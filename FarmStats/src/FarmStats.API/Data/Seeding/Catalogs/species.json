@@ -1,0 +1,210 @@
+[
+  {
+    "id": "5932be38-4c0a-5393-a3a7-a4a3b6f9f359",
+    "name": "Alpaca"
+  },
+  {
+    "id": "00a9c5e8-5586-5290-838d-690655f67782",
+    "name": "Budgie"
+  },
+  {
+    "id": "3f89de4f-a7ce-5a6c-b29d-e16e8a1b4357",
+    "name": "Canary"
+  },
+  {
+    "id": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Cat"
+  },
+  {
+    "id": "11111111-1111-4111-8111-111111111111",
+    "name": "Cattle"
+  },
+  {
+    "id": "de8ec559-2a86-59e6-be90-929021b6ff04",
+    "name": "Chicken"
+  },
+  {
+    "id": "ad9e9f1c-8147-5ce1-9a0d-59ac1e5ce6c5",
+    "name": "Cockatiel"
+  },
+  {
+    "id": "1693d44b-ccc8-5ea9-8ee0-883dcb56bfdf",
+    "name": "Cockatoo"
+  },
+  {
+    "id": "0d397db2-519f-55b0-b0b2-c7709dbe774a",
+    "name": "Conure"
+  },
+  {
+    "id": "c6cc9fd7-9764-52f8-9e14-0699d1f555ba",
+    "name": "Dog"
+  },
+  {
+    "id": "4d8bbbc8-cda5-58ac-81cf-5cbaf0efef17",
+    "name": "Donkey"
+  },
+  {
+    "id": "1a09f392-4c87-5819-adbe-5cdbbc32b484",
+    "name": "Dove"
+  },
+  {
+    "id": "36f2c5cd-84a8-5723-8f03-903fa2143406",
+    "name": "Duck"
+  },
+  {
+    "id": "7e40ab3f-13c4-543c-a3d8-3c8041ba3789",
+    "name": "Emu"
+  },
+  {
+    "id": "6d51eacd-1466-55a4-97e8-2089f7960a61",
+    "name": "Finch"
+  },
+  {
+    "id": "71ad650a-c58b-55dc-926d-19b6967ff8f2",
+    "name": "Goat"
+  },
+  {
+    "id": "85629001-561d-55c2-b92d-3a27d14fa362",
+    "name": "Goose"
+  },
+  {
+    "id": "bc16b8a3-9f42-5ad6-bc3c-328ae074c98d",
+    "name": "Guinea Fowl"
+  },
+  {
+    "id": "4913b610-b5e2-552f-bacf-4ec02ed7eb37",
+    "name": "Hinny"
+  },
+  {
+    "id": "0f6e85a7-8f5f-5e8f-b127-232fc3d50d8e",
+    "name": "Horse"
+  },
+  {
+    "id": "0373b2e1-7bbc-5260-a72d-3a9d5f06d900",
+    "name": "Llama"
+  },
+  {
+    "id": "31293cc0-9c7f-5d39-87ae-5ce9e83626e7",
+    "name": "Lovebird"
+  },
+  {
+    "id": "d5e72a20-8ce3-50fc-a7f8-c39ac5854ac9",
+    "name": "Macaw, Blue and Gold"
+  },
+  {
+    "id": "79b7e5dc-264b-5185-a16f-ab7b0bfd7a4d",
+    "name": "Macaw, Hyacinth"
+  },
+  {
+    "id": "420e5e60-2c8a-5df6-a027-0aa6bbdeb1b0",
+    "name": "Macaw, Red and Green"
+  },
+  {
+    "id": "acb01d3b-e4e1-5cc6-a565-997a6c6183ab",
+    "name": "Macaw, Scarlet"
+  },
+  {
+    "id": "1680dc30-43f2-5f6e-a225-8790fb040934",
+    "name": "Mulard"
+  },
+  {
+    "id": "1d719414-32a8-5085-90e3-d0759dad3374",
+    "name": "Mule"
+  },
+  {
+    "id": "a0c3a87f-a21d-543b-bbe3-00cd30390398",
+    "name": "Muscovy"
+  },
+  {
+    "id": "ee68f014-423d-5745-ac21-1773b07aeff7",
+    "name": "Ostrich"
+  },
+  {
+    "id": "0bb900a8-6e9c-53d4-88a6-7b618182ad5a",
+    "name": "Parakeet"
+  },
+  {
+    "id": "720f0942-e424-5b8f-860b-de1f7f59e55d",
+    "name": "Peafowl, India Blue"
+  },
+  {
+    "id": "cc372142-478c-5deb-bc09-2fcd4e71146b",
+    "name": "Pheasant, Golden"
+  },
+  {
+    "id": "771c8ee2-a220-5b1d-86ed-0cd59a0a2899",
+    "name": "Pheasant, Lady Amherst"
+  },
+  {
+    "id": "126fe129-53ba-5d6e-9eb9-73693f2018d4",
+    "name": "Pheasant, Reeves"
+  },
+  {
+    "id": "a5ff9300-04df-5c2f-89c2-4f174f64e680",
+    "name": "Pheasant, Ringneck"
+  },
+  {
+    "id": "e1c141ad-c6ca-5420-8b61-0a483f208f71",
+    "name": "Pheasant, Silver"
+  },
+  {
+    "id": "23932298-60c6-55c9-b5d8-d05f05e569a3",
+    "name": "Pheasant, Swinhoe"
+  },
+  {
+    "id": "601fc7af-ec2f-5374-b327-c39eec6fd50e",
+    "name": "Pig"
+  },
+  {
+    "id": "93fd4fd2-0e6d-5b12-80ef-a66e2d78e03b",
+    "name": "Pigeon"
+  },
+  {
+    "id": "b4631abd-3bcc-513d-a764-f3fb5692c0b3",
+    "name": "Quail, Bobwhite"
+  },
+  {
+    "id": "c92d84ba-6215-51a0-89bb-87dfafa1319a",
+    "name": "Quail, Button"
+  },
+  {
+    "id": "49c30b0c-9d9b-5266-95bc-84f2493cf6df",
+    "name": "Quail, California"
+  },
+  {
+    "id": "b39ff654-572f-53cb-b5be-2c76853f92d0",
+    "name": "Quail, Coturnix"
+  },
+  {
+    "id": "e00aa773-333c-54c2-8a76-4ff301c017f5",
+    "name": "Quail, Gambel's"
+  },
+  {
+    "id": "d5c287c7-116e-56c9-bf6d-148e1c7b6bc4",
+    "name": "Quail, Mearns"
+  },
+  {
+    "id": "39d97f32-2f04-54f5-943b-dc7e7aa80983",
+    "name": "Rabbit"
+  },
+  {
+    "id": "e9fb9306-7f3e-5fce-a4be-43e210f34dff",
+    "name": "Rhea"
+  },
+  {
+    "id": "22222222-2222-4222-8222-222222222222",
+    "name": "Sheep"
+  },
+  {
+    "id": "ec1a69c7-1872-555c-a4da-85d4167b06ca",
+    "name": "Tragopan"
+  },
+  {
+    "id": "14c2c5ed-efd3-5250-a8f9-931ea7b9bdf5",
+    "name": "Turkey"
+  },
+  {
+    "id": "23a3c5d3-a249-5b01-bdb7-216c03387226",
+    "name": "Zebra"
+  }
+]

@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "f62af105-4c35-5580-befb-30eec6c85878",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Abyssinian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "b45f69ff-0368-5846-b0f3-5483f0aa4022",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Aegean",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "f4ebbaed-e0b9-5701-846e-59920d396c34",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "American Bobtail",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "ba3f241e-9c06-518d-8c73-4d86fecd749a",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "American Curl",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "966000c2-0f67-5449-97d9-b7d271753031",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "American Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "0155c659-3ea5-5269-b026-374016671460",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "American Wirehair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "878c109b-90b3-5a24-959a-9550a5bcff67",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Aphrodite's Giant",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "e84dca37-786a-50b2-9878-a405f148958c",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Arabian Mau",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "821e9d0c-756a-5d73-b76e-181c9ff17e64",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Asian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "03712372-ff7d-5ac2-bb7e-3669d2ce96dd",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Australian Mist",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "620877ed-f1e8-53a6-ab71-01dbf637aad4",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Balinese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "9206fbce-b8a6-5e8b-8ca9-01a18268523c",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Bambino",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "4d7311ee-85a2-552c-b020-d2676654a197",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Bengal",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "9ea1ae07-c4f3-5db7-865e-77d517097ca7",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Birman",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "acc7dcb5-5688-5444-ae51-8173311a7091",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Bombay",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "f334a737-aa9f-5b3a-8c1c-5f1e339bc37b",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Brazilian Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "ca21c244-532e-53c0-ae15-6c4e6014279f",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "British Longhair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "a9b509b6-f93e-5f2d-a1b3-60ef7fc66393",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "British Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "e8b1407d-b908-5462-b5cd-788600390df4",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Burmese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "973dfb48-8eb2-54ae-95c9-f8cce7025b32",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Burmilla",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "622a2fa5-8cc6-56c6-8150-c5512c55eeaa",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "California Spangled",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "2e29d66f-1a5c-541b-a7e5-d859d7131a59",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Chartreux",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "59c7b147-034e-5c82-b219-67f8f74d0ef7",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Chausie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "6a8a06d4-443d-5758-9359-61129b81c3a9",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Colorpoint Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "ab8e031a-3a32-5bb6-a6e2-22aaa2a99301",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Cornish Rex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "8828c47a-5a88-54ed-af70-40f281aebb1d",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Cymric",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "5f313f6e-430a-57c4-aabc-ea6be6bdb426",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Devon Rex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "2f7ffcf6-b41a-5399-83e2-af8b1d1bc796",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Donskoy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "f920eeef-0402-5c23-a61f-e4310c7aa7b0",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Dragon Li",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "0762f2c1-ea07-5d06-9042-3dab540928b6",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Dwelf",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "f39a644a-9652-583a-8a39-0f6d406f180e",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Egyptian Mau",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "4e4e066a-3b81-57f8-9b4c-ecbb88a4c3a9",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "European Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "90a02f51-7a89-5eda-88dc-7ba39085e3f5",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Exotic Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "d647bb0f-eea7-5a8d-8a0b-0915865f4c86",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Foldex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "f5707a48-aeaa-5c2d-b18e-7ae7060f8f85",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Foreign White",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "802628f4-b307-5e93-aa7c-578e8bbe40d1",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "German Rex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "660a6b06-ff4e-5e55-8d14-28133afcfcf9",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Havana Brown",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "33616441-e624-5ab6-bc57-dbe4daed58e2",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Highlander",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "6de7887c-9fa5-5f6d-8355-baada426fb4e",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Himalayan",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "e76da70a-10c6-5312-a072-765e01b398ab",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Japanese Bobtail",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "5de37289-0653-5772-926c-47667c8efd88",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Javanese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "eb8f471d-ad45-5387-b0a9-c61856c56921",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Jianzhou",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "d8c523e2-89d8-5f93-81e8-a8034823f8a8",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Kanaani",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "4f08e6a2-7efd-5d41-8b79-0537c86aeac7",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Karelian Bobtail",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "0ddb9704-c823-5b19-97dc-501a9ce641b6",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Khao Manee",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "3e93dc07-409d-5f6c-9823-c317c4a228cc",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Kinkalow",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "3dd29a48-48f2-523f-bca1-13674f242a4e",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Korat",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "8a9a2da3-f1e2-5c6a-ba81-b712a3e23a35",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Korean Bobtail",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "9d3f0d11-9e4d-5fee-85d7-7f1eee580915",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Kurilian Bobtail",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "aa2ef60a-c65d-518b-b6e3-79f0f0e21a68",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Lambkin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "43665cb4-3ccc-5d43-94bc-341b4803e22e",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "LaPerm",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "214b68fd-2160-546d-8d57-e4102176557a",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Lykoi",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "74b911d1-294c-5303-9966-ac02b105af20",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Maine Coon",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "876f307c-dffd-5745-9ce0-e4635e4b8418",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Manx",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "40c21c0d-1fb7-50c3-9179-dcef642e3f63",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Mekong Bobtail",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "d6327dea-cf48-5ff6-8c9d-4522674a38bf",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Minskin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "eada3e95-dcda-536d-8974-73bf376909f2",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Minuet",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "7507b42a-db42-5593-90f3-c4aa2ebfa3db",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Munchkin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "3dd951ad-7fce-56e8-8fda-a6730908b663",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Nebelung",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "2c0c83a2-d55b-5339-b11d-d3f68d6a616e",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Neva Masquerade",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "aa1e99b2-8e4f-5029-9395-eadaeb9aba83",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Norwegian Forest Cat",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "96b2fcd9-052d-5c0b-b33b-60c04d48078d",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Ocicat",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "7311101d-31e3-59bf-a2bb-95f49594f3c8",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Oriental Longhair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "4874ad3f-0f41-5cd0-a7c9-3965fb153b85",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Oriental Shorthair",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "5cd8b59c-ab5f-54a9-ba62-ba5be4b42339",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Persian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "5c22be19-1ba3-5f48-8d89-a4c6cb45d6a0",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Peterbald",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "d77ddd5a-6697-5bd1-bcad-ddd3a83db009",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Pixie-bob",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "bbe37e5b-7610-5a40-b689-9d1fb9a938d4",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Raas",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "95ad6903-dddb-5c6d-ba15-022869373236",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Ragamuffin",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "187217c8-5f1b-587b-8a49-d3a91332aa2d",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Ragdoll",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "8bc1e37c-4c5c-506c-9a63-08522ca75f25",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Russian Blue",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "94df5a54-d980-568d-bffb-22f565461f2d",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Savannah",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "ff80a316-4c15-51f3-80af-8ed1af746bfb",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Scottish Fold",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "2c695aa9-1df2-5d5c-af65-ff190c4cd3ec",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Selkirk Rex",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "56ee4208-c75b-56d3-a04f-f0142b6938c5",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Serengeti",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "3aba1e84-3b3f-5e95-8a64-42a2a00e97c1",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Siamese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "80088118-2fc2-5bb1-8561-f98051b109b4",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Siberian",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "097adb20-2981-5441-8dd0-2dabb2cdc4b5",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Singapura",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "67562401-5eee-5a34-966a-68ba75828de7",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Snowshoe",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "daabcef7-9e0a-5eaa-b6bb-a758bda771b0",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Sokoke",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "edef23fc-497b-5b42-904b-ca29dd7c6b96",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Somali",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "9b864284-65f3-5f14-9b8a-9d04bebb7d7d",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Sphynx",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "5a261603-2db6-58b9-a345-ecdc85100897",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Suphalak",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "d836952d-83d2-5a93-92e1-2ffc8bbef1e3",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Thai",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "b057ff50-3246-5a9d-82e4-3ec05761d56e",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Tiffanie",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "865bc5fd-f1db-5b66-9c45-8ec27373e21f",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Tonkinese",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "949ed3fd-e586-5da9-840f-c0f0a0cd14ce",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Toybob",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "a5903a71-dcbf-568d-a1c7-8e982834d1e8",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Toyger",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "d6e67b79-66cf-5802-b085-a3c7c05011e4",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Turkish Angora",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "8d4ccec7-3123-5ad8-af4c-cfbafe6ebf50",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Turkish Van",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "8cd071c5-058d-50d2-add4-0fe86feb25a6",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "Ukrainian Levkoy",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  },
+  {
+    "id": "2292e7c8-6478-54b0-a9b3-b8a2671f86f1",
+    "speciesId": "5197f675-fd95-50e5-97f8-10aea20fdef5",
+    "name": "York Chocolate",
+    "kind": "breed",
+    "aliases": [],
+    "sourceIds": [
+      "wiki-cat",
+      "cfa"
+    ]
+  }
+]
