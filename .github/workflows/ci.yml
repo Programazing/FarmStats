@@ -14,9 +14,9 @@ name: CI
 # merged to avoid the duplicate run.
 on:
   pull_request:
-    branches: [main]
+    branches: [main, dev]
   push:
-    branches: [main, add-animal]
+    branches: [main, dev]
   workflow_dispatch: {}
 
 # Default token permissions are read-only; jobs that need more request it

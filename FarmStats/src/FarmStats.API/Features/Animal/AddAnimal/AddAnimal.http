@@ -47,6 +47,7 @@ Content-Type: application/json
 {
   "name": "Spring Lambs",
   "speciesId": "{{sheep-species-id}}",
+  "trackingType": 2,
   "quantity": 12,
   "sex": 0,
   "areaId": "{{south-pasture-id}}"

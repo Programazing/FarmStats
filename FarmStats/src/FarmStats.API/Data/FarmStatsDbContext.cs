@@ -39,6 +39,7 @@ public sealed partial class FarmStatsDbContext(
     {
         ChangeTracker.DetectChanges();
         PrepareLookupLifecycleChanges();
+        ValidateAnimalTracking();
 
         var animals = ChangeTracker.Entries<Animal>().ToList();
 
@@ -94,6 +95,7 @@ public sealed partial class FarmStatsDbContext(
     {
         base.OnModelCreating(modelBuilder);
         ConfigureLookupLifecycle(modelBuilder);
+        ConfigureAnimalTracking(modelBuilder);
 
         modelBuilder.Entity<Animal>(entity =>
         {

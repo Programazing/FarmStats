@@ -18,9 +18,9 @@ name: CI
 #     steps need to be replaced with manual `dotnet`/tar install steps.
 on:
   pull_request:
-    branches: [main]
+    branches: [main, dev]
   push:
-    branches: [main, add-animal]
+    branches: [main, dev]
   workflow_dispatch: {}
 
 permissions:

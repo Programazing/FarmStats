@@ -196,7 +196,7 @@ public sealed class ApiTests : IAsyncLifetime
         var species = await CreateSpecies("Update species");
         var breed = await CreateBreed(species);
         var area = await CreateArea();
-        var created = await client.PostAsJsonAsync("/animal", new { name = "Before", speciesId = species, breedId = breed.Id, areaId = area.Id, quantity = 2, sex = 0, referenceId = "ref", color = "brown", birthdate = "2020-01-01" });
+        var created = await client.PostAsJsonAsync("/animal", new { trackingType = 2, name = "Before", speciesId = species, breedId = breed.Id, areaId = area.Id, quantity = 2, sex = 0, referenceId = "ref", color = "brown", birthdate = "2020-01-01" });
         Assert.Equal(HttpStatusCode.Created, created.StatusCode);
         var animal = (await created.Content.ReadFromJsonAsync<AddAnimalResponse>())!;
         var update = await client.PutAsJsonAsync($"/animal/{animal.Id}", new { revision = animal.Revision, name = "After", speciesId = species, quantity = 3, sex = 0 });

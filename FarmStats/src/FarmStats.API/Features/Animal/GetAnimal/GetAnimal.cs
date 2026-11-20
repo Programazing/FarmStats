@@ -47,6 +47,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 Name = a.Name,
                 SpeciesId = a.SpeciesId,
                 BreedId = a.BreedId,
+                TrackingType = a.TrackingType,
                 Quantity = a.Quantity,
                 ReferenceId = a.ReferenceId,
                 Sex = (int)a.Sex,
@@ -85,6 +86,8 @@ public sealed class GetAnimalResponse
     public Guid SpeciesId { get; init; }
 
     public Guid? BreedId { get; init; }
+
+    public AnimalTrackingType TrackingType { get; init; }
 
     public int Quantity { get; init; }
 

@@ -9,6 +9,10 @@ public sealed class AnimalLifecycleResponse
 
     public Guid Id { get; init; }
 
+    public AnimalTrackingType TrackingType { get; init; }
+
+    public int Quantity { get; init; }
+
     public AnimalStatus Status { get; init; }
 
     public DateOnly? StatusEffectiveDate { get; init; }
@@ -29,6 +33,8 @@ public static class AnimalLifecycleSupport
         {
             Revision = animal.Revision,
             Id = animal.Id,
+            TrackingType = animal.TrackingType,
+            Quantity = animal.Quantity,
             Status = animal.Status,
             StatusEffectiveDate = animal.StatusEffectiveDate,
             StatusNotes = animal.StatusNotes,
