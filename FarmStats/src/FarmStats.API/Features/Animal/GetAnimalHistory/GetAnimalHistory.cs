@@ -43,7 +43,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
         var query = db.AnimalHistory
             .Where(entry => entry.AnimalId == req.Id);
 
-        
+
 
         var count = await query.CountAsync(ct);
         var skip = (int)(((long)req.Page - 1) * req.PageSize);

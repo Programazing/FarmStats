@@ -63,7 +63,7 @@ public sealed class AnimalHistoryRestoreTests : IAsyncLifetime
         Assert.NotEqual(animal.Revision, deletedHistory.Revision);
         Assert.Equal(2, deletedHistory.TotalCount);
         Assert.Single(deletedHistory.Items, entry => entry.EventType == AnimalHistoryEventType.Deleted);
-        Assert.Empty(deletedHistory.Items.Where(entry => entry.EventType == AnimalHistoryEventType.Restored));
+        Assert.DoesNotContain(deletedHistory.Items, entry => entry.EventType == AnimalHistoryEventType.Restored);
 
         var staleRestore = await client.PostAsJsonAsync($"/animal/{animal.Id}/restore", new { revision = animal.Revision, notes = "stale" });
         Assert.Equal(HttpStatusCode.Conflict, staleRestore.StatusCode);

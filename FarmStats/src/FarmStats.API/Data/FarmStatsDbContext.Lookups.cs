@@ -28,7 +28,9 @@ public sealed partial class FarmStatsDbContext
             entity.Property(entry => entry.ActorUserId).HasMaxLength(450);
             entity.HasIndex(entry => new
             {
-                entry.LookupKind, entry.LookupId, entry.RecordedAtUtc
+                entry.LookupKind,
+                entry.LookupId,
+                entry.RecordedAtUtc
             });
         });
     }

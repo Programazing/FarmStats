@@ -13,7 +13,7 @@ public sealed class AddAnimal(FarmStatsDbContext db)
         Post("/animal");
         Description(builder => builder.WithTags("Animal"));
         AllowAnonymous();
-        
+
         Summary(summary =>
         {
             summary.Summary = "Add an animal";
@@ -106,9 +106,9 @@ public sealed class AddAnimal(FarmStatsDbContext db)
             Color = animal.Color,
             Birthdate = animal.Birthdate,
             AreaId = animal.AreaId,
-                Status = animal.Status,
-                StatusEffectiveDate = animal.StatusEffectiveDate,
-                StatusNotes = animal.StatusNotes
+            Status = animal.Status,
+            StatusEffectiveDate = animal.StatusEffectiveDate,
+            StatusNotes = animal.StatusNotes
         }, 201, ct);
     }
 }

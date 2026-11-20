@@ -153,9 +153,9 @@ public sealed class Endpoint(FarmStatsDbContext db)
             Color = animal.Color,
             Birthdate = animal.Birthdate,
             AreaId = animal.AreaId,
-                Status = animal.Status,
-                StatusEffectiveDate = animal.StatusEffectiveDate,
-                StatusNotes = animal.StatusNotes
+            Status = animal.Status,
+            StatusEffectiveDate = animal.StatusEffectiveDate,
+            StatusNotes = animal.StatusNotes
         }, StatusCodes.Status200OK, ct);
     }
 

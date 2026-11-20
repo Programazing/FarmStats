@@ -11,7 +11,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
     {
         Get("/animals");
         Description(builder => builder.WithTags("Animal"));
-        
+
         // Local development only.
         AllowAnonymous();
 

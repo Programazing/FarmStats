@@ -12,7 +12,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
     {
         Put("/areas/{Id}");
         Description(builder => builder.WithTags("Area"));
-        
+
         // Local development only. Add authorization before deployment.
         AllowAnonymous();
 

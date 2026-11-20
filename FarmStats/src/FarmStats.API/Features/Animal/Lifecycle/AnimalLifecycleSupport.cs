@@ -26,16 +26,16 @@ public static class AnimalLifecycleSupport
 {
     public static AnimalLifecycleResponse ToLifecycleResponse(
         this Data.Entities.Animal animal) => new()
-    {
-        Revision = animal.Revision,
-        Id = animal.Id,
-        Status = animal.Status,
-        StatusEffectiveDate = animal.StatusEffectiveDate,
-        StatusNotes = animal.StatusNotes,
-        DeletedAtUtc = animal.DeletedAtUtc,
-        DeletionReason = animal.DeletionReason,
-        DeletionNotes = animal.DeletionNotes
-    };
+        {
+            Revision = animal.Revision,
+            Id = animal.Id,
+            Status = animal.Status,
+            StatusEffectiveDate = animal.StatusEffectiveDate,
+            StatusNotes = animal.StatusNotes,
+            DeletedAtUtc = animal.DeletedAtUtc,
+            DeletionReason = animal.DeletionReason,
+            DeletionNotes = animal.DeletionNotes
+        };
 
     public static string? Clean(string? value) =>
         string.IsNullOrWhiteSpace(value) ? null : value.Trim();

@@ -84,7 +84,10 @@ public sealed class ApiTests : IAsyncLifetime
         var originalRevision = await AnimalRevision(id);
         var change = await client.PostAsJsonAsync($"/animal/{id}/status-changes", new
         {
-            revision = originalRevision, status = AnimalStatus.Sold, effectiveDate = "2020-01-02", notes = " sold "
+            revision = originalRevision,
+            status = AnimalStatus.Sold,
+            effectiveDate = "2020-01-02",
+            notes = " sold "
         });
         Assert.True(change.StatusCode == HttpStatusCode.OK, await change.Content.ReadAsStringAsync());
         Assert.Equal(HttpStatusCode.Conflict, (await client.PostAsJsonAsync($"/animal/{id}/deletion", new { revision = originalRevision, reason = AnimalDeletionReason.TestData })).StatusCode);

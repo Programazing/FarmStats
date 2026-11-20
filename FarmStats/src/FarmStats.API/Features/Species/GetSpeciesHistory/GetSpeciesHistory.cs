@@ -42,7 +42,11 @@ public sealed class Endpoint(FarmStatsDbContext db)
             .Skip(skip).Take(req.PageSize).ToListAsync(ct);
         await Send.ResponseAsync(new HistoryResponse
         {
-            Revision = revision.Value, Items = items, Page = req.Page, PageSize = req.PageSize, TotalCount = count
+            Revision = revision.Value,
+            Items = items,
+            Page = req.Page,
+            PageSize = req.PageSize,
+            TotalCount = count
         }, 200, ct);
     }
 }
