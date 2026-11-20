@@ -83,6 +83,9 @@ namespace FarmStats.API.Data.Migrations
                         .HasMaxLength(2000)
                         .HasColumnType("character varying(2000)");
 
+                    b.Property<int>("TrackingType")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AreaId");
@@ -93,7 +96,10 @@ namespace FarmStats.API.Data.Migrations
 
                     b.HasIndex("DeletedAtUtc", "Status");
 
-                    b.ToTable("Animals");
+                    b.ToTable("Animals", t =>
+                        {
+                            t.HasCheckConstraint("CK_Animals_TrackingType_Quantity", "(\"TrackingType\" = 0 AND \"Quantity\" >= 1) OR (\"TrackingType\" = 1 AND \"Quantity\" = 1) OR (\"TrackingType\" = 2 AND \"Quantity\" >= 0)");
+                        });
                 });
 
             modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalHistoryEntry", b =>

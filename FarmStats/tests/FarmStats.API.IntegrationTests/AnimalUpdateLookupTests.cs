@@ -87,7 +87,7 @@ public sealed class AnimalUpdateLookupTests : IAsyncLifetime
         foreach (var (kind, id, revision) in new[] { ("species", deletedSpecies.Id, deletedSpecies.Revision), ("breed", deletedBreed.Id, deletedBreed.Revision), ("area", deletedArea.Id, deletedArea.Revision) })
             Assert.Equal(HttpStatusCode.OK, (await client.PostAsJsonAsync($"/{kind}/{id}/deletion", new { revision, reason = 1 })).StatusCode);
 
-        var created = await client.PostAsJsonAsync("/animal", new { name = "Before", speciesId = species.Id, breedId = breed.Id, areaId = area.Id, quantity = 2, sex = 0, referenceId = "ref", color = "brown", birthdate = "2020-01-01" });
+        var created = await client.PostAsJsonAsync("/animal", new { trackingType = 2, name = "Before", speciesId = species.Id, breedId = breed.Id, areaId = area.Id, quantity = 2, sex = 0, referenceId = "ref", color = "brown", birthdate = "2020-01-01" });
         Assert.Equal(HttpStatusCode.Created, created.StatusCode);
         var animal = (await created.Content.ReadFromJsonAsync<AddAnimalResponse>())!;
         var before = await client.GetStringAsync($"/animal/{animal.Id}");
@@ -109,7 +109,7 @@ public sealed class AnimalUpdateLookupTests : IAsyncLifetime
         var species = await Species("Species");
         var breed = await Breed(species.Id, "Breed");
         var area = await Area("Area");
-        var created = await client.PostAsJsonAsync("/animal", new { name = "Before", speciesId = species.Id, breedId = breed.Id, areaId = area.Id, quantity = 2, sex = 0, referenceId = "ref", color = "brown", birthdate = "2020-01-01" });
+        var created = await client.PostAsJsonAsync("/animal", new { trackingType = 2, name = "Before", speciesId = species.Id, breedId = breed.Id, areaId = area.Id, quantity = 2, sex = 0, referenceId = "ref", color = "brown", birthdate = "2020-01-01" });
         Assert.Equal(HttpStatusCode.Created, created.StatusCode);
         var animal = (await created.Content.ReadFromJsonAsync<AddAnimalResponse>())!;
         var history = await client.GetStringAsync($"/animal/{animal.Id}/history");

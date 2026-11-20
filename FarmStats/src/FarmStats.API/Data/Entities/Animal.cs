@@ -10,6 +10,8 @@ public sealed class Animal
 
     public Guid? BreedId { get; set; }
 
+    public AnimalTrackingType TrackingType { get; set; } = AnimalTrackingType.Individual;
+
     public int Quantity { get; set; } = 1;
 
     public string? ReferenceId { get; set; }

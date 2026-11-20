@@ -26,8 +26,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
 
             summary.Description =
                 "Supply the revision from the latest response; stale revisions return 409. " +
-                "Replaces the editable animal fields. Omitted or null "
-                + "optional fields are cleared. Does not create missing animals.";
+                "Replaces editable fields; omitted/null optional detail fields are cleared. "
+                + "Omitted/null trackingType preserves the type. Unclassified legacy records "
+                + "can be classified once; classified records cannot change type. Individual "
+                + "quantity must be 1; group quantity may be 0. Does not create missing animals.";
 
             summary.Response<UpdateAnimalResponse>(
                 StatusCodes.Status200OK,
@@ -67,6 +69,28 @@ public sealed class Endpoint(FarmStatsDbContext db)
         }
 
         db.Entry(animal).Property(item => item.Revision).OriginalValue = req.Revision;
+
+        var trackingType = req.TrackingType ?? animal.TrackingType;
+        if (animal.TrackingType != AnimalTrackingType.Unspecified
+            && trackingType != animal.TrackingType)
+        {
+            AddError(request => request.TrackingType,
+                "An individual/group conversion requires a dedicated operation.");
+        }
+
+        if (req.Quantity is int quantity)
+        {
+            if (trackingType == AnimalTrackingType.Individual && quantity != 1)
+            {
+                AddError(request => request.Quantity,
+                    "An individually tracked animal must have quantity 1.");
+            }
+            else if (trackingType == AnimalTrackingType.Unspecified && quantity < 1)
+            {
+                AddError(request => request.Quantity,
+                    "Classify the legacy record as a group before setting quantity to zero.");
+            }
+        }
 
         var speciesExists = await db.Species
             .AnyAsync(
@@ -119,7 +143,8 @@ public sealed class Endpoint(FarmStatsDbContext db)
         animal.Name = req.Name.Trim();
         animal.SpeciesId = req.SpeciesId;
         animal.BreedId = req.BreedId;
-        animal.Quantity = req.Quantity;
+        animal.TrackingType = trackingType;
+        animal.Quantity = req.Quantity!.Value;
         animal.ReferenceId = CleanOptionalText(req.ReferenceId);
         animal.Sex = req.Sex;
         animal.Color = CleanOptionalText(req.Color);
@@ -147,6 +172,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
             Name = animal.Name,
             SpeciesId = animal.SpeciesId,
             BreedId = animal.BreedId,
+            TrackingType = animal.TrackingType,
             Quantity = animal.Quantity,
             ReferenceId = animal.ReferenceId,
             Sex = animal.Sex,
@@ -180,8 +206,11 @@ public sealed class UpdateAnimalRequest
 
     public Guid? BreedId { get; set; }
 
-    // Missing Quantity remains zero and fails validation.
-    public int Quantity { get; set; }
+    // Null/omitted preserves the type; legacy records can be classified once.
+    public AnimalTrackingType? TrackingType { get; set; }
+
+    // Nullable distinguishes missing quantity from an explicitly empty group.
+    public int? Quantity { get; set; }
 
     public string? ReferenceId { get; set; }
 
@@ -206,6 +235,8 @@ public sealed class UpdateAnimalResponse
     public Guid SpeciesId { get; init; }
 
     public Guid? BreedId { get; init; }
+
+    public AnimalTrackingType TrackingType { get; init; }
 
     public int Quantity { get; init; }
 
@@ -250,10 +281,16 @@ public sealed class Validator : Validator<UpdateAnimalRequest>
             .WithMessage(
                 "BreedId must be a non-empty ID when provided, or null.");
 
+        RuleFor(req => req.TrackingType)
+            .Must(type => !type.HasValue
+                || type.Value is AnimalTrackingType.Individual or AnimalTrackingType.Group)
+            .WithMessage("TrackingType must be omitted, 1 (Individual), or 2 (Group).");
+
         RuleFor(req => req.Quantity)
-            .GreaterThan(0)
-            .WithMessage(
-                "Quantity must be supplied and must be at least 1.");
+            .NotNull()
+            .WithMessage("Quantity must be supplied.")
+            .GreaterThanOrEqualTo(0)
+            .WithMessage("Quantity cannot be negative.");
 
         var allowedSexValues = string.Join(
             ", ",

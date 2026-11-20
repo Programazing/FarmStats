@@ -19,7 +19,9 @@ public sealed class AddAnimal(FarmStatsDbContext db)
             summary.Summary = "Add an animal";
 
             summary.Description =
-                "Creates an animal using the selected species, breed, and farm area.";
+                "Creates an individual (trackingType 1, quantity 1) or group "
+                + "(trackingType 2, positive initial quantity). Omitted trackingType "
+                + "defaults to Individual; quantity is never used to infer the type.";
 
             summary.Response<AddAnimalResponse>(
                 StatusCodes.Status201Created,
@@ -82,6 +84,7 @@ public sealed class AddAnimal(FarmStatsDbContext db)
             Name = req.Name,
             SpeciesId = req.SpeciesId,
             BreedId = req.BreedId,
+            TrackingType = req.TrackingType,
             Quantity = req.Quantity,
             ReferenceId = req.ReferenceId,
             Sex = req.Sex,
@@ -100,6 +103,7 @@ public sealed class AddAnimal(FarmStatsDbContext db)
             Name = animal.Name,
             SpeciesId = animal.SpeciesId,
             BreedId = animal.BreedId,
+            TrackingType = animal.TrackingType,
             Quantity = animal.Quantity,
             ReferenceId = animal.ReferenceId,
             Sex = animal.Sex,
@@ -120,6 +124,9 @@ public sealed class AddAnimalRequest
     public Guid SpeciesId { get; set; }
 
     public Guid? BreedId { get; set; }
+
+    // Omitted type defaults to Individual for existing single-animal clients.
+    public AnimalTrackingType TrackingType { get; set; } = AnimalTrackingType.Individual;
 
     public int Quantity { get; set; } = 1;
 
@@ -145,6 +152,8 @@ public sealed class AddAnimalResponse
     public Guid SpeciesId { get; set; }
 
     public Guid? BreedId { get; set; }
+
+    public AnimalTrackingType TrackingType { get; init; }
 
     public int Quantity { get; set; }
 
@@ -182,9 +191,18 @@ public sealed class AddAnimalValidator : Validator<AddAnimalRequest>
             .WithMessage(
                 "BreedId must be a non-empty ID when provided, or null.");
 
+        RuleFor(req => req.TrackingType)
+            .Must(type => type is AnimalTrackingType.Individual or AnimalTrackingType.Group)
+            .WithMessage("TrackingType must be 1 (Individual) or 2 (Group).");
+
         RuleFor(req => req.Quantity)
             .GreaterThan(0)
-            .WithMessage("Quantity must be at least 1.");
+            .WithMessage("Initial quantity must be at least 1.");
+
+        RuleFor(req => req.Quantity)
+            .Equal(1)
+            .When(req => req.TrackingType == AnimalTrackingType.Individual)
+            .WithMessage("An individually tracked animal must have quantity 1.");
 
         var allowedSexValues = string.Join(
             ", ",

@@ -1,0 +1,114 @@
+@host = http://127.0.0.1:5000
+@speciesId = 11111111-1111-4111-8111-111111111111
+
+### Create disposable group - expected 201; use an existing species ID above
+POST {{host}}/animal
+Content-Type: application/json
+
+{
+  "name": "Batch 1028 - tracking demo",
+  "speciesId": "{{speciesId}}",
+  "trackingType": 2,
+  "quantity": 150,
+  "sex": 0
+}
+
+> {%
+client.test("Created group", function () {
+    client.assert(response.status === 201, "Expected 201");
+    client.assert(response.body.trackingType === 2, "Expected Group");
+});
+if (response.status === 201) {
+    client.global.set("trackingGroupId", response.body.id);
+    client.global.set("trackingGroupRevision", response.body.revision);
+} else {
+    client.global.clear("trackingGroupId");
+    client.global.clear("trackingGroupRevision");
+}
+%}
+
+### Group with one remaining member stays a group - expected 200
+PUT {{host}}/animal/{{trackingGroupId}}
+Content-Type: application/json
+
+{
+  "revision": "{{trackingGroupRevision}}",
+  "name": "Batch 1028 - tracking demo",
+  "speciesId": "{{speciesId}}",
+  "quantity": 1,
+  "sex": 0
+}
+
+> {%
+client.test("Still a group", function () {
+    client.assert(response.status === 200, "Expected 200");
+    client.assert(response.body.trackingType === 2, "Must remain Group");
+});
+if (response.status === 200) client.global.set("trackingGroupRevision", response.body.revision);
+%}
+
+### Empty group retains identity and does not automatically change lifecycle - expected 200
+PUT {{host}}/animal/{{trackingGroupId}}
+Content-Type: application/json
+
+{
+  "revision": "{{trackingGroupRevision}}",
+  "name": "Batch 1028 - tracking demo",
+  "speciesId": "{{speciesId}}",
+  "quantity": 0,
+  "sex": 0
+}
+
+> {%
+client.test("Empty group retained", function () {
+    client.assert(response.status === 200, "Expected 200");
+    client.assert(response.body.trackingType === 2, "Must remain Group");
+    client.assert(response.body.quantity === 0, "Expected zero");
+});
+if (response.status === 200) client.global.set("trackingGroupRevision", response.body.revision);
+%}
+
+### Cannot convert group to individual through PUT - expected 400
+PUT {{host}}/animal/{{trackingGroupId}}
+Content-Type: application/json
+
+{
+  "revision": "{{trackingGroupRevision}}",
+  "name": "Batch 1028 - tracking demo",
+  "speciesId": "{{speciesId}}",
+  "trackingType": 1,
+  "quantity": 1,
+  "sex": 0
+}
+
+### Initial zero group - expected 400
+POST {{host}}/animal
+Content-Type: application/json
+
+{
+  "name": "Invalid empty new batch",
+  "speciesId": "{{speciesId}}",
+  "trackingType": 2,
+  "quantity": 0
+}
+
+### Individuals cannot have quantity 150 - expected 400
+POST {{host}}/animal
+Content-Type: application/json
+
+{
+  "name": "Invalid individual",
+  "speciesId": "{{speciesId}}",
+  "trackingType": 1,
+  "quantity": 150
+}
+
+### Cleanup: soft-delete the disposable group - expected 200
+POST {{host}}/animal/{{trackingGroupId}}/deletion
+Content-Type: application/json
+
+{
+  "revision": "{{trackingGroupRevision}}",
+  "reason": 3,
+  "notes": "Disposable tracking demo complete."
+}

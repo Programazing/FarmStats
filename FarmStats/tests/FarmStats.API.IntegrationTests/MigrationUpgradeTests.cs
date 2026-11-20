@@ -69,6 +69,7 @@ public sealed class MigrationUpgradeTests
                 WHERE a."Name" = 'Historical animal' AND s."Name" = 'Historical species'
                   AND b."Name" = 'Historical breed' AND r."Name" = 'Historical area'
                   AND a."Quantity" = 2 AND a."Sex" = 1 AND a."ReferenceId" = 'ref'
+                  AND a."TrackingType" = 0
                   AND a."Color" = 'brown' AND a."Birthdate" = '2020-01-02'
                   AND a."Status" = 0 AND a."StatusEffectiveDate" IS NULL AND a."StatusNotes" IS NULL
                   AND a."DeletedAtUtc" IS NULL AND a."DeletionReason" IS NULL AND a."DeletionNotes" IS NULL
