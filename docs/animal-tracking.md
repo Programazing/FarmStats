@@ -11,6 +11,14 @@ constraints, migration/snapshot changes, PostgreSQL tests, and a Rider HTTP work
 It does not implement quantity-event history, splitting/merging, extracting an
 individual from a group, Mixed sex, or a lifecycle redesign.
 
+**See also:** [animal-quantity-events.md](animal-quantity-events.md) — group quantity events
+endpoint, event types, validation, and append-only history.
+
+> **Historical context:** The sections below describe the original patch/package
+> instructions that delivered TrackingType and Group support. They are preserved
+> for reference. The quantity-event feature was added in a subsequent step
+> (migration `20261120060459_AddAnimalQuantityEvents`).
+
 ## 1. Create a branch
 
 From the existing repository ROOT (the folder containing .git):
@@ -70,6 +78,14 @@ Update:
 - A classified record cannot switch type through ordinary PUT.
 - Existing optional detail-field clearing and lookup validation remain intact.
 
+**Ordinary PUT and Group quantity:** The PUT endpoint (`/animal/{Id}`) rejects
+quantity changes for explicitly Group-tracked animals. If the request supplies a
+different quantity for a Group, validation returns 400 with the message:
+"Group quantity changes require the quantity-events endpoint. When classifying a
+legacy record as a group, preserve its current quantity." To change a Group's
+quantity, use the dedicated quantity-events endpoint
+(`POST /animal/{Id}/quantity-events`).
+
 Names such as Bessie, Flock of hens, or Batch 1028 are ordinary user-defined names.
 No naming convention or name uniqueness is introduced.
 
@@ -109,6 +125,13 @@ The legacy value 0 remains accepted at persistence level for existing records.
 Downgrading drops the tracking classification; zero-quantity groups may also be
 incompatible with older application validation. Do not downgrade without review.
 
+A subsequent migration, `20261120060459_AddAnimalQuantityEvents`, adds the
+quantity-event columns (`PreviousQuantity`, `NewQuantity`, `QuantityDelta`,
+`QuantityEventType`) to `AnimalHistory` and a check constraint
+(`CK_AnimalHistory_QuantityEvent`) that enforces consistency between event type,
+delta, and notes at the database level. The `EffectiveDate` column already
+existed from the initial history migration.
+
 ## 5. Build and verification
 
 From the repository root, restore, format, then build/test. Formatting is included
@@ -142,17 +165,21 @@ The optional manual workflow is:
 FarmStats/src/FarmStats.API/Features/Animal/Tracking/AnimalTracking.http
 It creates and later soft-deletes its own group; it does not modify Bessie.
 
+A quantity-events workflow is available at:
+FarmStats/src/FarmStats.API/Features/Animal/RecordAnimalQuantityEvent/RecordAnimalQuantityEvent.http
+
 ## 6. Current limitations
 
-Group quantity is still editable through PUT, matching the existing API architecture.
-This step adds no reasoned quantity-change ledger. A change from 150 to 145 cannot
-yet distinguish sale, death, transfer, or count correction. Do not present existing
-lifecycle history as a complete population ledger.
+Group quantity is no longer editable through PUT. Changes must go through the
+quantity-events endpoint, which records each change in the append-only
+AnimalHistory trail with an explicit event type (Addition, Death, Sale, Correction).
+These four event types are implemented.
 
 A group quantity of zero does not imply death, sale, or automatic archiving.
-Whole-record lifecycle commands retain their existing semantics; partial group
-events need a separate follow-up design. Groups may be mixed-age/mixed-sex in the
-real world, but this patch does not invent new values for the existing fields.
+Whole-record lifecycle commands retain their existing semantics.
+
+Unsupported scope: transfers between groups, splitting/merging groups, extracting
+an individual from a group, Mixed sex value.
 
 The documented cross-entity lookup-assignment/deletion races are not fixed here.
 Anonymous development endpoints and future farm-scoping requirements are unchanged.
