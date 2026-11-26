@@ -1,0 +1,169 @@
+@host = http://127.0.0.1:5000
+@speciesId = 11111111-1111-4111-8111-111111111111
+
+# Replace @speciesId with an existing active species ID from your database.
+# Run requests in order. Stop on any failed request or assertion.
+# The API must be running against a migrated database (dotnet ef database update).
+# These requests write to the API's configured database (default @host).
+# This is NOT an isolated Testcontainers workflow — it uses your development DB.
+# No existing animal should be modified; a disposable group is created and deleted.
+
+### 1. Create disposable group for quantity demo - expected 201
+POST {{host}}/animal
+Content-Type: application/json
+
+{
+  "name": "Quantity Demo Batch",
+  "speciesId": "{{speciesId}}",
+  "trackingType": 2,
+  "quantity": 20,
+  "sex": 0
+}
+
+> {%
+client.global.clear("quantityDemoGroupId");
+client.global.clear("quantityDemoRevision");
+client.global.clear("quantityDemoDate");
+client.test("Created disposable group", function () {
+    client.assert(response.status === 201, "Expected 201");
+    client.assert(response.body.trackingType === 2, "Expected Group");
+    client.assert(response.body.quantity === 20, "Expected initial quantity 20");
+});
+if (response.status === 201) {
+    client.global.set("quantityDemoGroupId", response.body.id);
+    client.global.set("quantityDemoRevision", response.body.revision);
+    client.global.set("quantityDemoDate", new Date().toISOString().slice(0, 10));
+} else {
+    client.global.clear("quantityDemoGroupId");
+    client.global.clear("quantityDemoRevision");
+    client.global.clear("quantityDemoDate");
+}
+%}
+
+### 2. Addition - add 5 animals (eventType 0) - expected 200
+POST {{host}}/animal/{{quantityDemoGroupId}}/quantity-events
+Content-Type: application/json
+
+{
+  "revision": "{{quantityDemoRevision}}",
+  "eventType": 0,
+  "quantity": 5,
+  "effectiveDate": "{{quantityDemoDate}}"
+}
+
+> {%
+client.test("Addition recorded", function () {
+    client.assert(response.status === 200, "Expected 200");
+    client.assert(response.body.previousQuantity === 20, "Expected previousQuantity 20");
+    client.assert(response.body.quantity === 25, "Expected quantity 25");
+    client.assert(response.body.quantityDelta === 5, "Expected quantityDelta 5");
+    client.assert(response.body.eventType === 0, "Expected eventType Addition (0)");
+});
+if (response.status === 200) {
+    client.global.set("quantityDemoRevision", response.body.revision);
+}
+%}
+
+### 3. Death - lose 2 animals (eventType 1) - expected 200
+POST {{host}}/animal/{{quantityDemoGroupId}}/quantity-events
+Content-Type: application/json
+
+{
+  "revision": "{{quantityDemoRevision}}",
+  "eventType": 1,
+  "quantity": 2,
+  "effectiveDate": "{{quantityDemoDate}}"
+}
+
+> {%
+client.test("Death recorded", function () {
+    client.assert(response.status === 200, "Expected 200");
+    client.assert(response.body.previousQuantity === 25, "Expected previousQuantity 25");
+    client.assert(response.body.quantity === 23, "Expected quantity 23");
+    client.assert(response.body.quantityDelta === -2, "Expected quantityDelta -2");
+    client.assert(response.body.eventType === 1, "Expected eventType Death (1)");
+});
+if (response.status === 200) {
+    client.global.set("quantityDemoRevision", response.body.revision);
+}
+%}
+
+### 4. Sale - sell 3 animals (eventType 2) - expected 200
+POST {{host}}/animal/{{quantityDemoGroupId}}/quantity-events
+Content-Type: application/json
+
+{
+  "revision": "{{quantityDemoRevision}}",
+  "eventType": 2,
+  "quantity": 3,
+  "effectiveDate": "{{quantityDemoDate}}"
+}
+
+> {%
+client.test("Sale recorded", function () {
+    client.assert(response.status === 200, "Expected 200");
+    client.assert(response.body.previousQuantity === 23, "Expected previousQuantity 23");
+    client.assert(response.body.quantity === 20, "Expected quantity 20");
+    client.assert(response.body.quantityDelta === -3, "Expected quantityDelta -3");
+    client.assert(response.body.eventType === 2, "Expected eventType Sale (2)");
+});
+if (response.status === 200) {
+    client.global.set("quantityDemoRevision", response.body.revision);
+}
+%}
+
+### 5. Correction - set absolute count to 19 (eventType 3) - expected 200
+# Correction uses correctedQuantity (absolute), omits quantity, requires notes.
+POST {{host}}/animal/{{quantityDemoGroupId}}/quantity-events
+Content-Type: application/json
+
+{
+  "revision": "{{quantityDemoRevision}}",
+  "eventType": 3,
+  "correctedQuantity": 19,
+  "effectiveDate": "{{quantityDemoDate}}",
+  "notes": "Recount after manual verification; one animal was double-counted."
+}
+
+> {%
+client.test("Correction recorded", function () {
+    client.assert(response.status === 200, "Expected 200");
+    client.assert(response.body.previousQuantity === 20, "Expected previousQuantity 20");
+    client.assert(response.body.quantity === 19, "Expected quantity 19");
+    client.assert(response.body.quantityDelta === -1, "Expected quantityDelta -1");
+    client.assert(response.body.eventType === 3, "Expected eventType Correction (3)");
+});
+if (response.status === 200) {
+    client.global.set("quantityDemoRevision", response.body.revision);
+}
+%}
+
+### 6. Get history for the demo group - expected 200
+GET {{host}}/animal/{{quantityDemoGroupId}}/history
+Accept: application/json
+
+> {%
+client.test("History retrieved", function () {
+    client.assert(response.status === 200, "Expected 200");
+});
+%}
+
+### 7. Cleanup: soft-delete the disposable group - expected 200
+# DeletionReason enum: 1=DuplicateRecord, 2=CreatedByMistake, 3=TestData, 4=Other
+POST {{host}}/animal/{{quantityDemoGroupId}}/deletion
+Content-Type: application/json
+
+{
+  "revision": "{{quantityDemoRevision}}",
+  "reason": 3,
+  "notes": "Quantity demo complete."
+}
+
+> {%
+client.test("Disposable group deleted", function () {
+    client.assert(response.status === 200, "Expected 200");
+});
+client.global.clear("quantityDemoGroupId");
+client.global.clear("quantityDemoRevision");
+client.global.clear("quantityDemoDate");
+%}

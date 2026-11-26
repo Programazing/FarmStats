@@ -96,7 +96,7 @@ namespace FarmStats.API.Data.Migrations
 
                     b.HasIndex("DeletedAtUtc", "Status");
 
-                    b.ToTable("Animals", t =>
+                    b.ToTable("Animals", null, t =>
                         {
                             t.HasCheckConstraint("CK_Animals_TrackingType_Quantity", "(\"TrackingType\" = 0 AND \"Quantity\" >= 1) OR (\"TrackingType\" = 1 AND \"Quantity\" = 1) OR (\"TrackingType\" = 2 AND \"Quantity\" >= 0)");
                         });
@@ -124,6 +124,9 @@ namespace FarmStats.API.Data.Migrations
                     b.Property<int>("EventType")
                         .HasColumnType("integer");
 
+                    b.Property<int?>("NewQuantity")
+                        .HasColumnType("integer");
+
                     b.Property<int?>("NewStatus")
                         .HasColumnType("integer");
 
@@ -131,7 +134,16 @@ namespace FarmStats.API.Data.Migrations
                         .HasMaxLength(2000)
                         .HasColumnType("character varying(2000)");
 
+                    b.Property<int?>("PreviousQuantity")
+                        .HasColumnType("integer");
+
                     b.Property<int?>("PreviousStatus")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("QuantityDelta")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("QuantityEventType")
                         .HasColumnType("integer");
 
                     b.Property<DateTimeOffset>("RecordedAtUtc")
@@ -141,7 +153,10 @@ namespace FarmStats.API.Data.Migrations
 
                     b.HasIndex("AnimalId", "RecordedAtUtc");
 
-                    b.ToTable("AnimalHistory");
+                    b.ToTable("AnimalHistory", null, t =>
+                        {
+                            t.HasCheckConstraint("CK_AnimalHistory_QuantityEvent", "(\n    \"EventType\" <> 4\n    AND \"QuantityEventType\" IS NULL\n    AND \"PreviousQuantity\" IS NULL\n    AND \"NewQuantity\" IS NULL\n    AND \"QuantityDelta\" IS NULL\n)\nOR\n(\n    \"EventType\" = 4\n    AND \"QuantityEventType\" IS NOT NULL\n    AND \"PreviousQuantity\" IS NOT NULL\n    AND \"NewQuantity\" IS NOT NULL\n    AND \"QuantityDelta\" IS NOT NULL\n    AND \"EffectiveDate\" IS NOT NULL\n    AND \"PreviousQuantity\" >= 0\n    AND \"NewQuantity\" >= 0\n    AND \"QuantityDelta\"::bigint =\n        \"NewQuantity\"::bigint - \"PreviousQuantity\"::bigint\n    AND\n    (\n        (\"QuantityEventType\" = 0 AND \"QuantityDelta\" > 0)\n        OR\n        (\"QuantityEventType\" IN (1, 2) AND \"QuantityDelta\" < 0)\n        OR\n        (\n            \"QuantityEventType\" = 3\n            AND \"QuantityDelta\" <> 0\n            AND \"Notes\" IS NOT NULL\n            AND length(btrim(\"Notes\")) > 0\n        )\n    )\n)");
+                        });
                 });
 
             modelBuilder.Entity("FarmStats.API.Data.Entities.Breed", b =>

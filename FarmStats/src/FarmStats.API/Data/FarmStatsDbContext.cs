@@ -96,6 +96,7 @@ public sealed partial class FarmStatsDbContext(
         base.OnModelCreating(modelBuilder);
         ConfigureLookupLifecycle(modelBuilder);
         ConfigureAnimalTracking(modelBuilder);
+        ConfigureAnimalQuantityEvents(modelBuilder);
 
         modelBuilder.Entity<Animal>(entity =>
         {

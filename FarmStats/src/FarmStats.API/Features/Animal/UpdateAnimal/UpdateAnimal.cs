@@ -29,7 +29,10 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 "Replaces editable fields; omitted/null optional detail fields are cleared. "
                 + "Omitted/null trackingType preserves the type. Unclassified legacy records "
                 + "can be classified once; classified records cannot change type. Individual "
-                + "quantity must be 1; group quantity may be 0. Does not create missing animals.";
+                + "quantity must be 1; group quantity may be 0. Does not create missing animals."
+                + "quantity must be 1; group quantity may be 0. Group quantity changes require "
+                + "the quantity-events endpoint. Legacy classification as a group must preserve "
+                + "the current quantity. Does not create missing animals.";
 
             summary.Response<UpdateAnimalResponse>(
                 StatusCodes.Status200OK,
@@ -71,6 +74,15 @@ public sealed class Endpoint(FarmStatsDbContext db)
         db.Entry(animal).Property(item => item.Revision).OriginalValue = req.Revision;
 
         var trackingType = req.TrackingType ?? animal.TrackingType;
+        if (req.Quantity is int requestedQuantity
+            && requestedQuantity != animal.Quantity
+            && trackingType == AnimalTrackingType.Group)
+        {
+            AddError(request => request.Quantity,
+                "Group quantity changes require the quantity-events endpoint. "
+                + "When classifying a legacy record as a group, preserve its current quantity.");
+        }
+
         if (animal.TrackingType != AnimalTrackingType.Unspecified
             && trackingType != animal.TrackingType)
         {
