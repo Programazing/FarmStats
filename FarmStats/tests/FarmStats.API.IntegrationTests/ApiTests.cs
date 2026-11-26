@@ -190,28 +190,102 @@ public sealed class ApiTests : IAsyncLifetime
         Assert.Equal(0, await db.Animals.IgnoreQueryFilters().CountAsync());
     }
 
-    [Fact]
-    public async Task UpdateClearsOptionalFieldsAndRejectsInvalidOrStaleWrites()
+[Fact]
+public async Task UpdateClearsOptionalFieldsAndRejectsInvalidOrStaleWrites()
+{
+    var species = await CreateSpecies("Update species");
+    var breed = await CreateBreed(species);
+    var area = await CreateArea();
+
+    var created = await client.PostAsJsonAsync("/animal", new
     {
-        var species = await CreateSpecies("Update species");
-        var breed = await CreateBreed(species);
-        var area = await CreateArea();
-        var created = await client.PostAsJsonAsync("/animal", new { trackingType = 2, name = "Before", speciesId = species, breedId = breed.Id, areaId = area.Id, quantity = 2, sex = 0, referenceId = "ref", color = "brown", birthdate = "2020-01-01" });
-        Assert.Equal(HttpStatusCode.Created, created.StatusCode);
-        var animal = (await created.Content.ReadFromJsonAsync<AddAnimalResponse>())!;
-        var update = await client.PutAsJsonAsync($"/animal/{animal.Id}", new { revision = animal.Revision, name = "After", speciesId = species, quantity = 3, sex = 0 });
-        Assert.Equal(HttpStatusCode.OK, update.StatusCode);
-        var current = (await client.GetFromJsonAsync<GetAnimalResponse>($"/animal/{animal.Id}"))!;
-        Assert.Equal("After", current.Name);
-        Assert.Equal(3, current.Quantity);
-        Assert.Null(current.BreedId); Assert.Null(current.AreaId); Assert.Null(current.ReferenceId); Assert.Null(current.Color); Assert.Null(current.Birthdate);
-        Assert.NotEqual(animal.Revision, current.Revision);
-        Assert.Equal(HttpStatusCode.Conflict, (await client.PutAsJsonAsync($"/animal/{animal.Id}", new { revision = animal.Revision, name = "Stale", speciesId = species, quantity = 1, sex = 0 })).StatusCode);
-        Assert.Equal(HttpStatusCode.BadRequest, (await client.PutAsJsonAsync($"/animal/{animal.Id}", new { revision = current.Revision, name = "Invalid", speciesId = species, breedId = Guid.NewGuid(), quantity = 1, sex = 0 })).StatusCode);
-        var after = (await client.GetFromJsonAsync<GetAnimalResponse>($"/animal/{animal.Id}"))!;
-        Assert.Equal(current.Name, after.Name); Assert.Equal(current.Revision, after.Revision);
-        Assert.Equal(1, (await client.GetFromJsonAsync<AnimalHistoryResponse>($"/animal/{animal.Id}/history"))!.TotalCount);
-    }
+        trackingType = 2,
+        name = "Before",
+        speciesId = species,
+        breedId = breed.Id,
+        areaId = area.Id,
+        quantity = 2,
+        sex = 0,
+        referenceId = "ref",
+        color = "brown",
+        birthdate = "2020-01-01"
+    });
+
+    Assert.True(
+        created.StatusCode == HttpStatusCode.Created,
+        await created.Content.ReadAsStringAsync());
+
+    var animal = (await created.Content
+        .ReadFromJsonAsync<AddAnimalResponse>())!;
+
+    var update = await client.PutAsJsonAsync(
+        $"/animal/{animal.Id}",
+        new
+        {
+            revision = animal.Revision,
+            name = "After",
+            speciesId = species,
+            quantity = animal.Quantity,
+            sex = 0
+        });
+
+    Assert.True(
+        update.StatusCode == HttpStatusCode.OK,
+        await update.Content.ReadAsStringAsync());
+
+    var current = (await client.GetFromJsonAsync<GetAnimalResponse>(
+        $"/animal/{animal.Id}"))!;
+
+    Assert.Equal("After", current.Name);
+    Assert.Equal(animal.Quantity, current.Quantity);
+
+    Assert.Null(current.BreedId);
+    Assert.Null(current.AreaId);
+    Assert.Null(current.ReferenceId);
+    Assert.Null(current.Color);
+    Assert.Null(current.Birthdate);
+
+    Assert.NotEqual(animal.Revision, current.Revision);
+
+    var stale = await client.PutAsJsonAsync(
+        $"/animal/{animal.Id}",
+        new
+        {
+            revision = animal.Revision,
+            name = "Stale",
+            speciesId = species,
+            quantity = current.Quantity,
+            sex = 0
+        });
+
+    Assert.Equal(HttpStatusCode.Conflict, stale.StatusCode);
+
+    var invalid = await client.PutAsJsonAsync(
+        $"/animal/{animal.Id}",
+        new
+        {
+            revision = current.Revision,
+            name = "Invalid",
+            speciesId = species,
+            breedId = Guid.NewGuid(),
+            quantity = current.Quantity,
+            sex = 0
+        });
+
+    Assert.Equal(HttpStatusCode.BadRequest, invalid.StatusCode);
+
+    var after = (await client.GetFromJsonAsync<GetAnimalResponse>(
+        $"/animal/{animal.Id}"))!;
+
+    Assert.Equal(current.Name, after.Name);
+    Assert.Equal(current.Quantity, after.Quantity);
+    Assert.Equal(current.Revision, after.Revision);
+
+    var history = (await client.GetFromJsonAsync<AnimalHistoryResponse>(
+        $"/animal/{animal.Id}/history"))!;
+
+    Assert.Equal(1, history.TotalCount);
+}
 
     [Fact]
     public async Task RetainedAnimalAndDeletedBreedBlockAllReferencedLookups()

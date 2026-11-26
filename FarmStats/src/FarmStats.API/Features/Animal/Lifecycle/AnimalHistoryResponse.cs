@@ -12,6 +12,14 @@ public sealed class AnimalHistoryItem
 
     public AnimalStatus? NewStatus { get; init; }
 
+    public AnimalQuantityEventType? QuantityEventType { get; init; }
+
+    public int? PreviousQuantity { get; init; }
+
+    public int? NewQuantity { get; init; }
+
+    public int? QuantityDelta { get; init; }
+
     public DateOnly? EffectiveDate { get; init; }
 
     public DateTimeOffset RecordedAtUtc { get; init; }

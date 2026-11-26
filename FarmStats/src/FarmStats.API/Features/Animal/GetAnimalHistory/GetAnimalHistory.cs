@@ -63,7 +63,11 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 RecordedAtUtc = entry.RecordedAtUtc,
                 DeletionReason = entry.DeletionReason,
                 Notes = entry.Notes,
-                ActorUserId = entry.ActorUserId
+                ActorUserId = entry.ActorUserId,
+                QuantityEventType = entry.QuantityEventType,
+                PreviousQuantity = entry.PreviousQuantity,
+                NewQuantity = entry.NewQuantity,
+                QuantityDelta = entry.QuantityDelta
             })
             .ToListAsync(ct);
 
