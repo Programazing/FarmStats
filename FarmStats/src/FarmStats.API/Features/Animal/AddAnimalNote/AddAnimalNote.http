@@ -1,0 +1,176 @@
+@host = http://127.0.0.1:5000
+@contentType = application/json
+
+### Create a species for testing
+POST {{host}}/species
+Content-Type: {{contentType}}
+
+{
+  "name": "Note Test Species"
+}
+
+### Create an individual animal
+POST {{host}}/animal
+Content-Type: {{contentType}}
+
+{
+  "name": "Bessie",
+  "speciesId": "{{speciesId}}"
+}
+
+### Create a group animal
+POST {{host}}/animal
+Content-Type: {{contentType}}
+
+{
+  "name": "Batch 1028",
+  "speciesId": "{{speciesId}}",
+  "trackingType": 2,
+  "quantity": 50,
+  "sex": 0
+}
+
+### Add a note to an active individual (requires current revision)
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{individualRevision}}",
+  "text": "First note for Bessie",
+  "effectiveDate": "2024-01-15"
+}
+
+### Add a note to an active group
+POST {{host}}/animal/{{groupId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{groupRevision}}",
+  "text": "Health check completed for batch",
+  "effectiveDate": "2024-01-16"
+}
+
+### Add a note to an inactive animal (e.g., after status change to Sold)
+# First change status to Sold
+POST {{host}}/animal/{{individualId}}/status-changes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{individualRevision}}",
+  "status": 1,
+  "effectiveDate": "2024-01-20",
+  "notes": "Sold to neighbor"
+}
+
+# Then add a note to the now-inactive animal
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{updatedRevision}}",
+  "text": "Final weight recorded at sale: 520 kg",
+  "effectiveDate": "2024-01-20"
+}
+
+### List notes for an animal
+GET {{host}}/animal/{{individualId}}/notes?page=1&pageSize=25
+
+### List notes for a soft-deleted animal (uses IgnoreQueryFilters)
+# First soft-delete the animal
+POST {{host}}/animal/{{groupId}}/deletion
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{groupRevision}}",
+  "reason": 0,
+  "notes": "Test data cleanup"
+}
+
+# Then list notes (should still work)
+GET {{host}}/animal/{{groupId}}/notes?page=1&pageSize=25
+
+### Validation: missing revision
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "00000000-0000-0000-0000-000000000000",
+  "text": "Should fail",
+  "effectiveDate": "2024-01-15"
+}
+
+### Validation: stale revision
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{staleRevision}}",
+  "text": "Should fail",
+  "effectiveDate": "2024-01-15"
+}
+
+### Validation: empty text
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{individualRevision}}",
+  "text": "   ",
+  "effectiveDate": "2024-01-15"
+}
+
+### Validation: future effective date
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{individualRevision}}",
+  "text": "Future note",
+  "effectiveDate": "2099-01-01"
+}
+
+### Validation: text too long (2001 chars after trim)
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{individualRevision}}",
+  "text": "{{longText2001}}",
+  "effectiveDate": "2024-01-15"
+}
+
+### Validation: text exactly 2000 chars after trim
+POST {{host}}/animal/{{individualId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{individualRevision}}",
+  "text": "{{longText2000}}",
+  "effectiveDate": "2024-01-15"
+}
+
+### Pagination: page overflow
+GET {{host}}/animal/{{individualId}}/notes?page=99999999&pageSize=25
+
+### Missing animal
+POST {{host}}/animal/00000000-0000-0000-0000-000000000001/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "00000000-0000-0000-0000-000000000001",
+  "text": "Missing animal",
+  "effectiveDate": "2024-01-15"
+}
+
+### Deleted animal creation returns 404
+POST {{host}}/animal/{{deletedAnimalId}}/notes
+Content-Type: {{contentType}}
+
+{
+  "revision": "{{deletedRevision}}",
+  "text": "Should fail",
+  "effectiveDate": "2024-01-15"
+}
+
+### Deleted animal listing returns notes
+GET {{host}}/animal/{{deletedAnimalId}}/notes?page=1&pageSize=25
