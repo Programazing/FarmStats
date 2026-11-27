@@ -159,6 +159,41 @@ namespace FarmStats.API.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalNote", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ActorUserId")
+                        .HasMaxLength(450)
+                        .HasColumnType("character varying(450)");
+
+                    b.Property<Guid>("AnimalId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateOnly>("EffectiveDate")
+                        .HasColumnType("date");
+
+                    b.Property<DateTimeOffset>("RecordedAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AnimalId", "RecordedAtUtc", "Id")
+                        .IsDescending(false, true, false);
+
+                    b.ToTable("AnimalNotes", t =>
+                        {
+                            t.HasCheckConstraint("CK_AnimalNotes_Text_NotEmpty", "length(btrim(\"Text\")) > 0");
+                        });
+                });
+
             modelBuilder.Entity("FarmStats.API.Data.Entities.Breed", b =>
                 {
                     b.Property<Guid>("Id")
@@ -342,6 +377,15 @@ namespace FarmStats.API.Data.Migrations
                 });
 
             modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalHistoryEntry", b =>
+                {
+                    b.HasOne("FarmStats.API.Data.Entities.Animal", null)
+                        .WithMany()
+                        .HasForeignKey("AnimalId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalNote", b =>
                 {
                     b.HasOne("FarmStats.API.Data.Entities.Animal", null)
                         .WithMany()

@@ -36,51 +36,34 @@ Relevant maintained documents:
 - [Development setup](../FarmStats/README.md)
 - [Animal tracking](animal-tracking.md)
 - [Group quantity events](animal-quantity-events.md)
+- [Dated animal notes](animal-notes.md)
 - [CI and verification](ci.md)
 
 ## Proposed implementation order — not yet approved
 
 This ordering was suggested after recovering the earlier discussion. It must not be treated as a previously approved backlog. Confirm the selected task and resolve its design questions before implementation.
 
-### 1. Shared group-field semantics and mixed sex
+### 1. Shared group-field semantics and mixed sex — DEFERRED
 
-Why: finish a specific deferred part of explicit group tracking without introducing a larger subsystem.
+Deferred until explicitly requested. See [Deferred group operations](#deferred-group-operations---require-dedicated-designs).
 
-Proposed scope:
-
-- Preserve Unknown as distinct from Mixed.
-- Support Mixed for groups; reject it for individuals.
-- Inspect current enum values before choosing a new numeric value; preserve existing stored values.
-- Decide explicitly how Mixed applies to legacy `Unspecified` records.
-- Clarify that group breed/sex describe shared characteristics, birthdate is a genuinely shared known birth/hatch date, and area is the group's current area.
-
-Acceptance criteria:
-
-- Group creation/update can represent Mixed after the contract is approved.
-- Individual creation/update rejects Mixed.
-- Unknown remains available and distinct.
-- Legacy handling is documented and tested, not guessed.
-- Revision behavior, rejected-write atomicity, API descriptions, and HTTP examples remain consistent.
-
-Non-goals: splitting, age ranges, reproductive condition, or automatic legacy classification.
-
-### 2. Dated animal notes
+### 2. Dated animal notes — IN PROGRESS
 
 Original direction: individual dated entries, separate from the basic animal update.
 
-Design questions:
+Design questions resolved for first slice:
+- Effective date (client-supplied) versus recorded timestamp (server-generated).
+- Notes are append-only in this slice; editing/deletion deferred.
+- Creation allowed for active and inactive nondeleted records; rejected for deleted (404).
+- Listing available for deleted records via `IgnoreQueryFilters()`.
 
-- Effective date versus recorded timestamp.
-- Whether notes can be edited, corrected, or removed and what audit behavior is needed.
-- Access for inactive and soft-deleted animal records.
-
-Proposed acceptance criteria:
-
-- Notes attach to the intended individual or group.
-- Listing is paginated and deterministically ordered.
-- Validation and record visibility rules are documented and tested.
-- Adding notes does not change quantity or lifecycle.
+Acceptance criteria for first slice:
+- Notes attach to individual or group records.
+- Listing is paginated and deterministically ordered (RecordedAtUtc DESC, Id ASC).
+- Validation and visibility rules documented and tested.
+- Adding notes does not change quantity, lifecycle, tracking type, or other animal fields except Revision.
 - Existing lifecycle and quantity-event notes remain attached to their own events.
+- User notes are a separate entity from the immutable audit history.
 
 Do not assume user notes must have exactly the same immutability contract as audit history.
 

@@ -18,6 +18,9 @@ public sealed partial class FarmStatsDbContext(
     public DbSet<AnimalHistoryEntry> AnimalHistory =>
         Set<AnimalHistoryEntry>();
 
+    public DbSet<AnimalNote> AnimalNotes =>
+        Set<AnimalNote>();
+
     public override int SaveChanges(bool acceptAllChangesOnSuccess)
     {
         PrepareLifecycleChanges();
@@ -56,6 +59,14 @@ public sealed partial class FarmStatsDbContext(
         {
             throw new InvalidOperationException(
                 "Animal history entries are append-only.");
+        }
+
+        if (ChangeTracker.Entries<AnimalNote>().Any(
+                entry => entry.State is EntityState.Modified
+                    or EntityState.Deleted))
+        {
+            throw new InvalidOperationException(
+                "Animal notes are append-only.");
         }
 
         foreach (var entry in animals)
@@ -155,6 +166,31 @@ public sealed partial class FarmStatsDbContext(
                 .WithMany()
                 .HasForeignKey(history => history.AnimalId)
                 .OnDelete(DeleteBehavior.Restrict);
+        });
+
+        modelBuilder.Entity<AnimalNote>(entity =>
+        {
+            entity.HasKey(note => note.Id);
+
+            entity.Property(note => note.Text)
+                .HasMaxLength(2000)
+                .IsRequired();
+
+            entity.Property(note => note.ActorUserId)
+                .HasMaxLength(450);
+
+            entity.HasIndex(note =>
+                    new { note.AnimalId, note.RecordedAtUtc, note.Id })
+                .IsDescending(false, true, false);
+
+            entity.HasOne<Animal>()
+                .WithMany()
+                .HasForeignKey(note => note.AnimalId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            entity.ToTable(t => t.HasCheckConstraint(
+                "CK_AnimalNotes_Text_NotEmpty",
+                "length(btrim(\"Text\")) > 0"));
         });
 
         modelBuilder.Entity<Species>(entity =>

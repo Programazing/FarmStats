@@ -1,0 +1,26 @@
+@host = http://127.0.0.1:5000
+@contentType = application/json
+
+### List notes for an animal (active)
+GET {{host}}/animal/{{animalId}}/notes?page=1&pageSize=25
+
+### List notes for a group
+GET {{host}}/animal/{{groupId}}/notes?page=1&pageSize=25
+
+### List notes for a soft-deleted animal
+GET {{host}}/animal/{{deletedAnimalId}}/notes?page=1&pageSize=25
+
+### Pagination: page 2
+GET {{host}}/animal/{{animalId}}/notes?page=2&pageSize=10
+
+### Pagination: page size 50
+GET {{host}}/animal/{{animalId}}/notes?page=1&pageSize=50
+
+### Invalid pagination: page 0
+GET {{host}}/animal/{{animalId}}/notes?page=0&pageSize=25
+
+### Invalid pagination: page size 101
+GET {{host}}/animal/{{animalId}}/notes?page=1&pageSize=101
+
+### Missing animal
+GET {{host}}/animal/00000000-0000-0000-0000-000000000001/notes?page=1&pageSize=25
