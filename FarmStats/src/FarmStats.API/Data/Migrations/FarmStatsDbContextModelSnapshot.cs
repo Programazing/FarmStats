@@ -194,6 +194,45 @@ namespace FarmStats.API.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalWeightMeasurement", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ActorUserId")
+                        .HasMaxLength(450)
+                        .HasColumnType("character varying(450)");
+
+                    b.Property<Guid>("AnimalId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateOnly>("MeasurementDate")
+                        .HasColumnType("date");
+
+                    b.Property<DateTimeOffset>("RecordedAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Unit")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("Value")
+                        .HasPrecision(10, 3)
+                        .HasColumnType("numeric(10,3)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AnimalId", "MeasurementDate", "RecordedAtUtc", "Id")
+                        .IsDescending(false, true, true, false);
+
+                    b.ToTable("AnimalWeightMeasurements", t =>
+                        {
+                            t.HasCheckConstraint("CK_AnimalWeightMeasurements_Unit_Allowed", "\"Unit\" IN (0, 1)");
+
+                            t.HasCheckConstraint("CK_AnimalWeightMeasurements_Value_Positive", "\"Value\" > 0");
+                        });
+                });
+
             modelBuilder.Entity("FarmStats.API.Data.Entities.Breed", b =>
                 {
                     b.Property<Guid>("Id")
@@ -386,6 +425,15 @@ namespace FarmStats.API.Data.Migrations
                 });
 
             modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalNote", b =>
+                {
+                    b.HasOne("FarmStats.API.Data.Entities.Animal", null)
+                        .WithMany()
+                        .HasForeignKey("AnimalId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("FarmStats.API.Data.Entities.AnimalWeightMeasurement", b =>
                 {
                     b.HasOne("FarmStats.API.Data.Entities.Animal", null)
                         .WithMany()

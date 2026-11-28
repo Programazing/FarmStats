@@ -1,5 +1,6 @@
 using FarmStats.API.Data.Entities;
 using FarmStats.API.Data;
+using FarmStats.API.Features.Animal.Lifecycle;
 using Microsoft.EntityFrameworkCore;
 
 namespace FarmStats.API.Features.Animal.GetAnimal;
@@ -21,7 +22,7 @@ public sealed class Endpoint(FarmStatsDbContext db)
             summary.Summary = "Get an animal by ID";
 
             summary.Description =
-                "Returns the details of a single animal.";
+                "Returns the details of a single animal, including the latest weight measurement if any.";
 
             summary.Response<GetAnimalResponse>(
                 StatusCodes.Status200OK,
@@ -56,7 +57,21 @@ public sealed class Endpoint(FarmStatsDbContext db)
                 AreaId = a.AreaId,
                 Status = a.Status,
                 StatusEffectiveDate = a.StatusEffectiveDate,
-                StatusNotes = a.StatusNotes
+                StatusNotes = a.StatusNotes,
+                LatestWeight = db.AnimalWeightMeasurements
+                    .Where(m => m.AnimalId == a.Id)
+                    .OrderByDescending(m => m.MeasurementDate)
+                    .ThenByDescending(m => m.RecordedAtUtc)
+                    .ThenBy(m => m.Id)
+                    .Select(m => new LatestWeightSummary
+                    {
+                        MeasurementId = m.Id,
+                        Value = m.Value,
+                        Unit = m.Unit,
+                        MeasurementDate = m.MeasurementDate,
+                        RecordedAtUtc = m.RecordedAtUtc
+                    })
+                    .FirstOrDefault()
             })
             .SingleOrDefaultAsync(ct);
 
@@ -106,6 +121,8 @@ public sealed class GetAnimalResponse
     public DateOnly? StatusEffectiveDate { get; init; }
 
     public string? StatusNotes { get; init; }
+
+    public LatestWeightSummary? LatestWeight { get; init; }
 }
 
 public sealed class Validator : Validator<GetAnimalRequest>
