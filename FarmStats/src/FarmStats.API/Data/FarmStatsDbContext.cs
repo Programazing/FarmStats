@@ -21,6 +21,9 @@ public sealed partial class FarmStatsDbContext(
     public DbSet<AnimalNote> AnimalNotes =>
         Set<AnimalNote>();
 
+    public DbSet<AnimalWeightMeasurement> AnimalWeightMeasurements =>
+        Set<AnimalWeightMeasurement>();
+
     public override int SaveChanges(bool acceptAllChangesOnSuccess)
     {
         PrepareLifecycleChanges();
@@ -67,6 +70,14 @@ public sealed partial class FarmStatsDbContext(
         {
             throw new InvalidOperationException(
                 "Animal notes are append-only.");
+        }
+
+        if (ChangeTracker.Entries<AnimalWeightMeasurement>().Any(
+                entry => entry.State is EntityState.Modified
+                    or EntityState.Deleted))
+        {
+            throw new InvalidOperationException(
+                "Animal weight measurements are append-only.");
         }
 
         foreach (var entry in animals)
@@ -169,28 +180,67 @@ public sealed partial class FarmStatsDbContext(
         });
 
         modelBuilder.Entity<AnimalNote>(entity =>
-        {
-            entity.HasKey(note => note.Id);
+                {
+                    entity.HasKey(note => note.Id);
 
-            entity.Property(note => note.Text)
-                .HasMaxLength(2000)
+                    entity.Property(note => note.Text)
+                        .HasMaxLength(2000)
+                        .IsRequired();
+
+                    entity.Property(note => note.ActorUserId)
+                        .HasMaxLength(450);
+
+                    entity.HasIndex(note =>
+                            new { note.AnimalId, note.RecordedAtUtc, note.Id })
+                        .IsDescending(false, true, false);
+
+                    entity.HasOne<Animal>()
+                        .WithMany()
+                        .HasForeignKey(note => note.AnimalId)
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    entity.ToTable(t => t.HasCheckConstraint(
+                                            "CK_AnimalNotes_Text_NotEmpty",
+                                            "length(btrim(\"Text\")) > 0"));
+                });
+
+        modelBuilder.Entity<AnimalWeightMeasurement>(entity =>
+        {
+            entity.HasKey(m => m.Id);
+
+            entity.Property(m => m.Value)
+                .HasPrecision(10, 3)
                 .IsRequired();
 
-            entity.Property(note => note.ActorUserId)
+            entity.Property(m => m.Unit)
+                .IsRequired();
+
+            entity.Property(m => m.MeasurementDate)
+                .HasColumnType("date")
+                .IsRequired();
+
+            entity.Property(m => m.RecordedAtUtc)
+                .IsRequired();
+
+            entity.Property(m => m.ActorUserId)
                 .HasMaxLength(450);
 
-            entity.HasIndex(note =>
-                    new { note.AnimalId, note.RecordedAtUtc, note.Id })
-                .IsDescending(false, true, false);
+            entity.HasIndex(m =>
+                    new { m.AnimalId, m.MeasurementDate, m.RecordedAtUtc, m.Id })
+                .IsDescending(false, true, true, false);
 
             entity.HasOne<Animal>()
                 .WithMany()
-                .HasForeignKey(note => note.AnimalId)
+                .HasForeignKey(m => m.AnimalId)
                 .OnDelete(DeleteBehavior.Restrict);
 
             entity.ToTable(t => t.HasCheckConstraint(
-                "CK_AnimalNotes_Text_NotEmpty",
-                "length(btrim(\"Text\")) > 0"));
+                "CK_AnimalWeightMeasurements_Value_Positive",
+                "\"Value\" > 0"));
+
+            entity.ToTable(t => t.HasCheckConstraint(
+                "CK_AnimalWeightMeasurements_Unit_Allowed",
+                "\"Unit\" IN (0, 1)"));
         });
 
         modelBuilder.Entity<Species>(entity =>

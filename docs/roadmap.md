@@ -37,6 +37,7 @@ Relevant maintained documents:
 - [Animal tracking](animal-tracking.md)
 - [Group quantity events](animal-quantity-events.md)
 - [Dated animal notes](animal-notes.md)
+- [Dated animal weight measurements](animal-weight-measurements.md)
 - [CI and verification](ci.md)
 
 ## Proposed implementation order — not yet approved
@@ -47,7 +48,7 @@ This ordering was suggested after recovering the earlier discussion. It must not
 
 Deferred until explicitly requested. See [Deferred group operations](#deferred-group-operations---require-dedicated-designs).
 
-### 2. Dated animal notes — IN PROGRESS
+### 2. Dated animal notes — MERGED
 
 Original direction: individual dated entries, separate from the basic animal update.
 
@@ -67,7 +68,7 @@ Acceptance criteria for first slice:
 
 Do not assume user notes must have exactly the same immutability contract as audit history.
 
-### 3. Dated weight measurements
+### 3. Dated weight measurements — IN PROGRESS
 
 Original direction: measurement history, not one overwritable weight field.
 
